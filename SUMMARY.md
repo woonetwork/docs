@@ -1,13 +1,25 @@
 # Table of contents
 
-* [WOOFi Contracts](README.md)
-  * [BNB chain deployment](readme/bnb-chain-deployment.md)
-  * [Avalanche deployment](readme/avalanche-deployment.md)
-  * [Fantom deployment](readme/fantom-deployment.md)
-  * [Polygon deployment](readme/polygon-deployment.md)
-  * [Arbitrum deployment](readme/arbitrum-deployment.md)
-* [APIs](apis/README.md)
-  * [Swap](apis/swap.md)
-  * [Earn & Stake](apis/earn-and-stake.md)
-* [\[V2\] Integrate WOOFi as liquidity source](v2-integrate-woofi-as-liquidity-source.md)
-* [\[V2\] On-chain price feeds](v2-on-chain-price-feeds.md)
+* [Welcome](README.md)
+
+## Guides
+
+* [Integrate WOOFi as liquidity source](guides/integrate-woofi-as-liquidity-source.md)
+* [Become a Broker](guides/become-a-broker.md)
+
+## Resources
+
+* [The math behind sPMM v1](resources/the-math-behind-spmm-v1.md)
+* [On-chain price feeds](resources/on-chain-price-feeds.md)
+
+## References
+
+* [WOOFi Contracts](references/readme/README.md)
+  * [BNB chain deployment](references/readme/bnb-chain-deployment.md)
+  * [Avalanche deployment](references/readme/avalanche-deployment.md)
+  * [Fantom deployment](references/readme/fantom-deployment.md)
+  * [Polygon deployment](references/readme/polygon-deployment.md)
+  * [Arbitrum deployment](references/readme/arbitrum-deployment.md)
+* [APIs](references/apis/README.md)
+  * [Swap](references/apis/swap.md)
+  * [Earn & Stake](references/apis/earn-and-stake.md)
