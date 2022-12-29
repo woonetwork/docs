@@ -1,4 +1,4 @@
-# Become a Broker
+# Become a broker
 
 ### What are WOOFi brokers?
 
@@ -54,8 +54,4 @@ The rebate is processed on a daily basis via smart contracts, the broker can che
 
 <figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
-
-
-{% hint style="info" %}
-With respect to the rebates provided to WOOFi brokers, WOO Network reserves the right to modify, suspend or discontinue any and all of the rules in the program at any time without the consensus of WOOFi brokers.
-{% endhint %}
+**Note:** With respect to the rebates provided to WOOFi brokers, WOO Network reserves the right to modify, suspend or discontinue any and all of the rules in the program at any time without the consensus of WOOFi brokers.
