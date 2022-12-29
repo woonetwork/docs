@@ -9,73 +9,135 @@ Two main contracts of WOOFi's swap function are as follows:
 
 ## Supported assets
 
-`WooPPV2.sol` currently supports the following tokens. Quote token is the stablecoin and the rest are base tokens.&#x20;
+`WooPPV2.sol` has one quote token which is typically the dominated stablecoin of each chain and multiple base tokens. The tokens supported in `WooPPV2.sol` on each chain are as follows:
 
-{% tabs %}
-{% tab title="Arbitrum" %}
-| Token |                   Address                  |
-| :---: | :----------------------------------------: |
-|  ETH  | 0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE |
-|  WETH | 0x82aF49447D8a07e3bd95BD0d56f35241523fBab1 |
-|  WBTC | 0x2f2a2543B76A4166549F7aaB2e75Bef0aefC5B0f |
-|  WOO  | 0xcAFcD85D8ca7Ad1e1C6F82F651fA15E33AEfD07b |
-|  USDC | 0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8 |
-{% endtab %}
+<details>
 
-{% tab title="Optimism" %}
-| Token | Address                                    |
-| ----- | ------------------------------------------ |
-| ETH   | 0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE |
-| WETH  | 0x4200000000000000000000000000000000000006 |
-| WBTC  | 0x68f180fcCe6836688e9084f035309E29Bf0A2095 |
-| OP    | 0x4200000000000000000000000000000000000042 |
-| USDC  | 0x7F5c764cBc14f9669B88837ca1490cCa17c31607 |
-{% endtab %}
+<summary>Arbitrum</summary>
 
-{% tab title="Avalanche" %}
-| Token  | Address                                    |
-| ------ | ------------------------------------------ |
-| AVAX   | 0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE |
-| WAVAX  | 0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7 |
-| BTC.b  | 0x152b9d0FdC40C096757F570A51E494bd4b943E50 |
-| WETH.e | 0x49D5c2BdFfac6CE2BFdB6640F4F80f226bc10bAB |
-| WOO.e  | 0xaBC9547B534519fF73921b1FBA6E672b5f58D083 |
-| USDC   | 0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E |
-{% endtab %}
+#### Quote token
 
-{% tab title="Polygon" %}
-| Token  | Address                                    |
-| ------ | ------------------------------------------ |
-| MATIC  | 0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE |
-| WMATIC | 0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270 |
-| WBTC   | 0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6 |
-| WETH   | 0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619 |
-| WOO    | 0x1B815d120B3eF02039Ee11dC2d33DE7aA4a8C603 |
-| USDC   | 0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174 |
-{% endtab %}
+USDC: 0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8
 
-{% tab title="BSC" %}
-| Token | Addresss                                   |
-| ----- | ------------------------------------------ |
-| BNB   | 0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE |
-| WBNB  | 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c |
-| BTCB  | 0x7130d2A12B9BCbFAe4f2634d864A1Ee1Ce3Ead9c |
-| ETH   | 0x2170ed0880ac9a755fd29b2688956bd959f933f8 |
-| WOO   | 0x4691937a7508860f876c9c0a2a617e7d9e945d4b |
-| BUSD  | 0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56 |
-{% endtab %}
+#### Base tokens
 
-{% tab title="Fantom" %}
-| Token | Address                                    |
-| ----- | ------------------------------------------ |
-| FTM   | 0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE |
-| WFTM  | 0x21be370D5312f44cB42ce377BC9b8a0cEF1A4C83 |
-| WBTC  | 0x321162Cd933E2Be498Cd2267a90534A804051b11 |
-| WETH  | 0x74b23882a30290451A17c44f4F05243b6b58C76d |
-| WOO   | 0x6626c47c00F1D87902fc13EECfaC3ed06D5E8D8a |
-| USDC  | 0x04068DA6C83AFCFA0e13ba15A6696662335D5B75 |
-{% endtab %}
-{% endtabs %}
+ETH: 0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE
+
+WETH: 0x82aF49447D8a07e3bd95BD0d56f35241523fBab1
+
+WBTC: 0x2f2a2543B76A4166549F7aaB2e75Bef0aefC5B0f
+
+WOO: 0xcAFcD85D8ca7Ad1e1C6F82F651fA15E33AEfD07b
+
+</details>
+
+<details>
+
+<summary>Avalanche</summary>
+
+#### Quote token
+
+USDC: 0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E
+
+#### Base tokens
+
+AVAX: 0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE
+
+WAVAX: 0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7
+
+BTC.b: 0x152b9d0FdC40C096757F570A51E494bd4b943E50
+
+WETH.e: 0x49D5c2BdFfac6CE2BFdB6640F4F80f226bc10bAB
+
+WOO.e: 0xaBC9547B534519fF73921b1FBA6E672b5f58D083
+
+</details>
+
+<details>
+
+<summary>BSC</summary>
+
+#### Quote token
+
+BUSD: 0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56
+
+#### Base tokens
+
+BNB: 0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE
+
+WBNB: 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c
+
+BTCB: 0x7130d2A12B9BCbFAe4f2634d864A1Ee1Ce3Ead9c
+
+ETH: 0x2170ed0880ac9a755fd29b2688956bd959f933f8
+
+WOO: 0x4691937a7508860f876c9c0a2a617e7d9e945d4b
+
+</details>
+
+<details>
+
+<summary>Fantom</summary>
+
+#### Quote token
+
+USDC: 0x04068DA6C83AFCFA0e13ba15A6696662335D5B75
+
+#### Base tokens
+
+FTM: 0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE
+
+WFTM: 0x21be370D5312f44cB42ce377BC9b8a0cEF1A4C83
+
+WBTC: 0x321162Cd933E2Be498Cd2267a90534A804051b11
+
+WETH: 0x74b23882a30290451A17c44f4F05243b6b58C76d
+
+WOO: 0x6626c47c00F1D87902fc13EECfaC3ed06D5E8D8a
+
+</details>
+
+<details>
+
+<summary>Polygon</summary>
+
+#### Quote token
+
+USDC: 0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174
+
+#### Base tokens
+
+MATIC: 0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE
+
+WMATIC: 0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270
+
+WBTC: 0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6
+
+WETH: 0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619
+
+WOO: 0x1B815d120B3eF02039Ee11dC2d33DE7aA4a8C603
+
+</details>
+
+<details>
+
+<summary>Optimism</summary>
+
+#### Quote token
+
+USDC: 0x7F5c764cBc14f9669B88837ca1490cCa17c31607
+
+#### Base tokens
+
+ETH: 0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE
+
+WETH: 0x4200000000000000000000000000000000000006
+
+WBTC: 0x68f180fcCe6836688e9084f035309E29Bf0A2095
+
+OP: 0x4200000000000000000000000000000000000042
+
+</details>
 
 ## Integrate WOOFi as a liquidity source
 

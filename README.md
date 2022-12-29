@@ -4,22 +4,11 @@ These docs are intended for developers who are interfacing with or building on t
 
 ## Quick Links
 
-{% content-ref url="guides/integrate-woofi-as-liquidity-source.md" %}
-[integrate-woofi-as-liquidity-source.md](guides/integrate-woofi-as-liquidity-source.md)
-{% endcontent-ref %}
-
-{% content-ref url="guides/become-a-broker.md" %}
-[become-a-broker.md](guides/become-a-broker.md)
-{% endcontent-ref %}
-
-{% content-ref url="references/readme/" %}
-[readme](references/readme/)
-{% endcontent-ref %}
-
-{% content-ref url="references/apis/" %}
-[apis](references/apis/)
-{% endcontent-ref %}
+* [Integrate WOOFI as liquidity source](guides/integrate-woofi-as-liquidity-source.md)
+* [Become a Broker](guides/become-a-broker.md)
+* [Contract addresses](references/readme/)
+* [Data APIs](references/apis/)
 
 ## Can't find something?
 
-If you're having trouble finding the answer to your question, ask for help in the `#developer` channel of the [WOO Network Discord](https://discord.com/invite/woonetwork). Notice something missing? You can contribute to these docs!
+If you're having trouble finding the answer to your question, ask for help in the `#developer` channel of the [WOO Network Discord](https://discord.com/invite/woonetwork). Notice something missing? You can contribute to [these docs](https://github.com/woonetwork/docs)!
