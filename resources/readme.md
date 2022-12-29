@@ -1,8 +1,8 @@
-# WOOFi Contracts
+# Smart contract map
 
 ### [Architecture](./#architecture)
 
-<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Descriptions
 
@@ -20,11 +20,3 @@
 12. `WithdrawManager.sol` stores the funds that users request for withdrawal after the settlement process
 13. `YieldFarmingVault.sol` is the vault that stores assets deployed for external yield farming
 14. `YieldFarmingStrategy.sol` manages the external yield farming auto-compounding strategy
-
-### Smart Contract Addresses
-
-* ****[**BNB Chain deployment**](bnb-chain-deployment.md)****
-* ****[**Avalanche deployment**](avalanche-deployment.md)****
-* ****[**Fantom deployment**](fantom-deployment.md)****
-* ****[**Polygon deployment**](polygon-deployment.md)****
-* ****[**Arbitrum deployment**](arbitrum-deployment.md)****

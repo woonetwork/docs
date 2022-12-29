@@ -11,16 +11,11 @@
 
 * [The math behind sPMM v1](resources/the-math-behind-spmm-v1.md)
 * [On-chain price feeds](resources/on-chain-price-feeds.md)
-* [Optimism deployment](resources/optimism-deployment.md)
+* [Smart contract map](resources/readme.md)
 
 ## References
 
-* [WOOFi Contracts](references/readme/README.md)
-  * [BNB chain deployment](references/readme/bnb-chain-deployment.md)
-  * [Avalanche deployment](references/readme/avalanche-deployment.md)
-  * [Fantom deployment](references/readme/fantom-deployment.md)
-  * [Polygon deployment](references/readme/polygon-deployment.md)
-  * [Arbitrum deployment](references/readme/arbitrum-deployment.md)
-* [APIs](references/apis/README.md)
-  * [Swap](apis/swap.md)
-  * [Earn & Stake](apis/earn-and-stake.md)
+* [Contract deployment addresses](references/readme.md)
+* [Data APIs](references/data-apis/README.md)
+  * [Swap](references/data-apis/swap.md)
+  * [Earn & Stake](references/data-apis/earn-and-stake.md)
