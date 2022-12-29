@@ -11,6 +11,7 @@
 
 * [The math behind sPMM v1](resources/the-math-behind-spmm-v1.md)
 * [On-chain price feeds](resources/on-chain-price-feeds.md)
+* [Optimism deployment](resources/optimism-deployment.md)
 
 ## References
 
@@ -21,5 +22,5 @@
   * [Polygon deployment](references/readme/polygon-deployment.md)
   * [Arbitrum deployment](references/readme/arbitrum-deployment.md)
 * [APIs](references/apis/README.md)
-  * [Swap](references/apis/swap.md)
-  * [Earn & Stake](references/apis/earn-and-stake.md)
+  * [Swap](apis/swap.md)
+  * [Earn & Stake](apis/earn-and-stake.md)
