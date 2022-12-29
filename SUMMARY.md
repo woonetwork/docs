@@ -9,13 +9,13 @@
 
 ## Resources
 
-* [The math behind sPMM v1](resources/the-math-behind-spmm-v1.md)
+* [The math behind sPMM](resources/the-math-behind-spmm.md)
 * [On-chain price feeds](resources/on-chain-price-feeds.md)
-* [Smart contract map](resources/readme.md)
+* [Smart contract architecture](resources/readme.md)
 
 ## References
 
-* [Contract deployment addresses](references/readme.md)
-* [Data APIs](references/data-apis/README.md)
-  * [Swap](references/data-apis/swap.md)
-  * [Earn & Stake](references/data-apis/earn-and-stake.md)
+* [Contract addresses](references/readme/README.md)
+* [Data APIs](references/apis/README.md)
+  * [Swap](apis/swap.md)
+  * [Earn & Stake](apis/earn-and-stake.md)

@@ -1,4 +1,4 @@
-# Contract deployment addresses
+# Contract addresses
 
 ## Live contracts
 

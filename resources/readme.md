@@ -1,6 +1,6 @@
-# Smart contract map
+# Smart contract architecture
 
-### [Architecture](./#architecture)
+### Architecture
 
 <figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 

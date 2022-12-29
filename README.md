@@ -4,11 +4,22 @@ These docs are intended for developers who are interfacing with or building on t
 
 ## Quick Links
 
-* [Integrate WOOFi as a liquidity source](guides/integrate-woofi-as-liquidity-source.md)
-* [Become a WOOFi broker](guides/become-a-broker.md)
-* Contract Deployment Addresses
-* Data APIs
+{% content-ref url="guides/integrate-woofi-as-liquidity-source.md" %}
+[integrate-woofi-as-liquidity-source.md](guides/integrate-woofi-as-liquidity-source.md)
+{% endcontent-ref %}
+
+{% content-ref url="guides/become-a-broker.md" %}
+[become-a-broker.md](guides/become-a-broker.md)
+{% endcontent-ref %}
+
+{% content-ref url="references/readme/" %}
+[readme](references/readme/)
+{% endcontent-ref %}
+
+{% content-ref url="references/apis/" %}
+[apis](references/apis/)
+{% endcontent-ref %}
 
 ## Can't find something?
 
-If you're having trouble finding the answer to your question, ask for help in the `#dev` channel of the [Balancer Discord](https://discord.balancer.fi). Notice something missing? [You can contribute ](https://github.com/balancer-labs/docs-developers)to these docs!
+If you're having trouble finding the answer to your question, ask for help in the `#developer` channel of the [WOO Network Discord](https://discord.com/invite/woonetwork). Notice something missing? You can contribute to these docs!
