@@ -19,3 +19,5 @@
 * [Data APIs](references/apis/README.md)
   * [Swap](references/apis/swap.md)
   * [Earn & Stake](references/apis/earn-and-stake.md)
+* [Audits](https://learn.woo.org/woofi/audits)
+* [GitHub](https://github.com/woonetwork)
