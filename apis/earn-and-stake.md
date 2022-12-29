@@ -11,9 +11,9 @@
 
 **Params**
 
-| Name    |  Type  | Description                                               |
-| ------- | :----: | --------------------------------------------------------- |
-| network | String | option: `bsc` / `avax` / `fantom` / `polygon`/ `arbitrum` |
+| Name    |  Type  | Description                                                 |
+| ------- | :----: | ----------------------------------------------------------- |
+| network | String | option: `bsc` / `avax` / `fantom` / `polygon` /  `arbitrum` |
 
 **Each Token Returns**
 
@@ -28,9 +28,9 @@
 
 **Params**
 
-| Name    |  Type  | Description                                                           |
-| ------- | :----: | --------------------------------------------------------------------- |
-| network | String | option: `bsc` / `avax` / `fantom` / `polygon`/ `arbitrum`/ `optimism` |
+| Name    |  Type  | Description                                                            |
+| ------- | :----: | ---------------------------------------------------------------------- |
+| network | String | option: `bsc` / `avax` / `fantom` / `polygon`/ `arbitrum` / `optimism` |
 
 **Returns**
 

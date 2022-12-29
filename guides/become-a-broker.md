@@ -34,7 +34,7 @@ The rebate is processed on a daily basis via smart contracts, the broker can che
 * Step 1 - go to the `WooRebateManager` smart contract address using the corresponding blockchain explorer (click the link above)
 * Step 2 - click 'Read Contract' under the "Contract" tab
 
-<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 * Step 3 - go to the 'pendingRebate' function, input your whitelisted rebate address and click 'Query', and you will see the current amount of claimable rebates in the quote token. i.e. stablecoins
 

@@ -11,10 +11,10 @@
 
 **Parameters**
 
-| Name    | Type   |                            Description                           |
-| ------- | ------ | :--------------------------------------------------------------: |
-| network | String |          option `bsc` / `avax` / `fantom` / `polygon` /          |
-| period  | String | optional: `1d` / `1w` / `1m` / `3m` / `1y` / `all` default: `1m` |
+| Name    | Type   |                               Description                              |
+| ------- | ------ | :--------------------------------------------------------------------: |
+| network | String | option `bsc` / `avax` / `fantom` / `polygon` / `arbitrum` / `optimism` |
+| period  | String |    optional: `1d` / `1w` / `1m` / `3m` / `1y` / `all` default: `1m`    |
 
 **period: 1d, Returns**
 
