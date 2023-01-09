@@ -5,7 +5,7 @@
 ## Guides
 
 * [Integrate WOOFi as a liquidity source](guides/integrate-woofi-as-liquidity-source.md)
-* [Become a broker](guides/become-a-broker.md)
+* [Become a WOOFi broker](guides/become-a-woofi-broker.md)
 
 ## Resources
 
