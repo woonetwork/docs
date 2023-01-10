@@ -5,7 +5,7 @@ These docs are intended for developers who are interfacing with or building on t
 ## Quick Links
 
 * [Integrate WOOFI as liquidity source](guides/integrate-woofi-as-liquidity-source.md)
-* [Become a broker](guides/become-a-woofi-broker.md)
+* [Become a broker](guides/become-a-broker.md)
 * [Contract addresses](references/readme/)
 * [Data APIs](references/apis/)
 
