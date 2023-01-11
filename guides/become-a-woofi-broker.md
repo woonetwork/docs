@@ -1,4 +1,4 @@
-# Become a broker
+# Become a WOOFi broker
 
 ### What are WOOFi brokers?
 
@@ -22,19 +22,19 @@ The rebate is processed on a daily basis via smart contracts, the broker can che
 
 | Network   | Rebate manager smart contract address                                                                                                 |
 | --------- | ------------------------------------------------------------------------------------------------------------------------------------- |
-| BNB Chain |                                                                                                                                       |
-| Avalanche |                                                                                                                                       |
-| Fantom    |                                                                                                                                       |
-| Polygon   |                                                                                                                                       |
 | Arbitrum  | [0x505ac728645d2ef84380961F72bAea500b3efa3f](https://arbiscan.io/address/0x505ac728645d2ef84380961f72baea500b3efa3f#code)             |
+| Avalanche | [0x49d26A6Eeeb49E79a0C73B95fD99D23698D3614A](https://snowtrace.io/address/0x6cb1bc6c8aabdae822a2bf8d83b36291cb70f169#code)            |
+| BNB Chain | [0x4f3e0B02F50937Bc21F523F1Dd430A34cAF4de98](https://bscscan.com/address/0x4f3e0b02f50937bc21f523f1dd430a34caf4de98#code)             |
+| Fantom    | [0x6F09AE4925739453d7C8c9a22fD07585148DFc01](https://ftmscan.com/address/0x6f09ae4925739453d7c8c9a22fd07585148dfc01#code)             |
 | Optimism  | [0x36b680fB76Dad86bcB2Cefc83fAE05e3Fe147706](https://optimistic.etherscan.io/address/0x36b680fb76dad86bcb2cefc83fae05e3fe147706#code) |
+| Polygon   | [0x913E116cD0E279763B0419798c0bA18F9311B390](https://polygonscan.com/address/0x913e116cd0e279763b0419798c0ba18f9311b390#code)         |
 
-The `WooRebateManager` smart contracts on the following chains have been upgraded. So if you are a broker on these chains before Jan 11 2023, please withdraw rebates from the follwoing addresses asap.&#x20;
+The `WooRebateManager` smart contracts on the following chains have been replaced. If you were a broker on these chains before Jan 11 2023, please withdraw rebates from the follwoing addresses asap.&#x20;
 
 | Network   | Deprecated rebate manager smart contract address                                                                                   |
 | --------- | ---------------------------------------------------------------------------------------------------------------------------------- |
-| BNB Chain | [0x0208D735576B3D974024237393F4617285bf0563](https://bscscan.com/address/0x0208d735576b3d974024237393f4617285bf0563#readContract)  |
 | Avalanche | [0xbF401edBb0265D037BfC89DfFeB7dbDa10b57C22](https://snowtrace.io/address/0xbf401edbb0265d037bfc89dffeb7dbda10b57c22#readContract) |
+| BNB Chain | [0x0208D735576B3D974024237393F4617285bf0563](https://bscscan.com/address/0x0208d735576b3d974024237393f4617285bf0563#readContract)  |
 | Fantom    | [0x0D37e768c3eD8a3FA494d03AF69605C5bE9a68e4](https://ftmscan.com/address/0x0d37e768c3ed8a3fa494d03af69605c5be9a68e4#readContract)  |
 | Polygon   | [0x3d605fA64595Dba86f7780E128816ADAAeCA8A2b](https://polygonscan.com/address/0x3d605fa64595dba86f7780e128816adaaeca8a2b#code)      |
 
