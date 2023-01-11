@@ -9,6 +9,7 @@
 
 ## Resources
 
+* [Product Overview](https://learn.woo.org/woofi/intro)
 * [The math behind sPMM](resources/the-math-behind-spmm.md)
 * [Smart contract architecture](resources/resources.md)
 * [On-chain price feeds](resources/on-chain-price-feeds.md)
@@ -26,3 +27,4 @@
 
 * [\[v1\] sPMM liquidity integration](deprecated-docs/v1-spmm-liquidity-integration.md)
 * [\[v1\] On-chain price feeds](deprecated-docs/v1-on-chain-price-feeds.md)
+* [Legacy contracts](deprecated-docs/readme.md)
