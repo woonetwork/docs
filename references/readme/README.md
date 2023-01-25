@@ -7,7 +7,7 @@
 ### Swap
 
 * WooRouterV2 - [0x9aEd3A8896A85FE9a8CAc52C9B402D092B629a30](https://arbiscan.io/address/0x9aed3a8896a85fe9a8cac52c9b402d092b629a30#code)
-* CrosswapRouter - [0x0972A0fa37984E7FF2aEFA53A0Bb10dCE535aa73](https://arbiscan.io/address/0x0972a0fa37984e7ff2aefa53a0bb10dce535aa73#code)
+* CrosswapRouter - [0x44dF096D2600C6a6db77899dB3DE3AeCff746cb8](https://arbiscan.io/address/0x44df096d2600c6a6db77899db3de3aecff746cb8#code)
 * WooPPV2 - [0xeFF23B4bE1091b53205E35f3AfCD9C7182bf3062](https://arbiscan.io/address/0xeff23b4be1091b53205e35f3afcd9c7182bf3062#code)
 * WooracleV2 - [0x37a9dE70b6734dFCA54395D8061d9411D9910739](https://arbiscan.io/address/0x37a9de70b6734dfca54395d8061d9411d9910739#code)
 
