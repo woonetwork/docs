@@ -1,4 +1,4 @@
-# Integrate WOOFi as liquidity source
+# Integrate WOOFi as a liquidity source
 
 ## Contracts
 
@@ -72,6 +72,8 @@ BTCB: 0x7130d2A12B9BCbFAe4f2634d864A1Ee1Ce3Ead9c
 ETH: 0x2170ed0880ac9a755fd29b2688956bd959f933f8
 
 WOO: 0x4691937a7508860f876c9c0a2a617e7d9e945d4b
+
+USDT: 0x55d398326f99059fF775485246999027B3197955
 
 </details>
 
