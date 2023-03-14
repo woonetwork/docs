@@ -7,7 +7,8 @@
 ### Swap
 
 * WooRouter - [0x5AA6a4E96A9129562e2fc06660D07FEdDAAf7854](https://snowtrace.io/address/0x5AA6a4E96A9129562e2fc06660D07FEdDAAf7854#code)
-* CrossswapRouter - [0xdF37F7A85D4563f39A78494568824b4dF8669B7a](https://snowtrace.io/address/0xdf37f7a85d4563f39a78494568824b4df8669b7a#code)
+* CrossswapRouter v1 - [0xdF37F7A85D4563f39A78494568824b4dF8669B7a](https://snowtrace.io/address/0xdf37f7a85d4563f39a78494568824b4df8669b7a#code)
+* CrossSwapRouter v2 - [0x1E6bB552ac038c6AFB6EC5Db6B06fDd106e31e33](https://snowtrace.io/address/0x1e6bb552ac038c6afb6ec5db6b06fdd106e31e33#code)
 * WooPP - [0x1df3009c57a8B143c6246149F00B090Bce3b8f88](https://snowtrace.io/address/0x1df3009c57a8B143c6246149F00B090Bce3b8f88#code)
 * Wooracle - [0x25a4d4a094A084c7ad45Ac273cF7D6B6bfae7D4E](https://snowtrace.io/address/0x25a4d4a094A084c7ad45Ac273cF7D6B6bfae7D4E#code)
 
@@ -118,7 +119,8 @@
 ### Swap
 
 * WooRouter - [0xcef5be73ae943b77f9bc08859367d923c030a269](https://bscscan.com/address/0xcef5be73ae943b77f9bc08859367d923c030a269#code)
-* CrossswapRouter - [0x53E255e8Bbf4EDF16797f9885291B3Ca0C70B59f](https://bscscan.com/address/0x53e255e8bbf4edf16797f9885291b3ca0c70b59f#code)
+* CrossswapRouter v1 - [0x53E255e8Bbf4EDF16797f9885291B3Ca0C70B59f](https://bscscan.com/address/0x53e255e8bbf4edf16797f9885291b3ca0c70b59f#code)
+* CrossSwapRouter v2 - [0xd12d239b781e34e0aaa106159940803a07e31a67](https://bscscan.com/address/0xd12d239b781e34e0aaa106159940803a07e31a67#code)
 * WooPP - [0xbf365Ce9cFcb2d5855521985E351bA3bcf77FD3F](https://bscscan.com/address/0xbf365Ce9cFcb2d5855521985E351bA3bcf77FD3F)
 * Wooracle - [0x6b6fBEc7934b104e81b2046D24A990e03e17afDC](https://bscscan.com/address/0x6b6fBEc7934b104e81b2046D24A990e03e17afDC)
 
@@ -212,7 +214,8 @@
 ### Swap
 
 * WooRouter - [0x37b5a5a730dad670874f26cc5507bb1b9705e447](https://ftmscan.com/address/0x37b5a5a730dad670874f26cc5507bb1b9705e447#code)
-* CrosswapRouter - [0xcF6Ce5Fd6bf28bB1AeAc88A55251f6c840059De5](https://ftmscan.com/address/0xcf6ce5fd6bf28bb1aeac88a55251f6c840059de5#code)
+* CrossSwapRouter v1 - [0xcF6Ce5Fd6bf28bB1AeAc88A55251f6c840059De5](https://ftmscan.com/address/0xcf6ce5fd6bf28bb1aeac88a55251f6c840059de5#code)
+* CrossSwapRouter v2 - [0x28D2B949024FE50627f1EbC5f0Ca3Ca721148E40](https://ftmscan.com/address/0x28d2b949024fe50627f1ebc5f0ca3ca721148e40#code)
 * WooPP - [0x9503E7517D3C5bc4f9E4A1c6AE4f8B33AC2546f2](https://ftmscan.com/address/0x9503e7517d3c5bc4f9e4a1c6ae4f8b33ac2546f2#code)
 * Wooracle - [0x209102c0D2E34282494114ea76D5251c8e7Ea7ab](https://ftmscan.com/address/0x209102c0d2e34282494114ea76d5251c8e7ea7ab#code)
 
@@ -283,7 +286,8 @@
 ### Swap
 
 * WooRouter - [0x9D1A92e601db0901e69bd810029F2C14bCCA3128](https://polygonscan.com/address/0x9d1a92e601db0901e69bd810029f2c14bcca3128#code)
-* CrosswapRouter - [0x376d567C5794cfc64C74852A9DB2105E0b5B482C](https://polygonscan.com/address/0x376d567c5794cfc64c74852a9db2105e0b5b482c#code)
+* CrosswapRouter v1 - [0x376d567C5794cfc64C74852A9DB2105E0b5B482C](https://polygonscan.com/address/0x376d567c5794cfc64c74852a9db2105e0b5b482c#code)
+* CrosswapRouter v2 - [0x574b9cec19553435B360803D8B4De2a5b2C008Fd](https://polygonscan.com/address/0x574b9cec19553435b360803d8b4de2a5b2c008fd#code)
 * WooPP - [0x7400B665C8f4f3a951a99f1ee9872efb8778723d](https://polygonscan.com/address/0x7400b665c8f4f3a951a99f1ee9872efb8778723d#code)
 * Wooracle - [0x2Fe5E5D341cFFa606a5d9DA1B6B646a381B0f7ec](https://polygonscan.com/address/0x2Fe5E5D341cFFa606a5d9DA1B6B646a381B0f7ec#code)
 
@@ -323,5 +327,33 @@
 * WooVaultManager - [0x2e668Bb88287675e34c8dF82686dfd0b7F0c0383](https://polygonscan.com/address/0x2e668bb88287675e34c8df82686dfd0b7f0c0383#code)
 * WooAccessManager - [0x925AFA2318825FCAC673Ef4eF551208b125dd965](https://polygonscan.com/address/0x925afa2318825fcac673ef4ef551208b125dd965#code)
 * WooGuardian - [0xF5d215d9C84778F85746D15762DaF39B9E83a2d6](https://polygonscan.com/address/0xf5d215d9c84778f85746d15762daf39b9e83a2d6#code)
+
+</details>
+
+<details>
+
+<summary>Arbitrum deployment</summary>
+
+### Swap
+
+* CrosswapRouter - [0x44dF096D2600C6a6db77899dB3DE3AeCff746cb8](https://arbiscan.io/address/0x44df096d2600c6a6db77899db3de3aecff746cb8#code)
+
+
+
+</details>
+
+<details>
+
+<summary>Optimism deployment</summary>
+
+### Swap
+
+* CrosswapRouter - [0x655e2fe03fe19327239b5294a556965192386a7b](https://optimistic.etherscan.io/address/0x655e2fe03fe19327239b5294a556965192386a7b#code)
+
+### Earn
+
+**OP Supercharger vault**
+
+* Homorav2farmingstrategy - [0x81ab3492BACFfF639dDE60763Ccf9E348117075d](https://optimistic.etherscan.io/address/0x81ab3492bacfff639dde60763ccf9e348117075d#code)
 
 </details>
