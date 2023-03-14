@@ -1,10 +1,10 @@
-# The math behind sPMM v1
+# The math behind sPMM
 
 ### Synthetic Proactive Market Making (sPMM)
 
 sPMM is the core algorithm powering the WOOFi Swap, which provides the best way to simulate a CEX order book in a DEX liquidity pool.&#x20;
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 The sPMM works as follows:
 

@@ -16,6 +16,8 @@ The latest list of supported tokens can be retrieved via the `getSupportTokens()
 * first value: quoteToken address
 * second value: array of baseToken addresses
 
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
 #### Contract addresses:
 
 Arbitrum: [0x28D2B949024FE50627f1EbC5f0Ca3Ca721148E40](https://arbiscan.io/address/0x28D2B949024FE50627f1EbC5f0Ca3Ca721148E40#readContract)&#x20;
