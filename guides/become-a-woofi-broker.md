@@ -10,7 +10,7 @@ WOOFi has the lowest swap fee in the market with only 2.5bps on each transaction
 
 Any application such as DEX aggregators, wallets, web3 apps or websites that integrate WOOFi's sPMM liquidity can enroll as a broker to receive rebates. Fill out the enrollment form below and we will get in touch with you shortly.&#x20;
 
-:point\_right: [**Enrollment Form**](https://docs.google.com/forms/d/e/1FAIpQLSdTTfytZmcKLwGTl6MUxGiaou1gAXhd83roAGgNCiIkBeYtFQ/viewform?usp=sf\_link)****
+:point\_right: [**Enrollment Form**](https://docs.google.com/forms/d/e/1FAIpQLSdTTfytZmcKLwGTl6MUxGiaou1gAXhd83roAGgNCiIkBeYtFQ/viewform?usp=sf\_link)
 
 Once the enrollment information is reviewed, our team will get in contact with you and the provided broker rebate address will be added to the whitelist in `WooRebateManager.sol` on corresponding blockchains.
 
