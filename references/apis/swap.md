@@ -2,7 +2,7 @@
 
 ### General Info
 
-* The base endpoint is: [**https://fi-api.woo.org**](https://fi-api.woo.org/)****
+* The base endpoint is: [**https://fi-api.woo.org**](https://fi-api.woo.org/)
 * All endpoints return JSON object.
 
 ### Stat
