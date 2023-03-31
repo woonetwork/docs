@@ -2,7 +2,7 @@
 
 ### Intro
 
-In order to simulate the order book from centralized exchanges without sacrificing capital efficiency, WOOFi created a custom on-chain price fee which works along side with [the sPMM algorithm](the-math-behind-spmm.md). This price feed considers multiple parameters including mid-price $$p$$, spread $$s$$, and liquidity coefficient $$k$$.
+In order to simulate the order book from centralized exchanges without sacrificing capital efficiency, WOOFi created a custom on-chain price fee which works along side with [the sPMM algorithm](the-math-behind-spmm.md). This price feed considers multiple parameters including mid-price `p`, spread `s`, and liquidity coefficient `k`.
 
 The V2 of the price feeds added Chainlink price feeds as a fail safe. Users can call `price` to get `priceNow` and `feasible` of token. If `feasible` is `false`, do not use `priceNow` value. All prices are USDT/USDC-based, and the decimal of `priceNow` is `8 (the same in decimals as price in Chainlink Oracle)`
 
@@ -13,9 +13,7 @@ The V2 of the price feeds added Chainlink price feeds as a fail safe. Users can 
 * BSC address: [0x747f99D619D5612399010Ec5706F13e3345c4a9E](https://bscscan.com/address/0x747f99d619d5612399010ec5706f13e3345c4a9e#code)
 * Fantom address: [0x8840e26e0ebf7D100A0644DD8576DC62B03cbf04](https://ftmscan.com/address/0x8840e26e0ebf7D100A0644DD8576DC62B03cbf04#code)
 
-{% hint style="warning" %}
-While the price feed is on-chain and permissionless, and tradeable by any user on WOOFi, we DO NOT garanutee the availability or accuracy of it. The price feed may become unavailable when the centralized liquidity source is in maintenance or any time the operator deems necessary. In no case, WOOFi is liable for any loss that might be caused by using the price feed by any third party.&#x20;
-{% endhint %}
+**Note**: While the price feed is on-chain and permissionless, and tradeable by any user on WOOFi, we DO NOT garanutee the availability or accuracy of it. The price feed may become unavailable when the centralized liquidity source is in maintenance or any time the operator deems necessary. In no case, WOOFi is liable for any loss that might be caused by using the price feed by any third party.
 
 ### Code Example
 
