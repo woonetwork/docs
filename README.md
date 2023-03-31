@@ -18,6 +18,7 @@ These docs are intended for developers who are interfacing with or building on t
 * [The math behind sPMM](resources/the-math-behind-spmm.md)
 * [Smart contract architecture](resources/resources.md)
 * [On-chain price feeds](resources/on-chain-price-feeds.md)
+* [Audits](https://learn.woo.org/woofi/audits)
 
 ## Can't find something?
 
