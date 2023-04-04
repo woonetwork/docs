@@ -10,6 +10,7 @@
 * CrosswapRouter - [0x4AB421de52b3112D02442b040dd3DC73e8Af63b5](https://arbiscan.io/address/0x4ab421de52b3112d02442b040dd3dc73e8af63b5#code)
 * WooPPV2 - [0xeFF23B4bE1091b53205E35f3AfCD9C7182bf3062](https://arbiscan.io/address/0xeff23b4be1091b53205e35f3afcd9c7182bf3062#code)
 * WooracleV2 - [0x37a9dE70b6734dFCA54395D8061d9411D9910739](https://arbiscan.io/address/0x37a9de70b6734dfca54395d8061d9411d9910739#code)
+* IntegrationHelper (token info) - [0x28D2B949024FE50627f1EbC5f0Ca3Ca721148E40](https://arbiscan.io/address/0x28D2B949024FE50627f1EbC5f0Ca3Ca721148E40#readContract)
 
 #### Stake
 
@@ -50,7 +51,6 @@
 * WooRebateManager - [0x505ac728645d2ef84380961F72bAea500b3efa3f](https://arbiscan.io/address/0x505ac728645d2ef84380961f72baea500b3efa3f#code)
 * WooVaultManager - [0xF357eC5A6C82766AeB97D6DA7488e2efC3Dc0182](https://arbiscan.io/address/0xf357ec5a6c82766aeb97d6da7488e2efc3dc0182#code)
 * WooAccessManager - [0xd14a997308F9e7514a8FEA835064D596CDCaa99E](https://arbiscan.io/address/0xd14a997308f9e7514a8fea835064d596cdcaa99e#code)
-* IntegrationHelper - [0x28D2B949024FE50627f1EbC5f0Ca3Ca721148E40](https://arbiscan.io/address/0x28D2B949024FE50627f1EbC5f0Ca3Ca721148E40#readContract)
 
 </details>
 
@@ -64,6 +64,7 @@
 * CrossswapRouter - [0x51AF494f1B4d3f77835951FA827D66fc4A18Dae8](https://snowtrace.io/address/0x51af494f1b4d3f77835951fa827d66fc4a18dae8)
 * WooPP - [0x3b3E4b4741e91aF52d0e9ad8660573E951c88524](https://snowtrace.io/address/0x3b3e4b4741e91af52d0e9ad8660573e951c88524#code)
 * Wooracle - [0x9ACA557590F5020BDA4Ba63065Fc3A1253Bf8000](https://snowtrace.io/address/0x9aca557590f5020bda4ba63065fc3a1253bf8000)
+* IntegrationHelper (token info) - [0x020630613E296c3E9b06186f630D1bF97A2B6Ad1](https://snowtrace.io/address/0x020630613E296c3E9b06186f630D1bF97A2B6Ad1#readContract)
 
 #### Stake
 
@@ -104,7 +105,6 @@
 * WooRebateManager - [0x49d26A6Eeeb49E79a0C73B95fD99D23698D3614A](https://snowtrace.io/address/0x6cb1bc6c8aabdae822a2bf8d83b36291cb70f169#code)
 * WooVaultManager - [0xfD7ed9D3d4fD88595AF6a87f798ffDB42b4D7ccB](https://snowtrace.io/address/0xfd7ed9d3d4fd88595af6a87f798ffdb42b4d7ccb#code)
 * WooAccessManager - [0x3F93ECed5AD8185f1c197acd17f8a2eB06051365](https://snowtrace.io/address/0x3f93eced5ad8185f1c197acd17f8a2eb06051365#code)
-* IntegrationHelper - [0x020630613E296c3E9b06186f630D1bF97A2B6Ad1](https://snowtrace.io/address/0x020630613E296c3E9b06186f630D1bF97A2B6Ad1#readContract)
 
 </details>
 
@@ -112,12 +112,21 @@
 
 <summary>BSC deployment</summary>
 
-#### Swap
+#### Swap (USDT as quote - new)
+
+* WooRouter - [0x4f4Fd4290c9bB49764701803AF6445c5b03E8f06](https://bscscan.com/address/0x4f4Fd4290c9bB49764701803AF6445c5b03E8f06)
+* CrossswapRouter -&#x20;
+* WooPP - [0x59dE3B49314Bf5067719364A2Cb43e8525ab93FA](https://bscscan.com/address/0x59de3b49314bf5067719364a2cb43e8525ab93fa)
+* Wooracle - [0x4B11B9BfAafA840c436a1ddDc13D3738C8ebfD62](https://bscscan.com/address/0x4b11b9bfaafa840c436a1dddc13d3738c8ebfd62)
+* IntegrationHelper (token info) - [0xAA9c15cd603428cA8ddD45e933F8EfE3Afbcc173](https://bscscan.com/address/0xAA9c15cd603428cA8ddD45e933F8EfE3Afbcc173)
+
+#### Swap (BUSD as quote - retiring soon)
 
 * WooRouter - [0xC90bFE9951a4Efbf20aCa5ECd9966b2bF8A01294](https://bscscan.com/address/0xc90bfe9951a4efbf20aca5ecd9966b2bf8a01294#code)
 * CrossswapRouter - [0x81004C9b697857fD54E137075b51506c739EF439](https://bscscan.com/address/0x81004c9b697857fd54e137075b51506c739ef439#code)
 * WooPP - [0xEc054126922a9a1918435c9072c32f1B60cB2B90](https://bscscan.com/address/0xec054126922a9a1918435c9072c32f1b60cb2b90#code)
 * Wooracle - [0x747f99D619D5612399010Ec5706F13e3345c4a9E](https://bscscan.com/address/0x747f99d619d5612399010ec5706f13e3345c4a9e#code)
+* IntegrationHelper (token info) - [0xe12dC1F01ccB71ef00ADd1D8A5116b905261D879](https://bscscan.com/address/0xe12dC1F01ccB71ef00ADd1D8A5116b905261D879#readContract)
 
 #### Stake
 
@@ -149,7 +158,6 @@
 * WooRebateManager - [0x4f3e0B02F50937Bc21F523F1Dd430A34cAF4de98](https://bscscan.com/address/0x4f3e0b02f50937bc21f523f1dd430a34caf4de98#code)
 * WooVaultManager - [0x8FA8e3dD9E84094a1d2511acf1353D7E011D8f90](https://bscscan.com/address/0x8fa8e3dd9e84094a1d2511acf1353d7e011d8f90#code)
 * WooAccessManager - [0xa9eDb6F411e49358B515dE26543815770a739FB0](https://bscscan.com/address/0xa9eDb6F411e49358B515dE26543815770a739FB0)
-* IntegrationHelper - [0xe12dC1F01ccB71ef00ADd1D8A5116b905261D879](https://bscscan.com/address/0xe12dC1F01ccB71ef00ADd1D8A5116b905261D879#readContract)
 
 </details>
 
@@ -163,6 +171,7 @@
 * CrosswapRouter - [0x72dc7fa5eeb901a34173C874A7333c8d1b34bca9](https://ftmscan.com/address/0x72dc7fa5eeb901a34173c874a7333c8d1b34bca9#code)
 * WooPP - [0x286ab107c5E9083dBed35A2B5fb0242538F4f9bf](https://ftmscan.com/address/0x286ab107c5e9083dbed35a2b5fb0242538f4f9bf#code)
 * Wooracle - [0x8840e26e0ebf7D100A0644DD8576DC62B03cbf04](https://ftmscan.com/address/0x8840e26e0ebf7d100a0644dd8576dc62b03cbf04#code)
+* IntegrationHelper (token info) - [0x6641959FE5EED7166F2254cF04b0d20c96776D9A](https://ftmscan.com/address/0x6641959FE5EED7166F2254cF04b0d20c96776D9A#readContract)
 
 #### Stake
 
@@ -194,7 +203,6 @@
 * WooRebateManager - [0x6F09AE4925739453d7C8c9a22fD07585148DFc01](https://ftmscan.com/address/0x6f09ae4925739453d7c8c9a22fd07585148dfc01#code)
 * WooVaultManager - [0xee7AC4d3D3a51De966078809fC7A91834f5EA3B9](https://ftmscan.com/address/0xee7ac4d3d3a51de966078809fc7a91834f5ea3b9#code)
 * WooAccessManager - [0xd6d6A0828a80E1832cD4C3585aDED8971087fCb8](https://ftmscan.com/address/0xd6d6a0828a80e1832cd4c3585aded8971087fcb8#code)
-* IntegrationHelper - [0x6641959FE5EED7166F2254cF04b0d20c96776D9A](https://ftmscan.com/address/0x6641959FE5EED7166F2254cF04b0d20c96776D9A#readContract)
 
 </details>
 
@@ -208,6 +216,7 @@
 * CrosswapRouter - [0xbeaE1B06949d033Da628bA3E5aF267C3E740494b](https://optimistic.etherscan.io/address/0xbeae1b06949d033da628ba3e5af267c3e740494b#code)
 * WooPPV2 - [0xd1778F9DF3eee5473A9640f13682e3846f61fEbC](https://optimistic.etherscan.io/address/0xd1778f9df3eee5473a9640f13682e3846f61febc#code)
 * WooracleV2 - [0x464959aD46e64046B891F562cFF202a465D522F3](https://optimistic.etherscan.io/address/0x464959ad46e64046b891f562cff202a465d522f3#code)
+* IntegrationHelper (token info) - [0x96329d66074EB8386Ae8bFD6698B2E3FDA87e15E](https://optimistic.etherscan.io/address/0x96329d66074EB8386Ae8bFD6698B2E3FDA87e15E#readContract)
 
 #### Earn
 
@@ -243,7 +252,6 @@
 * WooFeeManager - [0xA058798CD293f5AcB4E7757B08c960a79f527699](https://optimistic.etherscan.io/address/0xa058798cd293f5acb4e7757b08c960a79f527699#code)
 * WooRebateManager - [0x36b680fB76Dad86bcB2Cefc83fAE05e3Fe147706](https://optimistic.etherscan.io/address/0x36b680fb76dad86bcb2cefc83fae05e3fe147706#code)
 * WooAccessManager - [0x8A68849c8a61225964d2caE170fDD19eC46bf246](https://optimistic.etherscan.io/address/0x8a68849c8a61225964d2cae170fdd19ec46bf246#code)
-* IntegrationHelper - [0x96329d66074EB8386Ae8bFD6698B2E3FDA87e15E](https://optimistic.etherscan.io/address/0x96329d66074EB8386Ae8bFD6698B2E3FDA87e15E#readContract)
 
 </details>
 
@@ -257,6 +265,7 @@
 * CrosswapRouter - [0xAA9c15cd603428cA8ddD45e933F8EfE3Afbcc173](https://polygonscan.com/address/0xaa9c15cd603428ca8ddd45e933f8efe3afbcc173#code)
 * WooPP - [0x7081A38158BD050Ae4a86e38E0225Bc281887d7E](https://polygonscan.com/address/0x7081a38158bd050ae4a86e38e0225bc281887d7e#code)
 * Wooracle - [0xeFF23B4bE1091b53205E35f3AfCD9C7182bf3062](https://polygonscan.com/address/0xeff23b4be1091b53205e35f3afcd9c7182bf3062#code)
+* IntegrationHelper (token info) - [0x7Ba560eB735AbDCf9a3a5692272652A0cc81850d](https://polygonscan.com/address/0x7Ba560eB735AbDCf9a3a5692272652A0cc81850d#readContract)
 
 #### Stake
 
@@ -297,7 +306,6 @@
 * WooRebateManager - [0x913E116cD0E279763B0419798c0bA18F9311B390](https://polygonscan.com/address/0x913e116cd0e279763b0419798c0ba18f9311b390#code)
 * WooVaultManager - [0x7E894935Ed739Cd5681240fBBAEa1f8341627254](https://polygonscan.com/address/0x7e894935ed739cd5681240fbbaea1f8341627254#code)
 * WooAccessManager - [0x925AFA2318825FCAC673Ef4eF551208b125dd965](https://polygonscan.com/address/0x925afa2318825fcac673ef4ef551208b125dd965#code)
-* IntegrationHelper - [0x7Ba560eB735AbDCf9a3a5692272652A0cc81850d](https://polygonscan.com/address/0x7Ba560eB735AbDCf9a3a5692272652A0cc81850d#readContract)
 
 </details>
 
