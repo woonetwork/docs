@@ -16,7 +16,7 @@
 
 #### **AVAX Supercharger vault**
 
-* SuperChargerVault - **** [0xFC0E57b5F8adCadc5e6E37578bb9Aa30cEe312Af](https://snowtrace.io/address/0xfc0e57b5f8adcadc5e6e37578bb9aa30cee312af#code)
+* SuperChargerVault - [0xFC0E57b5F8adCadc5e6E37578bb9Aa30cEe312Af](https://snowtrace.io/address/0xfc0e57b5f8adcadc5e6e37578bb9aa30cee312af#code)
 * LendingManager - [0x113d31A32734A8526572E77a0779Bd242cb71a73](https://snowtrace.io/address/0x113d31a32734a8526572e77a0779bd242cb71a73#code)
 * WithdrawManager - [0xec041744884b7Ff4179e4B046f472dEC9eF13bb8](https://snowtrace.io/address/0xec041744884b7ff4179e4b046f472dec9ef13bb8#code)
 * AAVEfarmingvault - [0xdA442c468f77F4f90032aE8ca99850eEA2091Bfe](https://snowtrace.io/address/0xda442c468f77f4f90032ae8ca99850eea2091bfe#code)
@@ -25,7 +25,7 @@
 
 #### **USDC Supercharger vault**
 
-* SuperChargerVault - **** [0x86A6391D5d7C02245927E2DC0cBFa3e5F1B9aBC7](https://snowtrace.io/address/0x86a6391d5d7c02245927e2dc0cbfa3e5f1b9abc7#code)
+* SuperChargerVault - [0x86A6391D5d7C02245927E2DC0cBFa3e5F1B9aBC7](https://snowtrace.io/address/0x86a6391d5d7c02245927e2dc0cbfa3e5f1b9abc7#code)
 * LendingManager - [0xECCc8316fF1d48d0780AE387b8D240C1Df731Fd8](https://snowtrace.io/address/0xeccc8316ff1d48d0780ae387b8d240c1df731fd8#code)
 * WithdrawManager - [0xc05a4d0Bf81215De05E8a3C50167d7c2BA1D5Cf9](https://snowtrace.io/address/0xc05a4d0bf81215de05e8a3c50167d7c2ba1d5cf9#code)
 * AAVEfarmingvault - [0x305F06749B98D5AA5AE48B08395615ae9466DE4D](https://snowtrace.io/address/0x305f06749b98d5aa5ae48b08395615ae9466de4d#code)
@@ -124,20 +124,39 @@
 * WooPP - [0xbf365Ce9cFcb2d5855521985E351bA3bcf77FD3F](https://bscscan.com/address/0xbf365Ce9cFcb2d5855521985E351bA3bcf77FD3F)
 * Wooracle - [0x6b6fBEc7934b104e81b2046D24A990e03e17afDC](https://bscscan.com/address/0x6b6fBEc7934b104e81b2046D24A990e03e17afDC)
 
+<!---->
+
+* WooRouter (BUSD) - [0xC90bFE9951a4Efbf20aCa5ECd9966b2bF8A01294](https://bscscan.com/address/0xc90bfe9951a4efbf20aca5ecd9966b2bf8a01294#code)
+
+<!---->
+
+* WooPP (BUSD) - [0xEc054126922a9a1918435c9072c32f1B60cB2B90](https://bscscan.com/address/0xec054126922a9a1918435c9072c32f1b60cb2b90#code)
+* Wooracle (BUSD) - [0x747f99D619D5612399010Ec5706F13e3345c4a9E](https://bscscan.com/address/0x747f99d619d5612399010ec5706f13e3345c4a9e#code)
+* IntegrationHelper (BUSD) - [0xe12dC1F01ccB71ef00ADd1D8A5116b905261D879](https://bscscan.com/address/0xe12dC1F01ccB71ef00ADd1D8A5116b905261D879#readContract)
+
 ### Earn
 
-#### **BNB Supercharger vault**
+**BUSD Supercharger vault**
 
-* SuperChargerVault - **** [0x0ba6C34aF9713D15141dcc91d2788c3F370ecb9E](https://bscscan.com/address/0x0ba6c34af9713d15141dcc91d2788c3f370ecb9e#code)
+* SuperChargerVault - [0xee7AC4d3D3a51De966078809fC7A91834f5EA3B9](https://bscscan.com/address/0xee7ac4d3d3a51de966078809fc7a91834f5ea3b9#code)
+* LendingManager - [0x2CAa3E79bC0e23AbF31DFbcebaE992BCAD4e7C7A](https://bscscan.com/address/0x2caa3e79bc0e23abf31dfbcebae992bcad4e7c7a#code)
+* WithdrawManager - [0xb3bd9C851bd8330d5C4cf4565FAe4f175e25417C](https://bscscan.com/address/0xb3bd9c851bd8330d5c4cf4565fae4f175e25417c#code)
+* Alpacafarmingvault - [0x45c3a5Cb452E5468e47c53a8C71e30fdAcf73239](https://bscscan.com/address/0x45c3a5Cb452E5468e47c53a8C71e30fdAcf73239#code)
+* Alpacafarmingstrategy - [0xf667e52e87Ff3411C2D5E311191072543b4dd69B](https://bscscan.com/address/0xf667e52e87Ff3411C2D5E311191072543b4dd69B#code)
+* RewardMasterchef - [0xc0f8C29e3a9A7650a3F642e467d70087819926d6](https://bscscan.com/address/0xc0f8c29e3a9a7650a3f642e467d70087819926d6#code)
+
+#### **BNB Supercharger vault v1**
+
+* SuperChargerVault - [0x0ba6C34aF9713D15141dcc91d2788c3F370ecb9E](https://bscscan.com/address/0x0ba6c34af9713d15141dcc91d2788c3f370ecb9e#code)
 * LendingManager - [0xA2f2D3A7D6C9D20b988978a01214e89BCDD4D673](https://bscscan.com/address/0xa2f2d3a7d6c9d20b988978a01214e89bcdd4d673#code)
 * WithdrawManager - [0xd2565058287Aee9C3C8297d2BC9Ec11CD507127C](https://bscscan.com/address/0xd2565058287aee9c3c8297d2bc9ec11cd507127c#code)
 * Alpacafarmingvault - [0x85f16155c6c7dA460969DDB33dbD2c7E90Ca07EC](https://bscscan.com/address/0x85f16155c6c7dA460969DDB33dbD2c7E90Ca07EC#code)
 * Alpacafarmingstrategy - [0x2a8b29301C910AE1Ae17156E4f7B01eb8f72Eb05](https://bscscan.com/address/0x2a8b29301C910AE1Ae17156E4f7B01eb8f72Eb05#code)
 * RewardMasterchef - [0xc0f8C29e3a9A7650a3F642e467d70087819926d6](https://bscscan.com/address/0xc0f8c29e3a9a7650a3f642e467d70087819926d6#code)
 
-#### **USDT Supercharger vault**
+#### **USDT Supercharger vault v1**
 
-* SuperChargerVault - **** [0xDb1d990f48328Ff71197336900057026EDcdfbc2](https://bscscan.com/address/0xdb1d990f48328ff71197336900057026edcdfbc2#code)
+* SuperChargerVault - [0xDb1d990f48328Ff71197336900057026EDcdfbc2](https://bscscan.com/address/0xdb1d990f48328ff71197336900057026edcdfbc2#code)
 * LendingManager - \
   [0x2f22c381a20E228306085Aa3DEa15c6992254D7E](https://bscscan.com/address/0x2f22c381a20e228306085aa3dea15c6992254d7e#code)
 * WithdrawManager - \
@@ -205,6 +224,12 @@
 * WooAccessManager - [0xa9eDb6F411e49358B515dE26543815770a739FB0](https://bscscan.com/address/0xa9eDb6F411e49358B515dE26543815770a739FB0)
 * WooGuardian - [0x910723e3c6a68276687b50613a1a9e42cc6589b](https://bscscan.com/address/0x910723e3c6a68276687b50613a1a9e42cc6589b4)
 
+<!---->
+
+* WooFeeManager (BUSD) - [0x8C603050D7a913b6f63836e07ebF385a4A5736E7](https://bscscan.com/address/0x8c603050d7a913b6f63836e07ebf385a4a5736e7#code)
+* WooRebateManager (BUSD) - [0x4f3e0B02F50937Bc21F523F1Dd430A34cAF4de98](https://bscscan.com/address/0x4f3e0b02f50937bc21f523f1dd430a34caf4de98#code)
+* WooVaultManager (BUSD) - [0x8FA8e3dD9E84094a1d2511acf1353D7E011D8f90](https://bscscan.com/address/0x8fa8e3dd9e84094a1d2511acf1353d7e011d8f90#code)
+
 </details>
 
 <details>
@@ -223,7 +248,7 @@
 
 #### **FTM Supercharger vault**
 
-* SuperChargerVault - **** [0xb29DE0c2A884aF396272086F4Aa3F0ad2DAD747b](https://ftmscan.com/address/0xb29de0c2a884af396272086f4aa3f0ad2dad747b#code)
+* SuperChargerVault - [0xb29DE0c2A884aF396272086F4Aa3F0ad2DAD747b](https://ftmscan.com/address/0xb29de0c2a884af396272086f4aa3f0ad2dad747b#code)
 * LendingManager - [0xEc054126922a9a1918435c9072c32f1B60cB2B90](https://ftmscan.com/address/0xec054126922a9a1918435c9072c32f1b60cb2b90#code)
 * WithdrawManager - [0x6DeB92D1Ed4f3e5136303556dD1810f761D69c1e](https://ftmscan.com/address/0x6deb92d1ed4f3e5136303556dd1810f761d69c1e#code)
 * AAVEfarmingvault - [0x5dB04B6335c26ee147AfBEc161Aff6E90239b4B8](https://ftmscan.com/address/0x5db04b6335c26ee147afbec161aff6e90239b4b8#code)
@@ -232,7 +257,7 @@
 
 #### **USDC Supercharger vault**
 
-* SuperChargerVault - **** [0xf6bE9C2627B89d15FEFD7BAB69E627282E9Ad083](https://ftmscan.com/address/0xf6be9c2627b89d15fefd7bab69e627282e9ad083#code)
+* SuperChargerVault - [0xf6bE9C2627B89d15FEFD7BAB69E627282E9Ad083](https://ftmscan.com/address/0xf6be9c2627b89d15fefd7bab69e627282e9ad083#code)
 * LendingManager - [0xB6F776718F2E4c16A9a7161dB2018b5261485354](https://ftmscan.com/address/0xb6f776718f2e4c16a9a7161db2018b5261485354#code)
 * WithdrawManager - [0x71a862683F158517B39Bdc4a2cA0fcE657d3A375](https://ftmscan.com/address/0x71a862683f158517b39bdc4a2ca0fce657d3a375#code)
 * AAVEfarmingvault - [0x5811850b72787b8beb402Fdb1F78DF455b65b3B2](https://ftmscan.com/address/0x5811850b72787b8beb402fdb1f78df455b65b3b2#code)
@@ -295,7 +320,7 @@
 
 #### **MATIC Supercharger vault**
 
-* SuperChargerVault - **** [0x8eA0eb2CEBdA4d7c88183AC8fBf3a9AE6AE07A5C](https://polygonscan.com/address/0x8ea0eb2cebda4d7c88183ac8fbf3a9ae6ae07a5c#code)
+* SuperChargerVault - [0x8eA0eb2CEBdA4d7c88183AC8fBf3a9AE6AE07A5C](https://polygonscan.com/address/0x8ea0eb2cebda4d7c88183ac8fbf3a9ae6ae07a5c#code)
 * LendingManager - [0x8cd11C6F710E8Bf65B5078e92Dc8529cFF14b108](https://polygonscan.com/address/0x8cd11c6f710e8bf65b5078e92dc8529cff14b108#code)
 * WithdrawManager - [0x3eC979b97Db308b9489D42F2FFFa84033eFCd8D4](https://polygonscan.com/address/0x3ec979b97db308b9489d42f2fffa84033efcd8d4#code)
 * AAVEfarmingvault - [0xD5BEfE3Fecdf1C941c58119a4e395806Eea0C343](https://polygonscan.com/address/0xd5befe3fecdf1c941c58119a4e395806eea0c343#code)
@@ -304,7 +329,7 @@
 
 #### **ETH Supercharger vault**
 
-* SuperChargerVault - **** [0x404b181eCA20519B68F3a7ee68ab65f6aBA9d503](https://polygonscan.com/address/0x404b181eca20519b68f3a7ee68ab65f6aba9d503#code)
+* SuperChargerVault - [0x404b181eCA20519B68F3a7ee68ab65f6aBA9d503](https://polygonscan.com/address/0x404b181eca20519b68f3a7ee68ab65f6aba9d503#code)
 * LendingManager - [0x27021e71Ef9dd52C82193294ce50e2FaFC4b87Bf](https://polygonscan.com/address/0x27021e71ef9dd52c82193294ce50e2fafc4b87bf#code)
 * WithdrawManager - [0xcF6Ce5Fd6bf28bB1AeAc88A55251f6c840059De5](https://polygonscan.com/address/0xcf6ce5fd6bf28bb1aeac88a55251f6c840059de5#code)
 * AAVEfarmingvault - [0x99Ad6e3c00DFBcd80b7593B1Cd8Fb8a9F1a2d230](https://polygonscan.com/address/0x99ad6e3c00dfbcd80b7593b1cd8fb8a9f1a2d230#code)
@@ -313,7 +338,7 @@
 
 #### **USDC Supercharger vault**
 
-* SuperChargerVault - **** [0x0ba6C34aF9713D15141dcc91d2788c3F370ecb9E](https://polygonscan.com/address/0x0ba6c34af9713d15141dcc91d2788c3f370ecb9e#code)
+* SuperChargerVault - [0x0ba6C34aF9713D15141dcc91d2788c3F370ecb9E](https://polygonscan.com/address/0x0ba6c34af9713d15141dcc91d2788c3f370ecb9e#code)
 * LendingManager - [0xA2f2D3A7D6C9D20b988978a01214e89BCDD4D673](https://polygonscan.com/address/0xA2f2D3A7D6C9D20b988978a01214e89BCDD4D673#code)
 * WithdrawManager - [0x39467a0DEBf360A82F83880F13eBdF7F0c2ec735](https://polygonscan.com/address/0x39467a0DEBf360A82F83880F13eBdF7F0c2ec735#code)
 * AAVEfarmingvault - [0xB54e1d90d845d888d39dcaCBd54a3EEc0d8853B2](https://polygonscan.com/address/0xb54e1d90d845d888d39dcacbd54a3eec0d8853b2#code)

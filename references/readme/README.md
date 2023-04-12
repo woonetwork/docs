@@ -115,18 +115,10 @@
 #### Swap (USDT as quote - new)
 
 * WooRouter - [0x4f4Fd4290c9bB49764701803AF6445c5b03E8f06](https://bscscan.com/address/0x4f4Fd4290c9bB49764701803AF6445c5b03E8f06)
-* CrossswapRouter -&#x20;
+* CrossswapRouter - [0x81004C9b697857fD54E137075b51506c739EF439](https://bscscan.com/address/0x81004c9b697857fd54e137075b51506c739ef439#code)
 * WooPP - [0x59dE3B49314Bf5067719364A2Cb43e8525ab93FA](https://bscscan.com/address/0x59de3b49314bf5067719364a2cb43e8525ab93fa)
 * Wooracle - [0x4B11B9BfAafA840c436a1ddDc13D3738C8ebfD62](https://bscscan.com/address/0x4b11b9bfaafa840c436a1dddc13d3738c8ebfd62)
 * IntegrationHelper (token info) - [0xAA9c15cd603428cA8ddD45e933F8EfE3Afbcc173](https://bscscan.com/address/0xAA9c15cd603428cA8ddD45e933F8EfE3Afbcc173)
-
-#### Swap (BUSD as quote - retiring soon)
-
-* WooRouter - [0xC90bFE9951a4Efbf20aCa5ECd9966b2bF8A01294](https://bscscan.com/address/0xc90bfe9951a4efbf20aca5ecd9966b2bf8a01294#code)
-* CrossswapRouter - [0x81004C9b697857fD54E137075b51506c739EF439](https://bscscan.com/address/0x81004c9b697857fd54e137075b51506c739ef439#code)
-* WooPP - [0xEc054126922a9a1918435c9072c32f1B60cB2B90](https://bscscan.com/address/0xec054126922a9a1918435c9072c32f1b60cb2b90#code)
-* Wooracle - [0x747f99D619D5612399010Ec5706F13e3345c4a9E](https://bscscan.com/address/0x747f99d619d5612399010ec5706f13e3345c4a9e#code)
-* IntegrationHelper (token info) - [0xe12dC1F01ccB71ef00ADd1D8A5116b905261D879](https://bscscan.com/address/0xe12dC1F01ccB71ef00ADd1D8A5116b905261D879#readContract)
 
 #### Stake
 
@@ -143,20 +135,20 @@
 * Alpacafarmingstrategy - [0x2a8b29301C910AE1Ae17156E4f7B01eb8f72Eb05](https://bscscan.com/address/0x2a8b29301C910AE1Ae17156E4f7B01eb8f72Eb05#code)
 * RewardMasterchef - [0xc0f8C29e3a9A7650a3F642e467d70087819926d6](https://bscscan.com/address/0xc0f8c29e3a9a7650a3f642e467d70087819926d6#code)
 
-**BUSD Supercharger vault**
+**USDT Supercharger vault**
 
-* SuperChargerVault - [0xee7AC4d3D3a51De966078809fC7A91834f5EA3B9](https://bscscan.com/address/0xee7ac4d3d3a51de966078809fc7a91834f5ea3b9#code)
-* LendingManager - [0x2CAa3E79bC0e23AbF31DFbcebaE992BCAD4e7C7A](https://bscscan.com/address/0x2caa3e79bc0e23abf31dfbcebae992bcad4e7c7a#code)
-* WithdrawManager - [0xb3bd9C851bd8330d5C4cf4565FAe4f175e25417C](https://bscscan.com/address/0xb3bd9c851bd8330d5c4cf4565fae4f175e25417c#code)
-* Alpacafarmingvault - [0x45c3a5Cb452E5468e47c53a8C71e30fdAcf73239](https://bscscan.com/address/0x45c3a5Cb452E5468e47c53a8C71e30fdAcf73239#code)
-* Alpacafarmingstrategy - [0xf667e52e87Ff3411C2D5E311191072543b4dd69B](https://bscscan.com/address/0xf667e52e87Ff3411C2D5E311191072543b4dd69B#code)
+* SuperChargerVault - [0x5CB9ba4a6f05c4125D61172E1b2C1DBe3afb3158](https://bscscan.com/address/0x5cb9ba4a6f05c4125d61172e1b2c1dbe3afb3158#code)
+* LendingManager - [0x0510e56EDb651Fa39c3330d2f5Bf8FbECDFcc53B](https://bscscan.com/address/0x0510e56edb651fa39c3330d2f5bf8fbecdfcc53b#code)
+* WithdrawManager - [0x3cBB7F9a4e1E8a8430f1d400DF269B80B6872DeB](https://bscscan.com/address/0x3cbb7f9a4e1e8a8430f1d400df269b80b6872deb#code)
+* Alpacafarmingvault - [0xE897b4200E3B2380469E8Dd3F987Dc62A7ADeAD7](https://bscscan.com/address/0xe897b4200e3b2380469e8dd3f987dc62a7adead7#code)
+* Alpacafarmingstrategy - [0xAaB8a82fc1cd5F7D2bae5AA39663248b3ff27181](https://bscscan.com/address/0xaab8a82fc1cd5f7d2bae5aa39663248b3ff27181#code)
 * RewardMasterchef - [0xc0f8C29e3a9A7650a3F642e467d70087819926d6](https://bscscan.com/address/0xc0f8c29e3a9a7650a3f642e467d70087819926d6#code)
 
 #### Peripheries
 
-* WooFeeManager - [0x8C603050D7a913b6f63836e07ebF385a4A5736E7](https://bscscan.com/address/0x8c603050d7a913b6f63836e07ebf385a4a5736e7#code)
-* WooRebateManager - [0x4f3e0B02F50937Bc21F523F1Dd430A34cAF4de98](https://bscscan.com/address/0x4f3e0b02f50937bc21f523f1dd430a34caf4de98#code)
-* WooVaultManager - [0x8FA8e3dD9E84094a1d2511acf1353D7E011D8f90](https://bscscan.com/address/0x8fa8e3dd9e84094a1d2511acf1353d7e011d8f90#code)
+* WooFeeManager - [0xDA5e1d3AaA93e8716f87b5ee39e5F514CC934D5e](https://bscscan.com/address/0xda5e1d3aaa93e8716f87b5ee39e5f514cc934d5e#code)
+* WooRebateManager - [0xce7CDc8e5C00796392E611D95C713420A6e31342](https://bscscan.com/address/0xce7cdc8e5c00796392e611d95c713420a6e31342#code)
+* WooVaultManager - [0x13afd5e3915096b4A53d23ECe1a9b4bF1Ad8F524](https://bscscan.com/address/0x13afd5e3915096b4a53d23ece1a9b4bf1ad8f524#code)
 * WooAccessManager - [0xa9eDb6F411e49358B515dE26543815770a739FB0](https://bscscan.com/address/0xa9eDb6F411e49358B515dE26543815770a739FB0)
 
 </details>
