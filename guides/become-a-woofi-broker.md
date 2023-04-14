@@ -4,17 +4,17 @@
 
 WOOFi's bespoken sPMM algorithm provides deep liquidity and MEV proof trade execution on assets such as BTC, ETH, BNB, AVAX, FTM and predominant stablecoins on each blockchain. We aim to be the liquidity layer across DeFi, Web3 and GameFi spaces.
 
-WOOFi has the lowest swap fee in the market with only 2.5bps on each transaction, in which 0.02% is used to buy back WOO tokens and reward WOO onchain stakers. WOOFi brokers are the applications or sites that route trades to WOOFi smart contracts. A whitelisted broker is eligible to receive 0.5bps of each trade that is sent to WOOFi via the broker's application as rebates in the form of quote tokens i.e. stablecoins.&#x20;
+WOOFi has the lowest swap fee in the market with only 2.5bps on each transaction, in which 0.02% is used to buy back WOO tokens and reward WOO onchain stakers. WOOFi brokers are the applications or sites that route trades to WOOFi smart contracts. A whitelisted broker is eligible to receive 0.5bps of each trade that is sent to WOOFi via the broker's application as rebates in the form of quote tokens i.e. stablecoins.
 
 ### How to enroll as a broker to receive rebates?
 
-Any application such as DEX aggregators, wallets, web3 apps or websites that integrate WOOFi's sPMM liquidity can enroll as a broker to receive rebates. Fill out the enrollment form below and we will get in touch with you shortly.&#x20;
+Any application such as DEX aggregators, wallets, web3 apps or websites that integrate WOOFi's sPMM liquidity can enroll as a broker to receive rebates. Fill out the enrollment form below and we will get in touch with you shortly.
 
 :point\_right: [**Enrollment Form**](https://docs.google.com/forms/d/e/1FAIpQLSdTTfytZmcKLwGTl6MUxGiaou1gAXhd83roAGgNCiIkBeYtFQ/viewform?usp=sf\_link)
 
 Once the enrollment information is reviewed, our team will get in contact with you and the provided broker rebate address will be added to the whitelist in `WooRebateManager.sol` on corresponding blockchains.
 
-In order to receive rebates, the broker needs to integrate WOOFi as a liquidity source following [integration docs](integrate-woofi-as-liquidity-source.md).  For a trade to be eligible for rebates, the whitelisted rebate address must be included in the field `address rebateTo` in the transaction that is sent to WOOFi smart contracts.&#x20;
+In order to receive rebates, the broker needs to integrate WOOFi as a liquidity source following [integration docs](integrate-woofi-as-liquidity-source.md). For a trade to be eligible for rebates, the whitelisted rebate address must be included in the field `address rebateTo` in the transaction that is sent to WOOFi smart contracts.
 
 ### How to check and claim the rebates?
 
@@ -24,19 +24,19 @@ The rebate is processed on a daily basis via smart contracts, the broker can che
 | --------- | ------------------------------------------------------------------------------------------------------------------------------------- |
 | Arbitrum  | [0x505ac728645d2ef84380961F72bAea500b3efa3f](https://arbiscan.io/address/0x505ac728645d2ef84380961f72baea500b3efa3f#code)             |
 | Avalanche | [0x49d26A6Eeeb49E79a0C73B95fD99D23698D3614A](https://snowtrace.io/address/0x6cb1bc6c8aabdae822a2bf8d83b36291cb70f169#code)            |
-| BNB Chain | [0x4f3e0B02F50937Bc21F523F1Dd430A34cAF4de98](https://bscscan.com/address/0x4f3e0b02f50937bc21f523f1dd430a34caf4de98#code)             |
+| BNB Chain | [0xce7CDc8e5C00796392E611D95C713420A6e31342](https://bscscan.com/address/0xce7cdc8e5c00796392e611d95c713420a6e31342#code)             |
 | Fantom    | [0x6F09AE4925739453d7C8c9a22fD07585148DFc01](https://ftmscan.com/address/0x6f09ae4925739453d7c8c9a22fd07585148dfc01#code)             |
 | Optimism  | [0x36b680fB76Dad86bcB2Cefc83fAE05e3Fe147706](https://optimistic.etherscan.io/address/0x36b680fb76dad86bcb2cefc83fae05e3fe147706#code) |
 | Polygon   | [0x913E116cD0E279763B0419798c0bA18F9311B390](https://polygonscan.com/address/0x913e116cd0e279763b0419798c0ba18f9311b390#code)         |
 
-The `WooRebateManager` smart contracts on the following chains have been replaced. If you were a broker on these chains before Jan 11 2023, please withdraw rebates from the follwoing addresses asap.&#x20;
+The `WooRebateManager` smart contracts on the following chains have been replaced. If you were a broker on these chains before Jan 11 2023, please withdraw rebates from the following addresses asap.
 
-| Network   | Deprecated rebate manager smart contract address                                                                                   |
-| --------- | ---------------------------------------------------------------------------------------------------------------------------------- |
-| Avalanche | [0xbF401edBb0265D037BfC89DfFeB7dbDa10b57C22](https://snowtrace.io/address/0xbf401edbb0265d037bfc89dffeb7dbda10b57c22#readContract) |
-| BNB Chain | [0x0208D735576B3D974024237393F4617285bf0563](https://bscscan.com/address/0x0208d735576b3d974024237393f4617285bf0563#readContract)  |
-| Fantom    | [0x0D37e768c3eD8a3FA494d03AF69605C5bE9a68e4](https://ftmscan.com/address/0x0d37e768c3ed8a3fa494d03af69605c5be9a68e4#readContract)  |
-| Polygon   | [0x3d605fA64595Dba86f7780E128816ADAAeCA8A2b](https://polygonscan.com/address/0x3d605fa64595dba86f7780e128816adaaeca8a2b#code)      |
+| Network   | Deprecated rebate manager smart contract address                                                                                                                                                                                                                                            |
+| --------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Avalanche | [0xbF401edBb0265D037BfC89DfFeB7dbDa10b57C22](https://snowtrace.io/address/0xbf401edbb0265d037bfc89dffeb7dbda10b57c22#readContract)                                                                                                                                                          |
+| BNB Chain | <p><a href="https://bscscan.com/address/0x0208d735576b3d974024237393f4617285bf0563#readContract">0x0208D735576B3D974024237393F4617285bf0563</a><br><a href="https://bscscan.com/address/0x4f3e0b02f50937bc21f523f1dd430a34caf4de98#code">0x4f3e0B02F50937Bc21F523F1Dd430A34cAF4de98</a></p> |
+| Fantom    | [0x0D37e768c3eD8a3FA494d03AF69605C5bE9a68e4](https://ftmscan.com/address/0x0d37e768c3ed8a3fa494d03af69605c5be9a68e4#readContract)                                                                                                                                                           |
+| Polygon   | [0x3d605fA64595Dba86f7780E128816ADAAeCA8A2b](https://polygonscan.com/address/0x3d605fa64595dba86f7780e128816adaaeca8a2b#code)                                                                                                                                                               |
 
 #### Check eligible rebates
 
@@ -51,7 +51,7 @@ The `WooRebateManager` smart contracts on the following chains have been replace
 
 #### Claim rebates
 
-* Step 1  - visit the `WooRebateManager` smart contract address via the blockchain explorer and click the 'Write Contract' under the 'Contract' tab.
+* Step 1 - visit the `WooRebateManager` smart contract address via the blockchain explorer and click the 'Write Contract' under the 'Contract' tab.
 
 <figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
