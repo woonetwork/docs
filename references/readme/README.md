@@ -310,3 +310,22 @@
 * CrosswapRouter - [0x9D1A92e601db0901e69bd810029F2C14bCCA3128](https://etherscan.io/address/0x9d1a92e601db0901e69bd810029f2c14bcca3128#code)
 
 </details>
+
+<details>
+
+<summary>zkSync Era depolyment</summary>
+
+#### **Swap**
+
+* WooRouterV2 - [0xfd505702b37Ae9b626952Eb2DD736d9045876417](https://explorer.zksync.io/address/0xfd505702b37Ae9b626952Eb2DD736d9045876417#contract)
+* WooPPV2 - [0x42ED123EB5266A5B8E2B54B2C76180CCF5e72FEe](https://explorer.zksync.io/address/0x42ED123EB5266A5B8E2B54B2C76180CCF5e72FEe#contract)
+* WooracleV2 - [0x635b7045F1306dFC58536348CcB863E756910350](https://explorer.zksync.io/address/0x635b7045F1306dFC58536348CcB863E756910350#contract)
+* IntegrationHelper (token info) - [0x636DfeB023463F176f87D61E3B604231986bd935](https://explorer.zksync.io/address/0x636DfeB023463F176f87D61E3B604231986bd935#contract)
+
+#### Peripheries
+
+* WooFeeManager - [0x9baFc989D82C435cC958cb92dD073E41f5681BA8](https://explorer.zksync.io/address/0x9baFc989D82C435cC958cb92dD073E41f5681BA8#contract)
+* WooRebateManager - [0x921A51ee71f769715866D2Ca43D8Ac57B196347a](https://explorer.zksync.io/address/0x921A51ee71f769715866D2Ca43D8Ac57B196347a#contract)
+* WooAccessManager - [0xEF9d5170aa6f7DE09d68eC4Db60989389094bAEA](https://explorer.zksync.io/address/0xEF9d5170aa6f7DE09d68eC4Db60989389094bAEA#contract)
+
+</details>

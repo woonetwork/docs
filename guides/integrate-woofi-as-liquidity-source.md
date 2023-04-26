@@ -24,15 +24,15 @@ Arbitrum: [0x28D2B949024FE50627f1EbC5f0Ca3Ca721148E40](https://arbiscan.io/addre
 
 Optimism: [0x96329d66074EB8386Ae8bFD6698B2E3FDA87e15E](https://optimistic.etherscan.io/address/0x96329d66074EB8386Ae8bFD6698B2E3FDA87e15E#readContract)
 
-BSC (USDT as quote - new) - [0xAA9c15cd603428cA8ddD45e933F8EfE3Afbcc173](https://bscscan.com/address/0xAA9c15cd603428cA8ddD45e933F8EfE3Afbcc173)
-
-BSC (BUSD as quote - retiring soon): [0xe12dC1F01ccB71ef00ADd1D8A5116b905261D879](https://bscscan.com/address/0xe12dC1F01ccB71ef00ADd1D8A5116b905261D879#readContract)&#x20;
+BSC: [0xAA9c15cd603428cA8ddD45e933F8EfE3Afbcc173](https://bscscan.com/address/0xAA9c15cd603428cA8ddD45e933F8EfE3Afbcc173)
 
 Avalanche: [0x020630613E296c3E9b06186f630D1bF97A2B6Ad1](https://snowtrace.io/address/0x020630613E296c3E9b06186f630D1bF97A2B6Ad1#readContract)&#x20;
 
 Fantom: [0x6641959FE5EED7166F2254cF04b0d20c96776D9A](https://ftmscan.com/address/0x6641959FE5EED7166F2254cF04b0d20c96776D9A#readContract)&#x20;
 
 Polygon: [0x7Ba560eB735AbDCf9a3a5692272652A0cc81850d](https://polygonscan.com/address/0x7Ba560eB735AbDCf9a3a5692272652A0cc81850d#readContract)
+
+zkSync Era: [0x636DfeB023463F176f87D61E3B604231986bd935](https://explorer.zksync.io/address/0x636DfeB023463F176f87D61E3B604231986bd935#contract)
 
 ## Integrate WOOFi as a liquidity source
 
