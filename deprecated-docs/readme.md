@@ -382,3 +382,11 @@
 * Homorav2farmingstrategy - [0x81ab3492BACFfF639dDE60763Ccf9E348117075d](https://optimistic.etherscan.io/address/0x81ab3492bacfff639dde60763ccf9e348117075d#code)
 
 </details>
+
+<details>
+
+<summary>zkSync deployment</summary>
+
+WooracleV2 - [0x635b7045F1306dFC58536348CcB863E756910350](https://explorer.zksync.io/address/0x635b7045F1306dFC58536348CcB863E756910350#contract)
+
+</details>

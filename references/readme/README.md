@@ -372,7 +372,7 @@
 
 * WooRouterV2 - [0xfd505702b37Ae9b626952Eb2DD736d9045876417](https://explorer.zksync.io/address/0xfd505702b37Ae9b626952Eb2DD736d9045876417#contract)
 * WooPPV2 - [0x42ED123EB5266A5B8E2B54B2C76180CCF5e72FEe](https://explorer.zksync.io/address/0x42ED123EB5266A5B8E2B54B2C76180CCF5e72FEe#contract)
-* WooracleV2 - [0x635b7045F1306dFC58536348CcB863E756910350](https://explorer.zksync.io/address/0x635b7045F1306dFC58536348CcB863E756910350#contract)
+* WooracleV2.1 - [0xe7aC6e017Ac7aD189F10501D7385ee9A6211Ba35](https://explorer.zksync.io/address/0xe7aC6e017Ac7aD189F10501D7385ee9A6211Ba35#contract)
 * IntegrationHelper (token info) - [0x636DfeB023463F176f87D61E3B604231986bd935](https://explorer.zksync.io/address/0x636DfeB023463F176f87D61E3B604231986bd935#contract)
 
 #### Peripheries
