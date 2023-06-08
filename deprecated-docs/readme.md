@@ -367,6 +367,7 @@
 
 * CrosswapRouter - [0x44dF096D2600C6a6db77899dB3DE3AeCff746cb8](https://arbiscan.io/address/0x44df096d2600c6a6db77899db3de3aecff746cb8#code)
 * WooracleV2 - [0x37a9dE70b6734dFCA54395D8061d9411D9910739](https://arbiscan.io/address/0x37a9de70b6734dfca54395d8061d9411d9910739#code)
+* WooracleV2zip - [0xA43305Ce0164D87d7B2368f91a1dcC4eBdA75127](https://arbiscan.io/address/0xA43305Ce0164D87d7B2368f91a1dcC4eBdA75127)
 
 
 
@@ -380,6 +381,7 @@
 
 * CrosswapRouter - [0x655e2fe03fe19327239b5294a556965192386a7b](https://optimistic.etherscan.io/address/0x655e2fe03fe19327239b5294a556965192386a7b#code)
 * WooracleV2 - [0x464959aD46e64046B891F562cFF202a465D522F3](https://optimistic.etherscan.io/address/0x464959ad46e64046b891f562cff202a465d522f3#code)
+* WooracleV2zip - [0x84B76eFe02a8A151AF697A62f7ba59FB082b7e5f](https://optimistic.etherscan.io/address/0x84B76eFe02a8A151AF697A62f7ba59FB082b7e5f)
 
 ### Earn
 
