@@ -9,7 +9,7 @@
 * WooRouterV2 - [0x9aEd3A8896A85FE9a8CAc52C9B402D092B629a30](https://arbiscan.io/address/0x9aed3a8896a85fe9a8cac52c9b402d092b629a30#code)
 * CrosswapRouter - [0x4AB421de52b3112D02442b040dd3DC73e8Af63b5](https://arbiscan.io/address/0x4ab421de52b3112d02442b040dd3dc73e8af63b5#code)
 * WooPPV2 - [0xeFF23B4bE1091b53205E35f3AfCD9C7182bf3062](https://arbiscan.io/address/0xeff23b4be1091b53205e35f3afcd9c7182bf3062#code)
-* WooracleV2 - [0x37a9dE70b6734dFCA54395D8061d9411D9910739](https://arbiscan.io/address/0x37a9de70b6734dfca54395d8061d9411d9910739#code)
+* WooracleV2.1 - [0x73504eaCB100c7576146618DC306c97454CB3620](https://arbiscan.io/address/0x73504eaCB100c7576146618DC306c97454CB3620)
 * IntegrationHelper (token info) - [0x28D2B949024FE50627f1EbC5f0Ca3Ca721148E40](https://arbiscan.io/address/0x28D2B949024FE50627f1EbC5f0Ca3Ca721148E40#readContract)
 
 #### Stake
@@ -78,7 +78,7 @@
 * WooRouter - [0xC22FBb3133dF781E6C25ea6acebe2D2Bb8CeA2f9](https://snowtrace.io/address/0xc22fbb3133df781e6c25ea6acebe2d2bb8cea2f9#code)
 * CrossswapRouter - [0x51AF494f1B4d3f77835951FA827D66fc4A18Dae8](https://snowtrace.io/address/0x51af494f1b4d3f77835951fa827d66fc4a18dae8)
 * WooPP - [0x3b3E4b4741e91aF52d0e9ad8660573E951c88524](https://snowtrace.io/address/0x3b3e4b4741e91af52d0e9ad8660573e951c88524#code)
-* Wooracle - [0x9ACA557590F5020BDA4Ba63065Fc3A1253Bf8000](https://snowtrace.io/address/0x9aca557590f5020bda4ba63065fc3a1253bf8000)
+* WooracleV2.1 - [0xc13843aE0D2C5ca9E0EfB93a78828446D8173d19](https://snowtrace.io/address/0xc13843aE0D2C5ca9E0EfB93a78828446D8173d19)
 * IntegrationHelper (token info) - [0x020630613E296c3E9b06186f630D1bF97A2B6Ad1](https://snowtrace.io/address/0x020630613E296c3E9b06186f630D1bF97A2B6Ad1#readContract)
 
 #### Stake
@@ -139,7 +139,7 @@
 * WooRouter - [0x4f4Fd4290c9bB49764701803AF6445c5b03E8f06](https://bscscan.com/address/0x4f4Fd4290c9bB49764701803AF6445c5b03E8f06)
 * CrossswapRouter - [0x81004C9b697857fD54E137075b51506c739EF439](https://bscscan.com/address/0x81004c9b697857fd54e137075b51506c739ef439#code)
 * WooPP - [0x59dE3B49314Bf5067719364A2Cb43e8525ab93FA](https://bscscan.com/address/0x59de3b49314bf5067719364a2cb43e8525ab93fa)
-* Wooracle - [0x4B11B9BfAafA840c436a1ddDc13D3738C8ebfD62](https://bscscan.com/address/0x4b11b9bfaafa840c436a1dddc13d3738c8ebfd62)
+* WooracleV2.1 -  [0x72dc7fa5eeb901a34173C874A7333c8d1b34bca9](https://bscscan.com/address/0x72dc7fa5eeb901a34173C874A7333c8d1b34bca9)
 * IntegrationHelper (token info) - [0xAA9c15cd603428cA8ddD45e933F8EfE3Afbcc173](https://bscscan.com/address/0xAA9c15cd603428cA8ddD45e933F8EfE3Afbcc173)
 
 #### Stake
@@ -190,7 +190,7 @@
 * WooRouter - [0x382A9b0bC5D29e96c3a0b81cE9c64d6C8F150Efb](https://ftmscan.com/address/0x382a9b0bc5d29e96c3a0b81ce9c64d6c8f150efb#code)
 * CrosswapRouter - [0x72dc7fa5eeb901a34173C874A7333c8d1b34bca9](https://ftmscan.com/address/0x72dc7fa5eeb901a34173c874a7333c8d1b34bca9#code)
 * WooPP - [0x286ab107c5E9083dBed35A2B5fb0242538F4f9bf](https://ftmscan.com/address/0x286ab107c5e9083dbed35a2b5fb0242538f4f9bf#code)
-* Wooracle - [0x8840e26e0ebf7D100A0644DD8576DC62B03cbf04](https://ftmscan.com/address/0x8840e26e0ebf7d100a0644dd8576dc62b03cbf04#code)
+* WooracleV2.1 - [0xB1d022F8F3e43868DaaDfa7040e63781C16aB4A6](https://ftmscan.com/address/0xb1d022f8f3e43868daadfa7040e63781c16ab4a6)
 * IntegrationHelper (token info) - [0x6641959FE5EED7166F2254cF04b0d20c96776D9A](https://ftmscan.com/address/0x6641959FE5EED7166F2254cF04b0d20c96776D9A#readContract)
 
 #### Stake
@@ -243,7 +243,7 @@
 * WooRouterV2 - [0xEAf1Ac8E89EA0aE13E0f03634A4FF23502527024](https://optimistic.etherscan.io/address/0xeaf1ac8e89ea0ae13e0f03634a4ff23502527024#code)
 * CrosswapRouter - [0xbeaE1B06949d033Da628bA3E5aF267C3E740494b](https://optimistic.etherscan.io/address/0xbeae1b06949d033da628ba3e5af267c3e740494b#code)
 * WooPPV2 - [0xd1778F9DF3eee5473A9640f13682e3846f61fEbC](https://optimistic.etherscan.io/address/0xd1778f9df3eee5473a9640f13682e3846f61febc#code)
-* WooracleV2 - [0x464959aD46e64046B891F562cFF202a465D522F3](https://optimistic.etherscan.io/address/0x464959ad46e64046b891f562cff202a465d522f3#code)
+* WooracleV2.1 - [0xd589484d3A27B7Ce5C2C7F829EB2e1D163f95817](https://optimistic.etherscan.io/address/0xd589484d3A27B7Ce5C2C7F829EB2e1D163f95817)
 * IntegrationHelper (token info) - [0x96329d66074EB8386Ae8bFD6698B2E3FDA87e15E](https://optimistic.etherscan.io/address/0x96329d66074EB8386Ae8bFD6698B2E3FDA87e15E#readContract)
 
 #### Stake
@@ -296,7 +296,7 @@
 * WooRouter - [0x817Eb46D60762442Da3D931Ff51a30334CA39B74](https://polygonscan.com/address/0x817eb46d60762442da3d931ff51a30334ca39b74#code)
 * CrosswapRouter - [0xAA9c15cd603428cA8ddD45e933F8EfE3Afbcc173](https://polygonscan.com/address/0xaa9c15cd603428ca8ddd45e933f8efe3afbcc173#code)
 * WooPP - [0x7081A38158BD050Ae4a86e38E0225Bc281887d7E](https://polygonscan.com/address/0x7081a38158bd050ae4a86e38e0225bc281887d7e#code)
-* Wooracle - [0xeFF23B4bE1091b53205E35f3AfCD9C7182bf3062](https://polygonscan.com/address/0xeff23b4be1091b53205e35f3afcd9c7182bf3062#code)
+* WooracleV2.1 -  [0x31aE608cBadD1214D6A3d5dcf49E45Fb18E2a48E](https://polygonscan.com/address/0x31aE608cBadD1214D6A3d5dcf49E45Fb18E2a48E)
 * IntegrationHelper (token info) - [0x7Ba560eB735AbDCf9a3a5692272652A0cc81850d](https://polygonscan.com/address/0x7Ba560eB735AbDCf9a3a5692272652A0cc81850d#readContract)
 
 #### Stake
