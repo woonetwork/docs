@@ -56,6 +56,8 @@ BSC: [0xEc054126922a9a1918435c9072c32f1B60cB2B90](https://bscscan.com/address/0x
 
 Fantom: [0x286ab107c5E9083dBed35A2B5fb0242538F4f9bf](https://ftmscan.com/address/0x286ab107c5E9083dBed35A2B5fb0242538F4f9bf#code)
 
+zkSync Era - [0x42ED123EB5266A5B8E2B54B2C76180CCF5e72FEe](https://explorer.zksync.io/address/0x42ED123EB5266A5B8E2B54B2C76180CCF5e72FEe#contract)
+
 #### Interface
 
 ```solidity
@@ -164,6 +166,8 @@ Polygon: [0x817Eb46D60762442Da3D931Ff51a30334CA39B74](https://polygonscan.com/ad
 BSC: [0xC90bFE9951a4Efbf20aCa5ECd9966b2bF8A01294](https://bscscan.com/address/0xc90bfe9951a4efbf20aca5ecd9966b2bf8a01294#code)
 
 Fantom: [0x382A9b0bC5D29e96c3a0b81cE9c64d6C8F150Efb](https://ftmscan.com/address/0x382a9b0bc5d29e96c3a0b81ce9c64d6c8f150efb#code)
+
+zkSync Era - [0xfd505702b37Ae9b626952Eb2DD736d9045876417](https://explorer.zksync.io/address/0xfd505702b37Ae9b626952Eb2DD736d9045876417#contract)
 
 **Interface**
 
