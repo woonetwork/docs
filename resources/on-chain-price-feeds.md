@@ -4,14 +4,16 @@
 
 In order to simulate the order book from centralized exchanges without sacrificing capital efficiency, WOOFi created a custom on-chain price fee which works along side with [the sPMM algorithm](the-math-behind-spmm.md). This price feed considers multiple parameters including mid-price `p`, spread `s`, and liquidity coefficient `k`.
 
-The V2 of the price feeds added Chainlink price feeds as a fail safe. Users can call `price` to get `priceNow` and `feasible` of token. If `feasible` is `false`, do not use `priceNow` value. All prices are USDT/USDC-based, and the decimal of `priceNow` is `8 (the same in decimals as price in Chainlink Oracle)`
+The price feeds use Chainlink price feeds as a fail safe. Users can call `price` to get `priceNow` and `feasible` of token. If `feasible` is `false`, do not use `priceNow` value. All prices are USDT/USDC-based, and the decimal of `priceNow` is `8 (the same in decimals as price in Chainlink Oracle)`
 
-* Arbitrum address: [0x37a9dE70b6734dFCA54395D8061d9411D9910739](https://arbiscan.io/address/0x37a9de70b6734dfca54395d8061d9411d9910739#code)
-* Optimism address: [0x464959aD46e64046B891F562cFF202a465D522F3](https://optimistic.etherscan.io/address/0x464959aD46e64046B891F562cFF202a465D522F3#code)
-* Avalanche address: [0x9ACA557590F5020BDA4Ba63065Fc3A1253Bf8000](https://snowtrace.io/address/0x9aca557590f5020bda4ba63065fc3a1253bf8000#code)
-* Polygon address: [0xeFF23B4bE1091b53205E35f3AfCD9C7182bf3062](https://polygonscan.com/address/0xeff23b4be1091b53205e35f3afcd9c7182bf3062#code)
-* BSC address: [0x747f99D619D5612399010Ec5706F13e3345c4a9E](https://bscscan.com/address/0x747f99d619d5612399010ec5706f13e3345c4a9e#code)
-* Fantom address: [0x8840e26e0ebf7D100A0644DD8576DC62B03cbf04](https://ftmscan.com/address/0x8840e26e0ebf7D100A0644DD8576DC62B03cbf04#code)
+**Wooracle v2.1**
+
+* Arbitrum address: [0x73504eaCB100c7576146618DC306c97454CB3620](https://arbiscan.io/address/0x73504eaCB100c7576146618DC306c97454CB3620)
+* Optimism address: [0xd589484d3A27B7Ce5C2C7F829EB2e1D163f95817](https://optimistic.etherscan.io/address/0xd589484d3A27B7Ce5C2C7F829EB2e1D163f95817)
+* Avalanche address: [0xc13843aE0D2C5ca9E0EfB93a78828446D8173d19](https://snowtrace.io/address/0xc13843aE0D2C5ca9E0EfB93a78828446D8173d19)
+* Polygon address: [0x31aE608cBadD1214D6A3d5dcf49E45Fb18E2a48E](https://polygonscan.com/address/0x31aE608cBadD1214D6A3d5dcf49E45Fb18E2a48E)
+* BSC address: [0x72dc7fa5eeb901a34173C874A7333c8d1b34bca9](https://bscscan.com/address/0x72dc7fa5eeb901a34173C874A7333c8d1b34bca9)
+* Fantom address: [0xB1d022F8F3e43868DaaDfa7040e63781C16aB4A6](https://ftmscan.com/address/0xb1d022f8f3e43868daadfa7040e63781c16ab4a6)
 * zkSync Era address:  [0xe7aC6e017Ac7aD189F10501D7385ee9A6211Ba35](https://explorer.zksync.io/address/0xe7aC6e017Ac7aD189F10501D7385ee9A6211Ba35#contract)
 
 **Note**: While the price feed is on-chain and permissionless, and tradeable by any user on WOOFi, we DO NOT guarantee the availability or accuracy of it. The price feed may become unavailable when the centralized liquidity source is in maintenance or any time the operator deems necessary. In no case, WOOFi is liable for any loss that might be caused by using the price feed by any third party.
