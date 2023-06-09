@@ -6,10 +6,10 @@ In order to simulate the order book from centralized exchanges without sacrifici
 
 WOOFi's on-chain price feeds are deployed on multiple blockchains. Users can call `price` to get `priceNow` and `feasible` of token. If `feasible` is `false`, do not use `priceNow` value. All prices are USDT/USDC-based, and the decimal of `priceNow` is `18 - base_decimal + quote_decimal`.
 
-* BNB Chain Contract address: [`0x6b6fBEc7934b104e81b2046D24A990e03e17afDC`](https://bscscan.com/address/0x6b6fBEc7934b104e81b2046D24A990e03e17afDC#code)``
+* BNB Chain Contract address: [`0x6b6fBEc7934b104e81b2046D24A990e03e17afDC`](https://bscscan.com/address/0x6b6fBEc7934b104e81b2046D24A990e03e17afDC#code)
 * Avalanche C-Chain Contract address: [`0x25a4d4a094A084c7ad45Ac273cF7D6B6bfae7D4E`](https://snowtrace.io/address/0x25a4d4a094A084c7ad45Ac273cF7D6B6bfae7D4E#code)
-* Fantom Contract address: [`0x209102c0D2E34282494114ea76D5251c8e7Ea7ab`](https://ftmscan.com/address/0x209102c0d2e34282494114ea76d5251c8e7ea7ab#code)``
-* Polygon Contract address: [`0x2Fe5E5D341cFFa606a5d9DA1B6B646a381B0f7ec`](https://polygonscan.com/address/0x2Fe5E5D341cFFa606a5d9DA1B6B646a381B0f7ec#code)``
+* Fantom Contract address: [`0x209102c0D2E34282494114ea76D5251c8e7Ea7ab`](https://ftmscan.com/address/0x209102c0d2e34282494114ea76d5251c8e7ea7ab#code)
+* Polygon Contract address: [`0x2Fe5E5D341cFFa606a5d9DA1B6B646a381B0f7ec`](https://polygonscan.com/address/0x2Fe5E5D341cFFa606a5d9DA1B6B646a381B0f7ec#code)
 
 {% hint style="warning" %}
 While the price feed is on-chain and permissionless, and tradeable by any user on WOOFi, we DO NOT garanutee the availability or accuracy of it. The price feed may become unavailable when the centralized liquidity source is in maintenance or any time the operator deems necessary. In no case, WOOFi is liable for any loss that might be caused by using the price feed by any third party.&#x20;

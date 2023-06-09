@@ -17,47 +17,19 @@ More details about WOOFi smart contract architecture, implementation info, and a
 
 {% tabs %}
 {% tab title="BNB Chain" %}
-| Token |                   Address                  |
-| :---: | :----------------------------------------: |
-|  BNB  | 0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE |
-|  WBNB | 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c |
-|  BTCB | 0x7130d2A12B9BCbFAe4f2634d864A1Ee1Ce3Ead9c |
-|  ETH  | 0x2170ed0880ac9a755fd29b2688956bd959f933f8 |
-|  WOO  | 0x4691937a7508860f876c9c0a2a617e7d9e945d4b |
-|  USDT | 0x55d398326f99059fF775485246999027B3197955 |
+<table><thead><tr><th width="150" align="center">Token</th><th width="491.4285714285714" align="center">Address</th></tr></thead><tbody><tr><td align="center">BNB</td><td align="center">0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE</td></tr><tr><td align="center">WBNB</td><td align="center">0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c</td></tr><tr><td align="center">BTCB</td><td align="center">0x7130d2A12B9BCbFAe4f2634d864A1Ee1Ce3Ead9c</td></tr><tr><td align="center">ETH</td><td align="center">0x2170ed0880ac9a755fd29b2688956bd959f933f8</td></tr><tr><td align="center">WOO</td><td align="center">0x4691937a7508860f876c9c0a2a617e7d9e945d4b</td></tr><tr><td align="center">USDT</td><td align="center">0x55d398326f99059fF775485246999027B3197955</td></tr></tbody></table>
 {% endtab %}
 
 {% tab title="Avalanche" %}
-| Token  | Address                                    |
-| ------ | ------------------------------------------ |
-| AVAX   | 0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE |
-| WAVAX  | 0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7 |
-| BTC.b  | 0x152b9d0FdC40C096757F570A51E494bd4b943E50 |
-| WETH.e | 0x49D5c2BdFfac6CE2BFdB6640F4F80f226bc10bAB |
-| WOO.e  | 0xaBC9547B534519fF73921b1FBA6E672b5f58D083 |
-| USDC   | 0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E |
+<table><thead><tr><th width="150">Token</th><th width="516.4285714285713">Address</th></tr></thead><tbody><tr><td>AVAX</td><td>0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE</td></tr><tr><td>WAVAX</td><td>0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7</td></tr><tr><td>BTC.b</td><td>0x152b9d0FdC40C096757F570A51E494bd4b943E50</td></tr><tr><td>WETH.e</td><td>0x49D5c2BdFfac6CE2BFdB6640F4F80f226bc10bAB</td></tr><tr><td>WOO.e</td><td>0xaBC9547B534519fF73921b1FBA6E672b5f58D083</td></tr><tr><td>USDC</td><td>0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E</td></tr></tbody></table>
 {% endtab %}
 
 {% tab title="Fantom" %}
-| Token | Address                                    |
-| ----- | ------------------------------------------ |
-| FTM   | 0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE |
-| WFTM  | 0x21be370D5312f44cB42ce377BC9b8a0cEF1A4C83 |
-| BTC   | 0x321162Cd933E2Be498Cd2267a90534A804051b11 |
-| ETH   | 0x74b23882a30290451A17c44f4F05243b6b58C76d |
-| WOO   | 0x6626c47c00F1D87902fc13EECfaC3ed06D5E8D8a |
-| USDC  | 0x04068DA6C83AFCFA0e13ba15A6696662335D5B75 |
+<table><thead><tr><th width="150">Token</th><th width="519.4285714285713">Address</th></tr></thead><tbody><tr><td>FTM</td><td>0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE</td></tr><tr><td>WFTM</td><td>0x21be370D5312f44cB42ce377BC9b8a0cEF1A4C83</td></tr><tr><td>BTC</td><td>0x321162Cd933E2Be498Cd2267a90534A804051b11</td></tr><tr><td>ETH</td><td>0x74b23882a30290451A17c44f4F05243b6b58C76d</td></tr><tr><td>WOO</td><td>0x6626c47c00F1D87902fc13EECfaC3ed06D5E8D8a</td></tr><tr><td>USDC</td><td>0x04068DA6C83AFCFA0e13ba15A6696662335D5B75</td></tr></tbody></table>
 {% endtab %}
 
 {% tab title="Polygon" %}
-| Token  | Address                                    |
-| ------ | ------------------------------------------ |
-| MATIC  | 0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE |
-| WMATIC | 0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270 |
-| BTC    | 0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6 |
-| ETH    | 0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619 |
-| WOO    | 0x1B815d120B3eF02039Ee11dC2d33DE7aA4a8C603 |
-| USDC   | 0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174 |
+<table><thead><tr><th width="150">Token</th><th width="509.85714285714283">Address</th></tr></thead><tbody><tr><td>MATIC</td><td>0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE</td></tr><tr><td>WMATIC</td><td>0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270</td></tr><tr><td>BTC</td><td>0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6</td></tr><tr><td>ETH</td><td>0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619</td></tr><tr><td>WOO</td><td>0x1B815d120B3eF02039Ee11dC2d33DE7aA4a8C603</td></tr><tr><td>USDC</td><td>0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174</td></tr></tbody></table>
 {% endtab %}
 {% endtabs %}
 
