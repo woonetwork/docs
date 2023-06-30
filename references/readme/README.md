@@ -382,3 +382,22 @@
 * WooAccessManager - [0xEF9d5170aa6f7DE09d68eC4Db60989389094bAEA](https://explorer.zksync.io/address/0xEF9d5170aa6f7DE09d68eC4Db60989389094bAEA#contract)
 
 </details>
+
+<details>
+
+<summary>Polygon zkEVM depolyment</summary>
+
+#### **Swap**
+
+* WooRouterV2 - [0x39d361E66798155813b907A70D6c2e3FdaFB0877](https://zkevm.polygonscan.com/address/0x39d361e66798155813b907a70d6c2e3fdafb0877)
+* WooPPV2 - [0xF5d215d9C84778F85746D15762DaF39B9E83a2d6](https://zkevm.polygonscan.com/address/0xF5d215d9C84778F85746D15762DaF39B9E83a2d6)
+* WooracleV2.1 - [0x924128fc2CDA777A6B5e0A9Ad3EF1A8CDF73967e](https://zkevm.polygonscan.com/address/0x924128fc2cda777a6b5e0a9ad3ef1a8cdf73967e)
+* IntegrationHelper(token info) - [0x044c08639bD59BEB4F6ec52c0da6CD47283534E8](https://zkevm.polygonscan.com/address/0x044c08639bD59BEB4F6ec52c0da6CD47283534E8)
+
+#### Peripheries
+
+* WooFeeManager - [0xb130a49065178465931d4f887056328CeA5D723f](https://zkevm.polygonscan.com/address/0xb130a49065178465931d4f887056328CeA5D723f)
+* WooRebateManager - [0xa2101FD320D06e0A744e4FE90ef8A20ECd027001](https://zkevm.polygonscan.com/address/0xa2101fd320d06e0a744e4fe90ef8a20ecd027001)
+* WooAccessManager - [0x464959aD46e64046B891F562cFF202a465D522F3](https://zkevm.polygonscan.com/address/0x464959ad46e64046b891f562cff202a465d522f3)
+
+</details>
