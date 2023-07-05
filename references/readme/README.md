@@ -366,7 +366,7 @@
 
 <details>
 
-<summary>zkSync Era depolyment</summary>
+<summary>zkSync Era deployment</summary>
 
 #### **Swap**
 
@@ -385,7 +385,7 @@
 
 <details>
 
-<summary>Polygon zkEVM depolyment</summary>
+<summary>Polygon zkEVM deployment</summary>
 
 #### **Swap**
 
