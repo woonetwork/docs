@@ -15,6 +15,7 @@ The price feeds use Chainlink price feeds as a fail safe. Users can call `price`
 * BSC address: [0x72dc7fa5eeb901a34173C874A7333c8d1b34bca9](https://bscscan.com/address/0x72dc7fa5eeb901a34173C874A7333c8d1b34bca9)
 * Fantom address: [0xB1d022F8F3e43868DaaDfa7040e63781C16aB4A6](https://ftmscan.com/address/0xb1d022f8f3e43868daadfa7040e63781c16ab4a6)
 * zkSync Era address:  [0xe7aC6e017Ac7aD189F10501D7385ee9A6211Ba35](https://explorer.zksync.io/address/0xe7aC6e017Ac7aD189F10501D7385ee9A6211Ba35#contract)
+* Polygon zkEVM address: [0x924128fc2CDA777A6B5e0A9Ad3EF1A8CDF73967e](https://zkevm.polygonscan.com/address/0x924128fc2cda777a6b5e0a9ad3ef1a8cdf73967e)
 
 **Note**: While the price feed is on-chain and permissionless, and tradeable by any user on WOOFi, we DO NOT guarantee the availability or accuracy of it. The price feed may become unavailable when the centralized liquidity source is in maintenance or any time the operator deems necessary. In no case, WOOFi is liable for any loss that might be caused by using the price feed by any third party.
 

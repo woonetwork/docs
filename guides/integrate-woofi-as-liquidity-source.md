@@ -9,6 +9,8 @@ Two main contracts of WOOFi's swap function are as follows:
 
 ## Supported assets
 
+**Adding `IntegrationHelper.sol`**
+
 `WooPPV2.sol` has one quote token which is typically the dominant stablecoin of each chain and multiple base tokens. A `IntegrationHelper.sol` contract is deployed on each supported chain which contains the address of the quote token and the list of tradable base token addresses in `WooPPV2.sol.`
 
 The latest list of supported tokens can be retrieved via the `getSupportTokens()` function which will return two values:
@@ -34,6 +36,8 @@ Polygon: [0x7Ba560eB735AbDCf9a3a5692272652A0cc81850d](https://polygonscan.com/ad
 
 zkSync Era: [0x636DfeB023463F176f87D61E3B604231986bd935](https://explorer.zksync.io/address/0x636DfeB023463F176f87D61E3B604231986bd935#contract)
 
+Polygon zkEVM: [0x044c08639bD59BEB4F6ec52c0da6CD47283534E8](https://zkevm.polygonscan.com/address/0x044c08639bD59BEB4F6ec52c0da6CD47283534E8)
+
 ## Integrate WOOFi as a liquidity source
 
 When integrating WOOFi as a liquidity source, you can either interact with `WooRouterV2.sol` or `WooPPV2.sol`.
@@ -56,7 +60,9 @@ BSC: [0xEc054126922a9a1918435c9072c32f1B60cB2B90](https://bscscan.com/address/0x
 
 Fantom: [0x286ab107c5E9083dBed35A2B5fb0242538F4f9bf](https://ftmscan.com/address/0x286ab107c5E9083dBed35A2B5fb0242538F4f9bf#code)
 
-zkSync Era - [0x42ED123EB5266A5B8E2B54B2C76180CCF5e72FEe](https://explorer.zksync.io/address/0x42ED123EB5266A5B8E2B54B2C76180CCF5e72FEe#contract)
+zkSync Era: [0x42ED123EB5266A5B8E2B54B2C76180CCF5e72FEe](https://explorer.zksync.io/address/0x42ED123EB5266A5B8E2B54B2C76180CCF5e72FEe#contract)
+
+Polygon zkEVM: [0xF5d215d9C84778F85746D15762DaF39B9E83a2d6](https://zkevm.polygonscan.com/address/0xF5d215d9C84778F85746D15762DaF39B9E83a2d6)
 
 #### Interface
 
@@ -167,7 +173,9 @@ BSC: [0xC90bFE9951a4Efbf20aCa5ECd9966b2bF8A01294](https://bscscan.com/address/0x
 
 Fantom: [0x382A9b0bC5D29e96c3a0b81cE9c64d6C8F150Efb](https://ftmscan.com/address/0x382a9b0bc5d29e96c3a0b81ce9c64d6c8f150efb#code)
 
-zkSync Era - [0xfd505702b37Ae9b626952Eb2DD736d9045876417](https://explorer.zksync.io/address/0xfd505702b37Ae9b626952Eb2DD736d9045876417#contract)
+zkSync Era: [0xfd505702b37Ae9b626952Eb2DD736d9045876417](https://explorer.zksync.io/address/0xfd505702b37Ae9b626952Eb2DD736d9045876417#contract)
+
+Polygon zkEVM: [0x39d361E66798155813b907A70D6c2e3FdaFB0877](https://zkevm.polygonscan.com/address/0x39d361e66798155813b907a70d6c2e3fdafb0877)
 
 **Interface**
 
