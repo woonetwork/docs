@@ -401,3 +401,41 @@
 * WooAccessManager - [0x464959aD46e64046B891F562cFF202a465D522F3](https://zkevm.polygonscan.com/address/0x464959ad46e64046b891f562cff202a465d522f3)
 
 </details>
+
+<details>
+
+<summary>Linea deployment</summary>
+
+#### **Swap**
+
+* WooRouterV2 - [0x39d361E66798155813b907A70D6c2e3FdaFB0877](https://lineascan.build/address/0x39d361e66798155813b907a70d6c2e3fdafb0877)
+* WooPPV2 - [0xF5d215d9C84778F85746D15762DaF39B9E83a2d6](https://lineascan.build/address/0xf5d215d9c84778f85746d15762daf39b9e83a2d6)
+* WooracleV2.1 - [0x0208D735576B3D974024237393F4617285bf0563](https://lineascan.build/address/0x0208D735576B3D974024237393F4617285bf0563)
+* IntegrationHelper(token info) -&#x20;
+
+#### Peripheries
+
+* WooFeeManager - [0xb130a49065178465931d4f887056328CeA5D723f](https://lineascan.build/address/0xb130a49065178465931d4f887056328cea5d723f)
+* WooRebateManager - [0xa2101FD320D06e0A744e4FE90ef8A20ECd027001](https://lineascan.build/address/0xa2101fd320d06e0a744e4fe90ef8a20ecd027001)
+* WooAccessManager - [0x15bA47E540E1B197E30D16A93B0c568B251629c2](https://lineascan.build/address/0x15bA47E540E1B197E30D16A93B0c568B251629c2)
+
+</details>
+
+<details>
+
+<summary>Base deployment</summary>
+
+**Swap**
+
+* WooRouterV2 - [0x27425e9FB6A9A625E8484CFD9620851D1Fa322E5](https://basescan.org/address/0x27425e9FB6A9A625E8484CFD9620851D1Fa322E5)
+* WooPPV2 - [0xb130a49065178465931d4f887056328CeA5D723f](https://basescan.org/address/0xb130a49065178465931d4f887056328CeA5D723f)
+* WooracleV2.1 - [0x2Fe5E5D341cFFa606a5d9DA1B6B646a381B0f7ec](https://basescan.org/address/0x2Fe5E5D341cFFa606a5d9DA1B6B646a381B0f7ec)
+* IntegrationHelper(token info) -&#x20;
+
+#### Peripheries
+
+* WooFeeManager - [0xa2101FD320D06e0A744e4FE90ef8A20ECd027001](https://basescan.org/address/0xa2101FD320D06e0A744e4FE90ef8A20ECd027001)
+* WooRebateManager - [0x7214833BE05Ce39f6dCd97668e521162e6C18937](https://basescan.org/address/0x7214833BE05Ce39f6dCd97668e521162e6C18937)
+* WooAccessManager - [0x15bA47E540E1B197E30D16A93B0c568B251629c2](https://basescan.org/address/0x15bA47E540E1B197E30D16A93B0c568B251629c2)
+
+</details>
