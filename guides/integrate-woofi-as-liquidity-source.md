@@ -38,6 +38,8 @@ zkSync Era: [0x636DfeB023463F176f87D61E3B604231986bd935](https://explorer.zksync
 
 Polygon zkEVM: [0x044c08639bD59BEB4F6ec52c0da6CD47283534E8](https://zkevm.polygonscan.com/address/0x044c08639bD59BEB4F6ec52c0da6CD47283534E8)
 
+Linea: [0x7e1996945eA8866DE873179DC1677E93A4380107](https://lineascan.build/address/0x7e1996945ea8866de873179dc1677e93a4380107#readContract)
+
 ## Integrate WOOFi as a liquidity source
 
 When integrating WOOFi as a liquidity source, you can either interact with `WooRouterV2.sol` or `WooPPV2.sol`.
@@ -63,6 +65,8 @@ Fantom: [0x286ab107c5E9083dBed35A2B5fb0242538F4f9bf](https://ftmscan.com/address
 zkSync Era: [0x42ED123EB5266A5B8E2B54B2C76180CCF5e72FEe](https://explorer.zksync.io/address/0x42ED123EB5266A5B8E2B54B2C76180CCF5e72FEe#contract)
 
 Polygon zkEVM: [0xF5d215d9C84778F85746D15762DaF39B9E83a2d6](https://zkevm.polygonscan.com/address/0xF5d215d9C84778F85746D15762DaF39B9E83a2d6)
+
+Linea: [0xF5d215d9C84778F85746D15762DaF39B9E83a2d6](https://lineascan.build/address/0xf5d215d9c84778f85746d15762daf39b9e83a2d6)
 
 #### Interface
 
@@ -176,6 +180,8 @@ Fantom: [0x382A9b0bC5D29e96c3a0b81cE9c64d6C8F150Efb](https://ftmscan.com/address
 zkSync Era: [0xfd505702b37Ae9b626952Eb2DD736d9045876417](https://explorer.zksync.io/address/0xfd505702b37Ae9b626952Eb2DD736d9045876417#contract)
 
 Polygon zkEVM: [0x39d361E66798155813b907A70D6c2e3FdaFB0877](https://zkevm.polygonscan.com/address/0x39d361e66798155813b907a70d6c2e3fdafb0877)
+
+Linea: [0x39d361E66798155813b907A70D6c2e3FdaFB0877](https://lineascan.build/address/0x39d361e66798155813b907a70d6c2e3fdafb0877)
 
 **Interface**
 
