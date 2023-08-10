@@ -430,7 +430,7 @@
 * WooRouterV2 - [0x27425e9FB6A9A625E8484CFD9620851D1Fa322E5](https://basescan.org/address/0x27425e9FB6A9A625E8484CFD9620851D1Fa322E5)
 * WooPPV2 - [0xb130a49065178465931d4f887056328CeA5D723f](https://basescan.org/address/0xb130a49065178465931d4f887056328CeA5D723f)
 * WooracleV2.1 - [0x2Fe5E5D341cFFa606a5d9DA1B6B646a381B0f7ec](https://basescan.org/address/0x2Fe5E5D341cFFa606a5d9DA1B6B646a381B0f7ec)
-* IntegrationHelper(token info) -&#x20;
+* IntegrationHelper(token info) - [0xC4E9B633685461E7B7A807D12a246C81f96F31B8](https://basescan.org/address/0xC4E9B633685461E7B7A807D12a246C81f96F31B8)
 
 #### Peripheries
 
