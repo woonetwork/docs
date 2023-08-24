@@ -381,6 +381,20 @@
 * WooRebateManager - [0x921A51ee71f769715866D2Ca43D8Ac57B196347a](https://explorer.zksync.io/address/0x921A51ee71f769715866D2Ca43D8Ac57B196347a#contract)
 * WooAccessManager - [0xEF9d5170aa6f7DE09d68eC4Db60989389094bAEA](https://explorer.zksync.io/address/0xEF9d5170aa6f7DE09d68eC4Db60989389094bAEA#contract)
 
+#### Earn
+
+**USDC Supercharger vault**
+
+* SuperChargerVault - [0xA8bbAB0aC88382A0f507B9E93CDbe65ffa1F50D1](https://explorer.zksync.io/address/0xA8bbAB0aC88382A0f507B9E93CDbe65ffa1F50D1#contract)
+* LendingManager - [0xa681B14Ea827280213DFCBDE48D8695A745F41Ab](https://explorer.zksync.io/address/0xa681B14Ea827280213DFCBDE48D8695A745F41Ab#contract)
+* WithdrawManager - [0xa5A3235Ab50Df36A67784D7F40d2631292cBfB08](https://explorer.zksync.io/address/0xa5A3235Ab50Df36A67784D7F40d2631292cBfB08#contract)
+
+**ETH Supercharger vault**
+
+* SuperChargerVault - [0x1d686250BBffA9Fe120B591F5992DD7fC0FD99a4](https://explorer.zksync.io/address/0x1d686250BBffA9Fe120B591F5992DD7fC0FD99a4#contract)
+* LendingManager - [0xaEed9101c760A2a306B6B9Ed774A775Ecc9686F3](https://explorer.zksync.io/address/0xaEed9101c760A2a306B6B9Ed774A775Ecc9686F3#contract)
+* WithdrawManager - [0xa5A3235Ab50Df36A67784D7F40d2631292cBfB08](https://explorer.zksync.io/address/0xa5A3235Ab50Df36A67784D7F40d2631292cBfB08#contract)
+
 </details>
 
 <details>
