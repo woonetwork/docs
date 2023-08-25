@@ -20,18 +20,18 @@
 * SuperChargerVault - [0xFC0E57b5F8adCadc5e6E37578bb9Aa30cEe312Af](https://snowtrace.io/address/0xfc0e57b5f8adcadc5e6e37578bb9aa30cee312af#code)
 * LendingManager - [0x113d31A32734A8526572E77a0779Bd242cb71a73](https://snowtrace.io/address/0x113d31a32734a8526572e77a0779bd242cb71a73#code)
 * WithdrawManager - [0xec041744884b7Ff4179e4B046f472dEC9eF13bb8](https://snowtrace.io/address/0xec041744884b7ff4179e4b046f472dec9ef13bb8#code)
-* AAVEfarmingvault - [0xdA442c468f77F4f90032aE8ca99850eEA2091Bfe](https://snowtrace.io/address/0xda442c468f77f4f90032ae8ca99850eea2091bfe#code)
 * AAVEfarmingstrategy - [0x2EEA9a5f8c77125bc1712AC751F04506C7023576](https://snowtrace.io/address/0x2eea9a5f8c77125bc1712ac751f04506c7023576#code)
-* RewardMasterchef - [0xc0f8C29e3a9A7650a3F642e467d70087819926d6](https://snowtrace.io/address/0xc0f8c29e3a9a7650a3f642e467d70087819926d6#code)
 
 #### **USDC Supercharger vault**
 
 * SuperChargerVault - [0x86A6391D5d7C02245927E2DC0cBFa3e5F1B9aBC7](https://snowtrace.io/address/0x86a6391d5d7c02245927e2dc0cbfa3e5f1b9abc7#code)
 * LendingManager - [0xECCc8316fF1d48d0780AE387b8D240C1Df731Fd8](https://snowtrace.io/address/0xeccc8316ff1d48d0780ae387b8d240c1df731fd8#code)
 * WithdrawManager - [0xc05a4d0Bf81215De05E8a3C50167d7c2BA1D5Cf9](https://snowtrace.io/address/0xc05a4d0bf81215de05e8a3c50167d7c2ba1d5cf9#code)
-* AAVEfarmingvault - [0x305F06749B98D5AA5AE48B08395615ae9466DE4D](https://snowtrace.io/address/0x305f06749b98d5aa5ae48b08395615ae9466de4d#code)
 * AAVEfarmingstrategy - [0xDe162C2d7c0587c51a739a3Ebb8DEF8dF3668A93](https://snowtrace.io/address/0xde162c2d7c0587c51a739a3ebb8def8df3668a93#code)
-* RewardMasterchef - [0xc0f8C29e3a9A7650a3F642e467d70087819926d6](https://snowtrace.io/address/0xc0f8c29e3a9a7650a3f642e467d70087819926d6#code)
+
+#### BTC.b Supercharger vault
+
+* AAVEfarmingstrategy - [0xfC659F700a3C3CDB461DC4434336bC15b6984B08](https://snowtrace.io/address/0xfc659f700a3c3cdb461dc4434336bc15b6984b08#code)
 
 #### AVAX (Banker Joe)&#x20;
 
@@ -145,7 +145,6 @@
 * WithdrawManager - [0xb3bd9C851bd8330d5C4cf4565FAe4f175e25417C](https://bscscan.com/address/0xb3bd9c851bd8330d5c4cf4565fae4f175e25417c#code)
 * Alpacafarmingvault - [0x45c3a5Cb452E5468e47c53a8C71e30fdAcf73239](https://bscscan.com/address/0x45c3a5Cb452E5468e47c53a8C71e30fdAcf73239#code)
 * Alpacafarmingstrategy - [0xf667e52e87Ff3411C2D5E311191072543b4dd69B](https://bscscan.com/address/0xf667e52e87Ff3411C2D5E311191072543b4dd69B#code)
-* RewardMasterchef - [0xc0f8C29e3a9A7650a3F642e467d70087819926d6](https://bscscan.com/address/0xc0f8c29e3a9a7650a3f642e467d70087819926d6#code)
 
 #### **BNB Supercharger vault v1**
 
@@ -154,7 +153,6 @@
 * WithdrawManager - [0xd2565058287Aee9C3C8297d2BC9Ec11CD507127C](https://bscscan.com/address/0xd2565058287aee9c3c8297d2bc9ec11cd507127c#code)
 * Alpacafarmingvault - [0x85f16155c6c7dA460969DDB33dbD2c7E90Ca07EC](https://bscscan.com/address/0x85f16155c6c7dA460969DDB33dbD2c7E90Ca07EC#code)
 * Alpacafarmingstrategy - [0x2a8b29301C910AE1Ae17156E4f7B01eb8f72Eb05](https://bscscan.com/address/0x2a8b29301C910AE1Ae17156E4f7B01eb8f72Eb05#code)
-* RewardMasterchef - [0xc0f8C29e3a9A7650a3F642e467d70087819926d6](https://bscscan.com/address/0xc0f8c29e3a9a7650a3f642e467d70087819926d6#code)
 
 #### **USDT Supercharger vault v1**
 
@@ -166,7 +164,6 @@
 * Alpacafarmingvault - \
   [0xE897b4200E3B2380469E8Dd3F987Dc62A7ADeAD7](https://bscscan.com/address/0xE897b4200E3B2380469E8Dd3F987Dc62A7ADeAD7#code)
 * Alpacafarmingstrategy - [0xAaB8a82fc1cd5F7D2bae5AA39663248b3ff27181](https://bscscan.com/address/0xaab8a82fc1cd5f7d2bae5aa39663248b3ff27181#code)
-* RewardMasterchef - [0xc0f8C29e3a9A7650a3F642e467d70087819926d6](https://bscscan.com/address/0xc0f8c29e3a9a7650a3f642e467d70087819926d6#code)
 
 #### WOO-BNB (PancakeSwap)&#x20;
 
@@ -254,9 +251,7 @@
 * SuperChargerVault - [0xb29DE0c2A884aF396272086F4Aa3F0ad2DAD747b](https://ftmscan.com/address/0xb29de0c2a884af396272086f4aa3f0ad2dad747b#code)
 * LendingManager - [0xEc054126922a9a1918435c9072c32f1B60cB2B90](https://ftmscan.com/address/0xec054126922a9a1918435c9072c32f1b60cb2b90#code)
 * WithdrawManager - [0x6DeB92D1Ed4f3e5136303556dD1810f761D69c1e](https://ftmscan.com/address/0x6deb92d1ed4f3e5136303556dd1810f761d69c1e#code)
-* AAVEfarmingvault - [0x5dB04B6335c26ee147AfBEc161Aff6E90239b4B8](https://ftmscan.com/address/0x5db04b6335c26ee147afbec161aff6e90239b4b8#code)
 * AAVEfarmingstrategy - [0x2DF39335b79783b7e02AFcf552303602C14f5208](https://ftmscan.com/address/0x2df39335b79783b7e02afcf552303602c14f5208#code)
-* RewardMasterchef - [0xc0f8C29e3a9A7650a3F642e467d70087819926d6](https://ftmscan.com/address/0xc0f8c29e3a9a7650a3f642e467d70087819926d6#code)
 
 #### **USDC Supercharger vault**
 
@@ -265,7 +260,10 @@
 * WithdrawManager - [0x71a862683F158517B39Bdc4a2cA0fcE657d3A375](https://ftmscan.com/address/0x71a862683f158517b39bdc4a2ca0fce657d3a375#code)
 * AAVEfarmingvault - [0x5811850b72787b8beb402Fdb1F78DF455b65b3B2](https://ftmscan.com/address/0x5811850b72787b8beb402fdb1f78df455b65b3b2#code)
 * AAVEfarmingstrategy - [0x1553a071C135137610699f93c9834e8165eCacca](https://ftmscan.com/address/0x1553a071c135137610699f93c9834e8165ecacca#code)
-* RewardMasterchef - [0xc0f8C29e3a9A7650a3F642e467d70087819926d6](https://ftmscan.com/address/0xc0f8c29e3a9a7650a3f642e467d70087819926d6#code)
+* SuperChargerVault - [0x83b9047c18e55A0cDa6027fB0582C4De658d5ea0](https://ftmscan.com/address/0x83b9047c18e55a0cda6027fb0582c4de658d5ea0#code)
+* LendingManager - [0x05C97E74ad8D84eF457994B9b394D0cc46ee6E76](https://ftmscan.com/address/0x05c97e74ad8d84ef457994b9b394d0cc46ee6e76#code)
+* WithdrawManager - [0x7b2e29F5B79965a1fB4DC15B635eE18edfBa08Dd](https://ftmscan.com/address/0x7b2e29f5b79965a1fb4dc15b635ee18edfba08dd#code)
+* ExternalReward - [0xdC1D17C5413D1a6457Ea2F4a991a24eB85277a4f](https://ftmscan.com/address/0xdc1d17c5413d1a6457ea2f4a991a24eb85277a4f)
 
 #### FTM (Geist Finance)&#x20;
 
@@ -329,7 +327,6 @@
 * WithdrawManager - [0x3eC979b97Db308b9489D42F2FFFa84033eFCd8D4](https://polygonscan.com/address/0x3ec979b97db308b9489d42f2fffa84033efcd8d4#code)
 * AAVEfarmingvault - [0xD5BEfE3Fecdf1C941c58119a4e395806Eea0C343](https://polygonscan.com/address/0xd5befe3fecdf1c941c58119a4e395806eea0c343#code)
 * AAVEfarmingstrategy - [0xd7A03024C9CaB9Ca9E85E649ACb598b51774234F](https://polygonscan.com/address/0xd7a03024c9cab9ca9e85e649acb598b51774234f#code)
-* RewardMasterchef - [0xc0f8C29e3a9A7650a3F642e467d70087819926d6](https://polygonscan.com/address/0xc0f8c29e3a9a7650a3f642e467d70087819926d6#code)
 
 #### **ETH Supercharger vault**
 
@@ -338,7 +335,6 @@
 * WithdrawManager - [0xcF6Ce5Fd6bf28bB1AeAc88A55251f6c840059De5](https://polygonscan.com/address/0xcf6ce5fd6bf28bb1aeac88a55251f6c840059de5#code)
 * AAVEfarmingvault - [0x99Ad6e3c00DFBcd80b7593B1Cd8Fb8a9F1a2d230](https://polygonscan.com/address/0x99ad6e3c00dfbcd80b7593b1cd8fb8a9f1a2d230#code)
 * AAVEfarmingstrategy - [0x7B53aeDf58D2Ed087A3DD690201245A61DE3c66C](https://polygonscan.com/address/0x7b53aedf58d2ed087a3dd690201245a61de3c66c#code)
-* RewardMasterchef - [0xc0f8C29e3a9A7650a3F642e467d70087819926d6](https://polygonscan.com/address/0xc0f8c29e3a9a7650a3f642e467d70087819926d6#code)
 
 #### **USDC Supercharger vault**
 
@@ -347,7 +343,6 @@
 * WithdrawManager - [0x39467a0DEBf360A82F83880F13eBdF7F0c2ec735](https://polygonscan.com/address/0x39467a0DEBf360A82F83880F13eBdF7F0c2ec735#code)
 * AAVEfarmingvault - [0xB54e1d90d845d888d39dcaCBd54a3EEc0d8853B2](https://polygonscan.com/address/0xb54e1d90d845d888d39dcacbd54a3eec0d8853b2#code)
 * AAVEfarmingstrategy - [0x1dDd225ef26714Bb8055dDCEaEE2589ba09c89ed](https://polygonscan.com/address/0x1ddd225ef26714bb8055ddceaee2589ba09c89ed#code)
-* RewardMasterchef - [0xc0f8C29e3a9A7650a3F642e467d70087819926d6](https://polygonscan.com/address/0xc0f8c29e3a9a7650a3f642e467d70087819926d6#code)
 
 ### Peripheries
 
@@ -369,6 +364,18 @@
 * WooracleV2 - [0x37a9dE70b6734dFCA54395D8061d9411D9910739](https://arbiscan.io/address/0x37a9de70b6734dfca54395d8061d9411d9910739#code)
 * WooracleV2zip - [0xA43305Ce0164D87d7B2368f91a1dcC4eBdA75127](https://arbiscan.io/address/0xA43305Ce0164D87d7B2368f91a1dcC4eBdA75127)
 
+### Earn
+
+#### **ETH Supercharger vault**
+
+* AAVEfarmingstrategy - [0xd84a36394cBd4E3C4102697D8Ba880b4b181D6bb](https://arbiscan.io/address/0xd84a36394cbd4e3c4102697d8ba880b4b181d6bb#code)
+
+#### USDC.e Supercharger vault
+
+* AAVEfarmingstrategy - [0x360E41201597A82007046329c021Abc9D4AE0b6E](https://arbiscan.io/address/0x360e41201597a82007046329c021abc9d4ae0b6e#code)
+
+
+
 
 
 </details>
@@ -388,6 +395,14 @@
 **OP Supercharger vault**
 
 * Homorav2farmingstrategy - [0x81ab3492BACFfF639dDE60763Ccf9E348117075d](https://optimistic.etherscan.io/address/0x81ab3492bacfff639dde60763ccf9e348117075d#code)
+
+#### ETH Supercharger vault
+
+* AAVEfarmingstrategy - [0xEeC6025fc35AF612f6028Bb454f875085dB8Ed8D](https://optimistic.etherscan.io/address/0xeec6025fc35af612f6028bb454f875085db8ed8d#code)
+
+#### USDC Supercharger vault
+
+* AAVEfarmingstrategy - [0x5Ec696ecf3fD139EC5B2c6D85BD87AC5cDb23Cfb](https://optimistic.etherscan.io/address/0x5ec696ecf3fd139ec5b2c6d85bd87ac5cdb23cfb#code)
 
 </details>
 
