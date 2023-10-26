@@ -217,7 +217,7 @@
 #### Swap
 
 * WooRouterV2 - [0xEAf1Ac8E89EA0aE13E0f03634A4FF23502527024](https://optimistic.etherscan.io/address/0xeaf1ac8e89ea0ae13e0f03634a4ff23502527024#code)
-* CrosswapRouter v3 - [0xe47Fec1c72850d867a1655C4C5902de7728CA205](https://optimistic.etherscan.io/address/0xe47fec1c72850d867a1655c4c5902de7728ca205#readContract)
+* CrosswapRouter v3.1 - [0xCa10E8825FA9F1dB0651Cd48A9097997DBf7615d](https://optimistic.etherscan.io/address/0xca10e8825fa9f1db0651cd48a9097997dbf7615d)
 * WooPPV2 - [0xd1778F9DF3eee5473A9640f13682e3846f61fEbC](https://optimistic.etherscan.io/address/0xd1778f9df3eee5473a9640f13682e3846f61febc#code)
 * WooracleV2.1 - [0xd589484d3A27B7Ce5C2C7F829EB2e1D163f95817](https://optimistic.etherscan.io/address/0xd589484d3A27B7Ce5C2C7F829EB2e1D163f95817)
 * IntegrationHelper (token info) - [0x96329d66074EB8386Ae8bFD6698B2E3FDA87e15E](https://optimistic.etherscan.io/address/0x96329d66074EB8386Ae8bFD6698B2E3FDA87e15E#readContract)
