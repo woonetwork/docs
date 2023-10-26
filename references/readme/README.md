@@ -174,44 +174,6 @@
 
 <details>
 
-<summary>Fantom deployment</summary>
-
-#### Swap
-
-* WooRouter - [0x382A9b0bC5D29e96c3a0b81cE9c64d6C8F150Efb](https://ftmscan.com/address/0x382a9b0bc5d29e96c3a0b81ce9c64d6c8f150efb#code)
-* CrosswapRouter - [0x72dc7fa5eeb901a34173C874A7333c8d1b34bca9](https://ftmscan.com/address/0x72dc7fa5eeb901a34173c874a7333c8d1b34bca9#code)
-* WooPP - [0x286ab107c5E9083dBed35A2B5fb0242538F4f9bf](https://ftmscan.com/address/0x286ab107c5e9083dbed35a2b5fb0242538f4f9bf#code)
-* WooracleV2.1 - [0xB1d022F8F3e43868DaaDfa7040e63781C16aB4A6](https://ftmscan.com/address/0xb1d022f8f3e43868daadfa7040e63781c16ab4a6)
-* IntegrationHelper (token info) - [0x6641959FE5EED7166F2254cF04b0d20c96776D9A](https://ftmscan.com/address/0x6641959FE5EED7166F2254cF04b0d20c96776D9A#readContract)
-
-#### Stake
-
-* Stake 1.0 - [0x2Fe5E5D341cFFa606a5d9DA1B6B646a381B0f7ec](https://ftmscan.com/address/0x2fe5e5d341cffa606a5d9da1b6b646a381b0f7ec#code)
-* StakeProxy - [0x1416E1378682b5Ca53F76656549f7570ad0703d9](https://ftmscan.com/address/0x1416e1378682b5ca53f76656549f7570ad0703d9#code)
-
-#### Earn
-
-**FTM Supercharger vault**
-
-* SuperChargerVault - [0x438baAfF63Af83549020feAD36C7de167384463a](https://ftmscan.com/address/0x438baaff63af83549020fead36c7de167384463a#code)
-* LendingManager - [0x9f46a7F7AFd5a595C782E57B5DAe1FcC01BFF18D](https://ftmscan.com/address/0x9f46a7f7afd5a595c782e57b5dae1fcc01bff18d#code)
-* WithdrawManager - [0x4Fbec6f0B2c0250C1Da65BD45B24a62085d7996b](https://ftmscan.com/address/0x4fbec6f0b2c0250c1da65bd45b24a62085d7996b#code)
-* farmingvault - [0x5dB04B6335c26ee147AfBEc161Aff6E90239b4B8](https://ftmscan.com/address/0x5db04b6335c26ee147afbec161aff6e90239b4b8#code)
-* VoidStrategy - [0x65104007e3C564A72492138B315E54e4bA5F58Ef](https://ftmscan.com/address/0x65104007e3c564a72492138b315e54e4ba5f58ef#code)
-* RewardMasterchef - [0xc0f8C29e3a9A7650a3F642e467d70087819926d6](https://ftmscan.com/address/0xc0f8c29e3a9a7650a3f642e467d70087819926d6#code)
-* ExternalReward - [0xDC340d81acb84143FAdA5e1ad683a79cB08aC254](https://ftmscan.com/address/0xdc340d81acb84143fada5e1ad683a79cb08ac254#code)
-
-#### Peripheries
-
-* WooFeeManager - [0x0B5025d8D409A51615cb624b8eDE132Bb11A2550](https://ftmscan.com/address/0x0b5025d8d409a51615cb624b8ede132bb11a2550#code)
-* WooRebateManager - [0x6F09AE4925739453d7C8c9a22fD07585148DFc01](https://ftmscan.com/address/0x6f09ae4925739453d7c8c9a22fd07585148dfc01#code)
-* WooVaultManager - [0xee7AC4d3D3a51De966078809fC7A91834f5EA3B9](https://ftmscan.com/address/0xee7ac4d3d3a51de966078809fc7a91834f5ea3b9#code)
-* WooAccessManager - [0xd6d6A0828a80E1832cD4C3585aDED8971087fCb8](https://ftmscan.com/address/0xd6d6a0828a80e1832cd4c3585aded8971087fcb8#code)
-
-</details>
-
-<details>
-
 <summary>Optimism deployment</summary>
 
 #### Swap
@@ -429,5 +391,43 @@
 * WooFeeManager - [0xa2101FD320D06e0A744e4FE90ef8A20ECd027001](https://basescan.org/address/0xa2101FD320D06e0A744e4FE90ef8A20ECd027001)
 * WooRebateManager - [0x7214833BE05Ce39f6dCd97668e521162e6C18937](https://basescan.org/address/0x7214833BE05Ce39f6dCd97668e521162e6C18937)
 * WooAccessManager - [0x15bA47E540E1B197E30D16A93B0c568B251629c2](https://basescan.org/address/0x15bA47E540E1B197E30D16A93B0c568B251629c2)
+
+</details>
+
+<details>
+
+<summary>Fantom deployment</summary>
+
+#### Swap
+
+* WooRouter - [0x382A9b0bC5D29e96c3a0b81cE9c64d6C8F150Efb](https://ftmscan.com/address/0x382a9b0bc5d29e96c3a0b81ce9c64d6c8f150efb#code)
+* CrosswapRouter - [0x72dc7fa5eeb901a34173C874A7333c8d1b34bca9](https://ftmscan.com/address/0x72dc7fa5eeb901a34173c874a7333c8d1b34bca9#code)
+* WooPP - [0x286ab107c5E9083dBed35A2B5fb0242538F4f9bf](https://ftmscan.com/address/0x286ab107c5e9083dbed35a2b5fb0242538f4f9bf#code)
+* WooracleV2.1 - [0xB1d022F8F3e43868DaaDfa7040e63781C16aB4A6](https://ftmscan.com/address/0xb1d022f8f3e43868daadfa7040e63781c16ab4a6)
+* IntegrationHelper (token info) - [0x6641959FE5EED7166F2254cF04b0d20c96776D9A](https://ftmscan.com/address/0x6641959FE5EED7166F2254cF04b0d20c96776D9A#readContract)
+
+#### Stake
+
+* Stake 1.0 - [0x2Fe5E5D341cFFa606a5d9DA1B6B646a381B0f7ec](https://ftmscan.com/address/0x2fe5e5d341cffa606a5d9da1b6b646a381b0f7ec#code)
+* StakeProxy - [0x1416E1378682b5Ca53F76656549f7570ad0703d9](https://ftmscan.com/address/0x1416e1378682b5ca53f76656549f7570ad0703d9#code)
+
+#### Earn
+
+**FTM Supercharger vault**
+
+* SuperChargerVault - [0x438baAfF63Af83549020feAD36C7de167384463a](https://ftmscan.com/address/0x438baaff63af83549020fead36c7de167384463a#code)
+* LendingManager - [0x9f46a7F7AFd5a595C782E57B5DAe1FcC01BFF18D](https://ftmscan.com/address/0x9f46a7f7afd5a595c782e57b5dae1fcc01bff18d#code)
+* WithdrawManager - [0x4Fbec6f0B2c0250C1Da65BD45B24a62085d7996b](https://ftmscan.com/address/0x4fbec6f0b2c0250c1da65bd45b24a62085d7996b#code)
+* farmingvault - [0x5dB04B6335c26ee147AfBEc161Aff6E90239b4B8](https://ftmscan.com/address/0x5db04b6335c26ee147afbec161aff6e90239b4b8#code)
+* VoidStrategy - [0x65104007e3C564A72492138B315E54e4bA5F58Ef](https://ftmscan.com/address/0x65104007e3c564a72492138b315e54e4ba5f58ef#code)
+* RewardMasterchef - [0xc0f8C29e3a9A7650a3F642e467d70087819926d6](https://ftmscan.com/address/0xc0f8c29e3a9a7650a3f642e467d70087819926d6#code)
+* ExternalReward - [0xDC340d81acb84143FAdA5e1ad683a79cB08aC254](https://ftmscan.com/address/0xdc340d81acb84143fada5e1ad683a79cb08ac254#code)
+
+#### Peripheries
+
+* WooFeeManager - [0x0B5025d8D409A51615cb624b8eDE132Bb11A2550](https://ftmscan.com/address/0x0b5025d8d409a51615cb624b8ede132bb11a2550#code)
+* WooRebateManager - [0x6F09AE4925739453d7C8c9a22fD07585148DFc01](https://ftmscan.com/address/0x6f09ae4925739453d7c8c9a22fd07585148dfc01#code)
+* WooVaultManager - [0xee7AC4d3D3a51De966078809fC7A91834f5EA3B9](https://ftmscan.com/address/0xee7ac4d3d3a51de966078809fc7a91834f5ea3b9#code)
+* WooAccessManager - [0xd6d6A0828a80E1832cD4C3585aDED8971087fCb8](https://ftmscan.com/address/0xd6d6a0828a80e1832cd4c3585aded8971087fcb8#code)
 
 </details>
