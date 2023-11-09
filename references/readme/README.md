@@ -54,6 +54,18 @@
 * RewardMasterchef - [0xc0f8C29e3a9A7650a3F642e467d70087819926d6](https://arbiscan.io/address/0xc0f8c29e3a9a7650a3f642e467d70087819926d6#code)
 * ExternalReward - [0xdF0006994c46F4d006eCb2b5aF3e212D94df23e1](https://arbiscan.io/address/0xdf0006994c46f4d006ecb2b5af3e212d94df23e1#code)
 
+**WBTC Supercharger vault**
+
+* SuperChargerVault - [0xd2fdaB19b94B59C5F0E75Dd9813365Df815b56B1](https://arbiscan.io/address/0xd2fdab19b94b59c5f0e75dd9813365df815b56b1#code)
+* LendingManager - [0xFEecEdbc3c292db79347473a2B976a463c3aC2D6](https://arbiscan.io/address/0xfeecedbc3c292db79347473a2b976a463c3ac2d6#code)
+* WithdrawManager - [0xD05b953cFD75426711a904F76eb3241bad5D03ac](https://arbiscan.io/address/0xd05b953cfd75426711a904f76eb3241bad5d03ac#code)
+* Farmingvault - [0xea6790425aFa71d802E017Ef5b6257e42C28554a](https://arbiscan.io/address/0xea6790425afa71d802e017ef5b6257e42c28554a#code)
+* Farmingstrategy - [0x9D71a7B0022b0C402f15808d781F0f31A63abE15](https://arbiscan.io/address/0x9d71a7b0022b0c402f15808d781f0f31a63abe15#code)
+* RewardMasterchef - [0xc0f8C29e3a9A7650a3F642e467d70087819926d6](https://arbiscan.io/address/0xc0f8c29e3a9a7650a3f642e467d70087819926d6#code)
+* ExternalReward - [0xa397fba8c5c1aef9137601c185f6ab0e9cf43662](https://arbiscan.io/address/0xa397fba8c5c1aef9137601c185f6ab0e9cf43662#code)
+
+
+
 #### Peripheries
 
 * WooFeeManager - [0x0ba6C34aF9713D15141dcc91d2788c3F370ecb9E](https://arbiscan.io/address/0x0ba6c34af9713d15141dcc91d2788c3f370ecb9e#code)
