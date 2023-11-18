@@ -9,7 +9,7 @@ These docs are intended for developers who are interfacing with or building on t
 
 ## References
 
-* [Contract addresses](references/readme/)
+* [Contract addresses](broken-reference)
 * [Data APIs](references/apis/)
 
 ## Resources
