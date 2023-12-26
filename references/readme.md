@@ -20,6 +20,7 @@
 * WooStakingController - [0x93E63fc2146D596AFe4583D03cfe496FFcad5A04](https://arbiscan.io/address/0x93e63fc2146d596afe4583d03cfe496ffcad5a04#code)
 * MpRewarder - [0xa74bB3643da439E89010743909d0493abca743d7](https://arbiscan.io/address/0xa74bb3643da439e89010743909d0493abca743d7#code)
 * USDCRewarder - [0x666e11ECe9E03640d5df20f0bd0518E2c839d04C](https://arbiscan.io/address/0x666e11ece9e03640d5df20f0bd0518e2c839d04c#code)
+* ARBRewarder - [0x401ff5f78B52EDb57aB019c8988e0Be933AaABCb](https://arbiscan.io/address/0x401ff5f78B52EDb57aB019c8988e0Be933AaABCb)
 * WooStakingCompounder - [0x63a015b5E305EDcA94b9B0c27461547b3F4eA1e3](https://arbiscan.io/address/0x63a015b5E305EDcA94b9B0c27461547b3F4eA1e3#code)
 * RewardBooster - [0x1c29986FF01c65665393E55C73Ade2aa6dA957DF](https://arbiscan.io/address/0x1c29986ff01c65665393e55c73ade2aa6da957df#code)
 
