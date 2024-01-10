@@ -259,6 +259,7 @@
 **Pro**
 
 * ProCrossChainRouter - [0xac8951A442fe70342f9597044B7b7657D5ad55ec](https://optimistic.etherscan.io/address/0xac8951A442fe70342f9597044B7b7657D5ad55ec)
+* ProDepositor - [0x4E21a65A9F4672EF2cdfb7FA6B0f1e39d6e4E50e](https://optimistic.etherscan.io/address/0x4E21a65A9F4672EF2cdfb7FA6B0f1e39d6e4E50e)
 * ProxyAdmin - [0x3933CA6058E3549bbf25BA71901b82C11916EC16](https://optimistic.etherscan.io/address/0x3933CA6058E3549bbf25BA71901b82C11916EC16)
 * NonceCounter- [0x88A19967013CA274c296bFA433eb1BAc4D47B0dc](https://optimistic.etherscan.io/address/0x88A19967013CA274c296bFA433eb1BAc4D47B0dc)
 
