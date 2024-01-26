@@ -18,6 +18,7 @@ The price feeds use Chainlink price feeds as a fail safe. Users can call `price`
 * Polygon zkEVM address: [0x924128fc2CDA777A6B5e0A9Ad3EF1A8CDF73967e](https://zkevm.polygonscan.com/address/0x924128fc2cda777a6b5e0a9ad3ef1a8cdf73967e)
 * Linea address: [0x0208D735576B3D974024237393F4617285bf0563](https://lineascan.build/address/0x0208D735576B3D974024237393F4617285bf0563)
 * Base address: [0x2Fe5E5D341cFFa606a5d9DA1B6B646a381B0f7ec](https://basescan.org/address/0x2Fe5E5D341cFFa606a5d9DA1B6B646a381B0f7ec)
+* Mantle address: [0x3d605fA64595Dba86f7780E128816ADAAeCA8A2b](https://explorer.mantle.xyz/address/0x3d605fA64595Dba86f7780E128816ADAAeCA8A2b)
 
 **Note**: While the price feed is on-chain and permissionless, and tradeable by any user on WOOFi, we DO NOT guarantee the availability or accuracy of it. The price feed may become unavailable when the centralized liquidity source is in maintenance or any time the operator deems necessary. In no case, WOOFi is liable for any loss that might be caused by using the price feed by any third party.
 

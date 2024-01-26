@@ -389,25 +389,6 @@
 
 <details>
 
-<summary>Polygon zkEVM deployment</summary>
-
-#### **Swap**
-
-* WooRouterV2 - [0x39d361E66798155813b907A70D6c2e3FdaFB0877](https://zkevm.polygonscan.com/address/0x39d361e66798155813b907a70d6c2e3fdafb0877)
-* WooPPV2 - [0xF5d215d9C84778F85746D15762DaF39B9E83a2d6](https://zkevm.polygonscan.com/address/0xF5d215d9C84778F85746D15762DaF39B9E83a2d6)
-* WooracleV2.1 - [0x924128fc2CDA777A6B5e0A9Ad3EF1A8CDF73967e](https://zkevm.polygonscan.com/address/0x924128fc2cda777a6b5e0a9ad3ef1a8cdf73967e)
-* IntegrationHelper(token info) - [0x044c08639bD59BEB4F6ec52c0da6CD47283534E8](https://zkevm.polygonscan.com/address/0x044c08639bD59BEB4F6ec52c0da6CD47283534E8)
-
-#### Peripheries
-
-* WooFeeManager - [0xb130a49065178465931d4f887056328CeA5D723f](https://zkevm.polygonscan.com/address/0xb130a49065178465931d4f887056328CeA5D723f)
-* WooRebateManager - [0xa2101FD320D06e0A744e4FE90ef8A20ECd027001](https://zkevm.polygonscan.com/address/0xa2101fd320d06e0a744e4fe90ef8a20ecd027001)
-* WooAccessManager - [0x464959aD46e64046B891F562cFF202a465D522F3](https://zkevm.polygonscan.com/address/0x464959ad46e64046b891f562cff202a465d522f3)
-
-</details>
-
-<details>
-
 <summary>Linea deployment</summary>
 
 #### **Swap**
@@ -455,6 +436,45 @@
 * ProCrossChainRouter - [0xac8951A442fe70342f9597044B7b7657D5ad55ec](https://basescan.org/address/0xac8951A442fe70342f9597044B7b7657D5ad55ec)
 * ProxyAdmin - [0x3933CA6058E3549bbf25BA71901b82C11916EC16](https://basescan.org/address/0x3933CA6058E3549bbf25BA71901b82C11916EC16)
 * NonceCounter- [0x88A19967013CA274c296bFA433eb1BAc4D47B0dc](https://basescan.org/address/0x88A19967013CA274c296bFA433eb1BAc4D47B0dc)
+
+</details>
+
+<details>
+
+<summary>Mantle deployment</summary>
+
+**Swap**
+
+* WooRouterV2 - [0xd14a997308F9e7514a8FEA835064D596CDCaa99E](https://explorer.mantle.xyz/address/0xd14a997308F9e7514a8FEA835064D596CDCaa99E)
+* WooCrossChainRouterV4 - [0xCa10E8825FA9F1dB0651Cd48A9097997DBf7615d](https://explorer.mantle.xyz/address/0xCa10E8825FA9F1dB0651Cd48A9097997DBf7615d)
+* WooPPV2 - [0x9D1A92e601db0901e69bd810029F2C14bCCA3128](https://explorer.mantle.xyz/address/0x9D1A92e601db0901e69bd810029F2C14bCCA3128)
+* WooralceV2 - [0x3d605fA64595Dba86f7780E128816ADAAeCA8A2b](https://explorer.mantle.xyz/address/0x3d605fA64595Dba86f7780E128816ADAAeCA8A2b)
+* IntegrationHelper (token info) - [0x86b223E83D2FA43456b433687c8F47A35a9bE24C](https://explorer.mantle.xyz/address/0x86b223E83D2FA43456b433687c8F47A35a9bE24C)
+
+#### Peripheries
+
+* WooFeeManager - [0xF5d215d9C84778F85746D15762DaF39B9E83a2d6](https://explorer.mantle.xyz/address/0xF5d215d9C84778F85746D15762DaF39B9E83a2d6)
+* WooRebateManager - [0xb130a49065178465931d4f887056328CeA5D723f](https://explorer.mantle.xyz/address/0xb130a49065178465931d4f887056328CeA5D723f)
+* WooAccessManager - [0x2e668Bb88287675e34c8dF82686dfd0b7F0c0383](https://explorer.mantle.xyz/address/0x2e668Bb88287675e34c8dF82686dfd0b7F0c0383)
+
+</details>
+
+<details>
+
+<summary>Polygon zkEVM deployment</summary>
+
+#### **Swap**
+
+* WooRouterV2 - [0x39d361E66798155813b907A70D6c2e3FdaFB0877](https://zkevm.polygonscan.com/address/0x39d361e66798155813b907a70d6c2e3fdafb0877)
+* WooPPV2 - [0xF5d215d9C84778F85746D15762DaF39B9E83a2d6](https://zkevm.polygonscan.com/address/0xF5d215d9C84778F85746D15762DaF39B9E83a2d6)
+* WooracleV2.1 - [0x924128fc2CDA777A6B5e0A9Ad3EF1A8CDF73967e](https://zkevm.polygonscan.com/address/0x924128fc2cda777a6b5e0a9ad3ef1a8cdf73967e)
+* IntegrationHelper(token info) - [0x044c08639bD59BEB4F6ec52c0da6CD47283534E8](https://zkevm.polygonscan.com/address/0x044c08639bD59BEB4F6ec52c0da6CD47283534E8)
+
+#### Peripheries
+
+* WooFeeManager - [0xb130a49065178465931d4f887056328CeA5D723f](https://zkevm.polygonscan.com/address/0xb130a49065178465931d4f887056328CeA5D723f)
+* WooRebateManager - [0xa2101FD320D06e0A744e4FE90ef8A20ECd027001](https://zkevm.polygonscan.com/address/0xa2101fd320d06e0a744e4fe90ef8a20ecd027001)
+* WooAccessManager - [0x464959aD46e64046B891F562cFF202a465D522F3](https://zkevm.polygonscan.com/address/0x464959ad46e64046b891f562cff202a465d522f3)
 
 </details>
 

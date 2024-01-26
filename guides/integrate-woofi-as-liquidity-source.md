@@ -40,6 +40,8 @@ Linea - [0x7e1996945eA8866DE873179DC1677E93A4380107](https://lineascan.build/add
 
 Base - [0xC4E9B633685461E7B7A807D12a246C81f96F31B8](https://basescan.org/address/0xC4E9B633685461E7B7A807D12a246C81f96F31B8)
 
+Mantle - [0x86b223E83D2FA43456b433687c8F47A35a9bE24C](https://explorer.mantle.xyz/address/0x86b223E83D2FA43456b433687c8F47A35a9bE24C)
+
 
 
 ## Integrate WOOFi as a liquidity source
@@ -69,6 +71,8 @@ Polygon zkEVM - [0xF5d215d9C84778F85746D15762DaF39B9E83a2d6](https://zkevm.polyg
 Linea - [0xF5d215d9C84778F85746D15762DaF39B9E83a2d6](https://lineascan.build/address/0xf5d215d9c84778f85746d15762daf39b9e83a2d6)
 
 Base - [0xb130a49065178465931d4f887056328CeA5D723f](https://basescan.org/address/0xb130a49065178465931d4f887056328CeA5D723f)
+
+Mantle - [0x9D1A92e601db0901e69bd810029F2C14bCCA3128](https://explorer.mantle.xyz/address/0x9D1A92e601db0901e69bd810029F2C14bCCA3128)
 
 #### Interface
 
@@ -184,6 +188,8 @@ Polygon zkEVM - [0x39d361E66798155813b907A70D6c2e3FdaFB0877](https://zkevm.polyg
 Linea - [0x39d361E66798155813b907A70D6c2e3FdaFB0877](https://lineascan.build/address/0x39d361e66798155813b907a70d6c2e3fdafb0877)
 
 Base - [0x27425e9FB6A9A625E8484CFD9620851D1Fa322E5](https://basescan.org/address/0x27425e9fb6a9a625e8484cfd9620851d1fa322e5)
+
+Mantle - [0xd14a997308F9e7514a8FEA835064D596CDCaa99E](https://explorer.mantle.xyz/address/0xd14a997308F9e7514a8FEA835064D596CDCaa99E)
 
 
 
