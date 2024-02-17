@@ -9,7 +9,7 @@
 
 ## Resources
 
-* [Product Overview](https://learn.woo.org/woofi/intro)
+* [Product Docs](https://learn.woo.org)
 * [The math behind sPMM](resources/the-math-behind-spmm.md)
 * [Smart contract architecture](resources/resources.md)
 * [On-chain price feeds](resources/on-chain-price-feeds.md)
