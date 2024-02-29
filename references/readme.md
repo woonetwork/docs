@@ -443,7 +443,6 @@
 **Swap**
 
 * WooRouterV2 - [0x4c4AF8DBc524681930a27b2F1Af5bcC8062E6fB7](https://basescan.org/address/0x4c4af8dbc524681930a27b2f1af5bcc8062e6fb7)
-* WooRouterV2 - [0xd14a997308F9e7514a8FEA835064D596CDCaa99E](https://explorer.mantle.xyz/address/0xd14a997308F9e7514a8FEA835064D596CDCaa99E)
 * WooCrossChainRouterV4 - [0xCa10E8825FA9F1dB0651Cd48A9097997DBf7615d](https://explorer.mantle.xyz/address/0xCa10E8825FA9F1dB0651Cd48A9097997DBf7615d)
 * WooPPV2 - [0x9D1A92e601db0901e69bd810029F2C14bCCA3128](https://explorer.mantle.xyz/address/0x9D1A92e601db0901e69bd810029F2C14bCCA3128)
 * WooralceV2 - [0x3d605fA64595Dba86f7780E128816ADAAeCA8A2b](https://explorer.mantle.xyz/address/0x3d605fA64595Dba86f7780E128816ADAAeCA8A2b)
