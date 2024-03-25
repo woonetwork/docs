@@ -2,7 +2,7 @@
 
 <details>
 
-<summary><strong>Arbitrum deployment</strong></summary>
+<summary>Arbitrum deployment</summary>
 
 #### Swap
 
@@ -86,7 +86,7 @@
 
 <details>
 
-<summary><strong>Avalanche deployment</strong></summary>
+<summary>Avalanche deployment</summary>
 
 #### Swap
 
