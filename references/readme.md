@@ -66,14 +66,13 @@
 * RewardMasterchef - [0xc0f8C29e3a9A7650a3F642e467d70087819926d6](https://arbiscan.io/address/0xc0f8c29e3a9a7650a3f642e467d70087819926d6#code)
 * ExternalReward - [0xa397fba8c5c1aef9137601c185f6ab0e9cf43662](https://arbiscan.io/address/0xa397fba8c5c1aef9137601c185f6ab0e9cf43662#code)
 
-
-
 #### Peripheries
 
 * WooFeeManager - [0x0ba6C34aF9713D15141dcc91d2788c3F370ecb9E](https://arbiscan.io/address/0x0ba6c34af9713d15141dcc91d2788c3f370ecb9e#code)
 * WooRebateManager - [0x505ac728645d2ef84380961F72bAea500b3efa3f](https://arbiscan.io/address/0x505ac728645d2ef84380961f72baea500b3efa3f#code)
 * WooVaultManager - [0xF357eC5A6C82766AeB97D6DA7488e2efC3Dc0182](https://arbiscan.io/address/0xf357ec5a6c82766aeb97d6da7488e2efc3dc0182#code)
 * WooAccessManager - [0xd14a997308F9e7514a8FEA835064D596CDCaa99E](https://arbiscan.io/address/0xd14a997308f9e7514a8fea835064d596cdcaa99e#code)
+* WooBuyBackSwap -  0xA186555F7b5a60c0d103c84F0Bcb98fBD27aE24a
 
 **Pro**
 
