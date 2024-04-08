@@ -221,7 +221,7 @@
 * WooRebateManager - [0x0208D735576B3D974024237393F4617285bf0563](https://bscscan.com/address/0x0208d735576b3d974024237393f4617285bf0563#readContract)
 * WooVaultManager - [0xf704eaf4A68Ac424C809f7c4595451b9414d2b76](https://bscscan.com/address/0xf704eaf4A68Ac424C809f7c4595451b9414d2b76)
 * WooAccessManager - [0xa9eDb6F411e49358B515dE26543815770a739FB0](https://bscscan.com/address/0xa9eDb6F411e49358B515dE26543815770a739FB0)
-* WooGuardian - [0x910723e3c6a68276687b50613a1a9e42cc6589b](https://bscscan.com/address/0x910723e3c6a68276687b50613a1a9e42cc6589b4)
+* WooGuardian - [0x910723e3c6a68276687b50613a1a9e42cc6589b](https://bscscan.com/address/0x910723e3c6a68276687b50613a1a9e42cc6589b4)[4](https://bscscan.com/address/0x910723e3c6a68276687b50613a1a9e42cc6589b4)
 
 <!---->
 
