@@ -17,7 +17,16 @@
 ## References
 
 * [Contract Addresses](references/readme/README.md)
-  * [Arbitrum](references/readme/arbitrum.md)
+  * [Arbitrum one](references/readme/arbitrum-one.md)
+  * [Avalanche c-chain](references/readme/avalanche-c-chain.md)
+  * [Base](references/readme/base.md)
+  * [BNB smart chain](references/readme/bnb-smart-chain.md)
+  * [Ethereum](references/readme/ethereum.md)
+  * [Linea](references/readme/linea.md)
+  * [Mantle](references/readme/mantle.md)
+  * [OP mainnet](references/readme/op-mainnet.md)
+  * [Polygon PoS](references/readme/polygon-pos.md)
+  * [zkSync Era](references/readme/zksync-era.md)
 * [Data APIs](references/apis/README.md)
   * [Swap](references/apis/swap.md)
   * [Earn & Stake](references/apis/earn-and-stake.md)
