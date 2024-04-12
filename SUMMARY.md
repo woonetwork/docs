@@ -16,7 +16,8 @@
 
 ## References
 
-* [Contract Addresses](references/readme.md)
+* [Contract Addresses](references/readme/README.md)
+  * [Arbitrum](references/readme/arbitrum.md)
 * [Data APIs](references/apis/README.md)
   * [Swap](references/apis/swap.md)
   * [Earn & Stake](references/apis/earn-and-stake.md)
