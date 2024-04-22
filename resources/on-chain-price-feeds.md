@@ -6,19 +6,9 @@ In order to simulate the order book from centralized exchanges without sacrifici
 
 The price feeds use Chainlink price feeds as a fail safe. Users can call `price` to get `priceNow` and `feasible` of token. If `feasible` is `false`, do not use `priceNow` value. All prices are USDT/USDC-based, and the decimal of `priceNow` is `8 (the same in decimals as price in Chainlink Oracle)`
 
-**Wooracle v2.1**
+**Wooracle v2.2**
 
-* Arbitrum address: [0x73504eaCB100c7576146618DC306c97454CB3620](https://arbiscan.io/address/0x73504eaCB100c7576146618DC306c97454CB3620)
-* Optimism address: [0xd589484d3A27B7Ce5C2C7F829EB2e1D163f95817](https://optimistic.etherscan.io/address/0xd589484d3A27B7Ce5C2C7F829EB2e1D163f95817)
-* Avalanche address: [0xc13843aE0D2C5ca9E0EfB93a78828446D8173d19](https://snowtrace.io/address/0xc13843aE0D2C5ca9E0EfB93a78828446D8173d19)
-* Polygon address: [0x31aE608cBadD1214D6A3d5dcf49E45Fb18E2a48E](https://polygonscan.com/address/0x31aE608cBadD1214D6A3d5dcf49E45Fb18E2a48E)
-* BSC address: [0x72dc7fa5eeb901a34173C874A7333c8d1b34bca9](https://bscscan.com/address/0x72dc7fa5eeb901a34173C874A7333c8d1b34bca9)
-* Fantom address: [0xB1d022F8F3e43868DaaDfa7040e63781C16aB4A6](https://ftmscan.com/address/0xb1d022f8f3e43868daadfa7040e63781c16ab4a6)
-* zkSync Era address:  [0xe7aC6e017Ac7aD189F10501D7385ee9A6211Ba35](https://explorer.zksync.io/address/0xe7aC6e017Ac7aD189F10501D7385ee9A6211Ba35#contract)
-* Polygon zkEVM address: [0x924128fc2CDA777A6B5e0A9Ad3EF1A8CDF73967e](https://zkevm.polygonscan.com/address/0x924128fc2cda777a6b5e0a9ad3ef1a8cdf73967e)
-* Linea address: [0x0208D735576B3D974024237393F4617285bf0563](https://lineascan.build/address/0x0208D735576B3D974024237393F4617285bf0563)
-* Base address: [0x2Fe5E5D341cFFa606a5d9DA1B6B646a381B0f7ec](https://basescan.org/address/0x2Fe5E5D341cFFa606a5d9DA1B6B646a381B0f7ec)
-* Mantle address: [0x3d605fA64595Dba86f7780E128816ADAAeCA8A2b](https://explorer.mantle.xyz/address/0x3d605fA64595Dba86f7780E128816ADAAeCA8A2b)
+* Arbitrum address: 0xCf4EA1688bc23DD93D933edA535F8B72FC8934Ec
 
 **Note**: While the price feed is on-chain and permissionless, and tradeable by any user on WOOFi, we DO NOT guarantee the availability or accuracy of it. The price feed may become unavailable when the centralized liquidity source is in maintenance or any time the operator deems necessary. In no case, WOOFi is liable for any loss that might be caused by using the price feed by any third party.
 

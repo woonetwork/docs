@@ -52,25 +52,7 @@ Another way is to integrate directly with `WooPPV2.sol`. This approach is slight
 
 #### Contract addresses:
 
-Arbitrum: [0xeFF23B4bE1091b53205E35f3AfCD9C7182bf3062](https://arbiscan.io/address/0xeff23b4be1091b53205e35f3afcd9c7182bf3062#code)
-
-Avalanche: [0x3b3E4b4741e91aF52d0e9ad8660573E951c88524](https://snowtrace.io/address/0x3b3e4b4741e91af52d0e9ad8660573e951c88524#code)
-
-BSC: [0x59dE3B49314Bf5067719364A2Cb43e8525ab93FA](https://bscscan.com/address/0x59de3b49314bf5067719364a2cb43e8525ab93fa)
-
-Optimism - [0xd1778F9DF3eee5473A9640f13682e3846f61fEbC](https://optimistic.etherscan.io/address/0xd1778f9df3eee5473a9640f13682e3846f61febc#code)
-
-Polygon POS - [0x7081A38158BD050Ae4a86e38E0225Bc281887d7E](https://polygonscan.com/address/0x7081a38158bd050ae4a86e38e0225bc281887d7e#code)
-
-zkSync Era - [0x42ED123EB5266A5B8E2B54B2C76180CCF5e72FEe](https://explorer.zksync.io/address/0x42ED123EB5266A5B8E2B54B2C76180CCF5e72FEe#contract)
-
-Polygon zkEVM - [0xF5d215d9C84778F85746D15762DaF39B9E83a2d6](https://zkevm.polygonscan.com/address/0xF5d215d9C84778F85746D15762DaF39B9E83a2d6)
-
-Linea - [0xF5d215d9C84778F85746D15762DaF39B9E83a2d6](https://lineascan.build/address/0xf5d215d9c84778f85746d15762daf39b9e83a2d6)
-
-Base - [0xb130a49065178465931d4f887056328CeA5D723f](https://basescan.org/address/0xb130a49065178465931d4f887056328CeA5D723f)
-
-Mantle - [0x9D1A92e601db0901e69bd810029F2C14bCCA3128](https://explorer.mantle.xyz/address/0x9D1A92e601db0901e69bd810029F2C14bCCA3128)
+Arbitrum: `0xEd9e3f98bBed560e66B89AaC922E29D4596A9642`
 
 #### Interface
 
@@ -169,9 +151,8 @@ The straightforward way is interacting with `WooRouterV2.sol` contract which pro
 
 #### Contract addresses:
 
-Same address across Arbitrum, Avalanche, BSC, Optimism, Polygon PoS, Ethereum, Linea, Base, Mantle - 0x4c4AF8DBc524681930a27b2F1Af5bcC8062E6fB7
-
-zkSync: 0x09873bfECA34F1Acd0a7e55cDA591f05d8a75369
+* Same address across Arbitrum, Avalanche, BSC, Optimism, Polygon PoS, Ethereum, Linea, Base, Mantle - `0x4c4AF8DBc524681930a27b2F1Af5bcC8062E6fB7`
+* zkSync: `0x09873bfECA34F1Acd0a7e55cDA591f05d8a75369`
 
 **Interface**
 
