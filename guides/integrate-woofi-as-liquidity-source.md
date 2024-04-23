@@ -4,14 +4,14 @@
 
 Two main contracts of WOOFi's swap function are as follows:
 
-* `WooPPV2.sol`: the main swap contract that handles the logic operation, including setting the token info, calculating slippage, calculating the exchange amount and executing trades. it stores all tokens that are supported for trading. In this contract, it defines quote token and base token. Quote token is the reference token (i.e. stablecoins) in the contract and there is only one quote token. The contract can have multiple base tokens and they can be added by the strategist.&#x20;
+* `WooPPV2_1.sol`: the main swap contract that handles the logic operation, including setting the token info, calculating slippage, calculating the exchange amount and executing trades. it stores all tokens that are supported for trading. In this contract, it defines quote token and base token. Quote token is the reference token (i.e. stablecoins) in the contract and there is only one quote token. The contract can have multiple base tokens and they can be added by the strategist.&#x20;
 * `WooRouterV2.sol`: the router contract that frontend users interact with. It interacts with the lower layer `WooPPV2.sol` to execute the sell logic and send back users the desired amount of tokens. This contract also implements the logic to route user orders to 3rd party aggregator (e.g. 1inch) when `WooPPV2.sol` does not have sufficient liquidity.
 
 ## Supported assets
 
 **Adding `IntegrationHelper.sol`**
 
-`WooPPV2.sol` has one quote token which is typically the dominant stablecoin of each chain and multiple base tokens. A `IntegrationHelper.sol` contract is deployed on each supported chain which contains the address of the quote token and the list of tradable base token addresses in `WooPPV2.sol.`
+`WooPPV2_1.sol` has one quote token which is typically the dominant stablecoin of each chain and multiple base tokens. A `IntegrationHelper.sol` contract is deployed on each supported chain which contains the address of the quote token and the list of tradable base token addresses in `WooPPV2_1.sol.`
 
 The latest list of supported tokens can be retrieved via the `getSupportTokens()` function which will return two values:
 
@@ -44,15 +44,15 @@ Mantle - [0x86b223E83D2FA43456b433687c8F47A35a9bE24C](https://explorer.mantle.xy
 
 ## Integrate WOOFi as a liquidity source
 
-When integrating WOOFi as a liquidity source, you can either interact with `WooRouterV2.sol` or `WooPPV2.sol`.
+When integrating WOOFi as a liquidity source, you can either interact with `WooRouterV2.sol` or `WooPPV2_1.sol`.
 
-### Integrating `WooPPV2.sol` &#x20;
+### Integrating `WooPPV2_1.sol` &#x20;
 
-Another way is to integrate directly with `WooPPV2.sol`. This approach is slightly more gas efficient, but it requires writing the smart contract code and manually send the `fromToken` to `WooPPV2.sol`, which a better choice for apps that already have an aggregation logic.&#x20;
+Another way is to integrate directly with `WooPPV2_1.sol`. This approach is slightly more gas efficient, but it requires writing the smart contract code and manually send the `fromToken` to `WooPPV2_1.sol`, which a better choice for apps that already have an aggregation logic.&#x20;
 
 #### Contract addresses:
 
-Arbitrum: `0xEd9e3f98bBed560e66B89AaC922E29D4596A9642`
+Same address across Arbitrum, Avalanche, BSC, Optimism, Polygon PoS, Ethereum, Linea, Base, Mantle: `0xEd9e3f98bBed560e66B89AaC922E29D4596A9642`
 
 #### Interface
 
@@ -151,7 +151,7 @@ The straightforward way is interacting with `WooRouterV2.sol` contract which pro
 
 #### Contract addresses:
 
-* Same address across Arbitrum, Avalanche, BSC, Optimism, Polygon PoS, Ethereum, Linea, Base, Mantle - `0x4c4AF8DBc524681930a27b2F1Af5bcC8062E6fB7`
+* Same address across Arbitrum, Avalanche, BSC, Optimism, Polygon PoS, Ethereum, Linea, Base, Mantle: `0x4c4AF8DBc524681930a27b2F1Af5bcC8062E6fB7`
 * zkSync: `0x09873bfECA34F1Acd0a7e55cDA591f05d8a75369`
 
 **Interface**

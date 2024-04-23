@@ -6,7 +6,7 @@ In order to simulate the order book from centralized exchanges without sacrifici
 
 The price feeds use Chainlink price feeds as a fail safe. Users can call `price` to get `priceNow` and `feasible` of token. If `feasible` is `false`, do not use `priceNow` value. All prices are USDT/USDC-based, and the decimal of `priceNow` is `8 (the same in decimals as price in Chainlink Oracle)`
 
-**Wooracle v2.2**
+**Wooracle v2.2.1**
 
 * Arbitrum address: 0xCf4EA1688bc23DD93D933edA535F8B72FC8934Ec
 
