@@ -6,6 +6,12 @@
 
 ## Audits
 
+### WOOFi Swap fix - April 2024
+
+Sherlock was engaged to conduct a contest to audit WOOFi's sPMM, oracle and router contracts to validate the fix that was implemented after the incident. Results are published [here](https://audits.sherlock.xyz/contests/277), the audit report can also be found attached below.
+
+{% file src="../.gitbook/assets/WOOFI_Swap_Audit_Report.pdf" %}
+
 ### WOOFi Staking v2 - May 2023
 
 Certik conducted an audit on the WOOFi's staking v2 smart contracts, the full audit report is published [here](https://www.certik.com/projects/woofiswap) by the auditor, attachment can be found below.
