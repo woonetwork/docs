@@ -2,7 +2,7 @@
 
 ## Swap
 
-<table><thead><tr><th width="463">Address</th><th>Contract</th></tr></thead><tbody><tr><td>0x4c4AF8DBc524681930a27b2F1Af5bcC8062E6fB7</td><td>WooRouterV2</td></tr><tr><td>0xCa10E8825FA9F1dB0651Cd48A9097997DBf7615d</td><td>CrossswapRouterv3.1</td></tr><tr><td>0xF5d215d9C84778F85746D15762DaF39B9E83a2d6</td><td>WooPPV2</td></tr><tr><td>0x0208D735576B3D974024237393F4617285bf0563</td><td>WooracleV2.1</td></tr><tr><td>0x7e1996945eA8866DE873179DC1677E93A4380107</td><td>IntegrationHelper(token info)</td></tr></tbody></table>
+<table><thead><tr><th width="463">Address</th><th>Contract</th></tr></thead><tbody><tr><td>0x4c4AF8DBc524681930a27b2F1Af5bcC8062E6fB7</td><td>WooRouterV2</td></tr><tr><td>0xCa10E8825FA9F1dB0651Cd48A9097997DBf7615d</td><td>CrossswapRouterv3.1</td></tr><tr><td>0xEd9e3f98bBed560e66B89AaC922E29D4596A9642</td><td>WooPPV2</td></tr><tr><td>0x2A375567f5E13F6bd74fDa7627Df3b1Af6BfA5a6</td><td>WooracleV2.1</td></tr><tr><td>0x7e1996945eA8866DE873179DC1677E93A4380107</td><td>IntegrationHelper(token info)</td></tr></tbody></table>
 
 ## Pro
 
@@ -10,4 +10,4 @@
 
 ## Peripheries
 
-<table><thead><tr><th width="474">Address</th><th>Contract</th></tr></thead><tbody><tr><td>0xb130a49065178465931d4f887056328CeA5D723f</td><td>WooFeeManager</td></tr><tr><td>0xa2101FD320D06e0A744e4FE90ef8A20ECd027001</td><td>WooRebateManager</td></tr><tr><td>0x15bA47E540E1B197E30D16A93B0c568B251629c2</td><td>WooAccessManager</td></tr></tbody></table>
+<table><thead><tr><th width="474">Address</th><th>Contract</th></tr></thead><tbody><tr><td>0xc45B55032caFeaff3b8057d52758D8f8211DA54D</td><td>WooFeeManager</td></tr><tr><td>0x7616614084e040028D6a61c0f3A9699c121A6500</td><td>WooRebateManager</td></tr><tr><td>0xAf558f888e138CA9416111Ec7aE8e28354Cd9239</td><td>WooAccessManager</td></tr></tbody></table>
