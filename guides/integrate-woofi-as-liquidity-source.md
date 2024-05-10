@@ -53,7 +53,7 @@ Another way is to integrate directly with `WooPPV2_1.sol`. This approach is slig
 #### Contract addresses:
 
 * Same address across Arbitrum, Avalanche, BSC, Optimism, Polygon PoS, Ethereum, Linea, Base, Mantle: `0xEd9e3f98bBed560e66B89AaC922E29D4596A9642`
-* zkSync Era:
+* zkSync Era: `0xE656d70bc3550e3EEE9dE7dC79367A44Fd13d975`
 
 #### Interface
 

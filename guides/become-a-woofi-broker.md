@@ -21,7 +21,7 @@ In order to receive rebates, the broker needs to integrate WOOFi as a liquidity 
 The rebate is processed on a daily basis via smart contracts, the broker can check the eligible rebates and claim anytime you want on the chain that WOOFi liquidity is integrated.
 
 * Same address across Arbitrum, Avalanche, BSC, Optimism, Polygon PoS, Ethereum, Linea, Base, Mantle: `0x7616614084e040028D6a61c0f3A9699c121A6500`
-* zkSync Era:
+* zkSync Era: `0x66C9467eC052Fb258e24DcCe87E93A0002966014`
 
 If you have unclaimed rebates in the deprecated `WooRebateManager` smart contracts pls check the following contract and claim asap.
 

@@ -14,6 +14,8 @@ The price feeds use Chainlink price feeds as a fail safe. Users can call `price`
 * Base address: 0x2A375567f5E13F6bd74fDa7627Df3b1Af6BfA5a6
 * Avalanche c-chain address: 0x2A375567f5E13F6bd74fDa7627Df3b1Af6BfA5a6
 * BSC address: 0x2A375567f5E13F6bd74fDa7627Df3b1Af6BfA5a6
+* Linea address: 0x2A375567f5E13F6bd74fDa7627Df3b1Af6BfA5a6
+* zkSync Era address: 0xAe45cBE2d1E90358CbD216bC16f2C9267a4EA80a
 
 **Note**: While the price feed is on-chain and permissionless, and tradeable by any user on WOOFi, we DO NOT guarantee the availability or accuracy of it. The price feed may become unavailable when the centralized liquidity source is in maintenance or any time the operator deems necessary. In no case, WOOFi is liable for any loss that might be caused by using the price feed by any third party.
 
