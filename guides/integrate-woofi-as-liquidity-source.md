@@ -34,8 +34,6 @@ Polygon POS - [0x7Ba560eB735AbDCf9a3a5692272652A0cc81850d](https://polygonscan.c
 
 zkSync Era - [0x636DfeB023463F176f87D61E3B604231986bd935](https://explorer.zksync.io/address/0x636DfeB023463F176f87D61E3B604231986bd935#contract)
 
-Polygon zkEVM - [0x044c08639bD59BEB4F6ec52c0da6CD47283534E8](https://zkevm.polygonscan.com/address/0x044c08639bD59BEB4F6ec52c0da6CD47283534E8)
-
 Linea - [0x7e1996945eA8866DE873179DC1677E93A4380107](https://lineascan.build/address/0x7e1996945ea8866de873179dc1677e93a4380107#readContract)
 
 Base - [0xC4E9B633685461E7B7A807D12a246C81f96F31B8](https://basescan.org/address/0xC4E9B633685461E7B7A807D12a246C81f96F31B8)
@@ -52,7 +50,7 @@ Another way is to integrate directly with `WooPPV2_1.sol`. This approach is slig
 
 #### Contract addresses:
 
-* Same address across Arbitrum, Avalanche, BSC, Optimism, Polygon PoS, Ethereum, Linea, Base, Mantle: `0xEd9e3f98bBed560e66B89AaC922E29D4596A9642`
+* Same address across Arbitrum, Avalanche, BSC, Optimism, Polygon PoS, Linea, Base, Mantle: `0xEd9e3f98bBed560e66B89AaC922E29D4596A9642`
 * zkSync Era: `0xE656d70bc3550e3EEE9dE7dC79367A44Fd13d975`
 
 #### Interface
@@ -142,9 +140,12 @@ Another way is to integrate directly with `WooPPV2_1.sol`. This approach is slig
     
 ```
 
-#### sPMM offchain simulation
+#### Price check with Wooracle
 
-For aggregators running offchain routing simulation, you can find the typescript implementation of WOOFi's sPMM algorithm in the github (to be added soon).
+WOOFi's oracle has a few price check implemented, find the addresses of the wooracle contract in [on-chain-price-feeds.md](../resources/on-chain-price-feeds.md "mention").
+
+* checking against the 3rd party oracle price e.g. ChainLink and Pyth
+* set the price range a swap can be executed against the current price
 
 ### Integrating `WooRouterV2.sol`
 
@@ -152,7 +153,7 @@ The straightforward way is interacting with `WooRouterV2.sol` contract which pro
 
 #### Contract addresses:
 
-* Same address across Arbitrum, Avalanche, BSC, Optimism, Polygon PoS, Ethereum, Linea, Base, Mantle: `0x4c4AF8DBc524681930a27b2F1Af5bcC8062E6fB7`
+* Same address across Arbitrum, Avalanche, BSC, Optimism, Polygon PoS, Linea, Base, Mantle: `0x4c4AF8DBc524681930a27b2F1Af5bcC8062E6fB7`
 * zkSync: `0x09873bfECA34F1Acd0a7e55cDA591f05d8a75369`
 
 **Interface**
