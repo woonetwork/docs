@@ -6,7 +6,13 @@
 
 ## Audits
 
-### WOOFi Swap fix - April 2024
+### WOOFi Swap fix - May 2024 by Zellic
+
+[Zellic](https://www.zellic.io/) conducted an audit WOOFi's sPMM, oracle and router contracts to validate the fix that was implemented after the incident. Results are published here, the audit report can also be found attached below.
+
+{% file src="../.gitbook/assets/WOOFi swap - Zellic Audit Report.pdf" %}
+
+### WOOFi Swap fix - April 2024 by Sherlock
 
 Sherlock was engaged to conduct a contest to audit WOOFi's sPMM, oracle and router contracts to validate the fix that was implemented after the incident. Results are published [here](https://audits.sherlock.xyz/contests/277), the audit report can also be found attached below.
 
