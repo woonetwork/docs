@@ -6,9 +6,15 @@
 
 ## Audits
 
+### WOOFi earn and stake - August 2024 by Zellic
+
+[Zellic](https://www.zellic.io/) conducted an audit on WOOFi's supercharger and staking contracts, and this is the 2nd audit on these contracts. Results are published [here](https://github.com/Zellic/publications), the audit report can also be found attached below.
+
+{% file src="../.gitbook/assets/WOOFI Stake - Zellic Audit Report.pdf" %}
+
 ### WOOFi Swap fix - May 2024 by Zellic
 
-[Zellic](https://www.zellic.io/) conducted an audit WOOFi's sPMM, oracle and router contracts to validate the fix that was implemented after the incident. Results are published [here](https://github.com/Zellic/publications), the audit report can also be found attached below.
+[Zellic](https://www.zellic.io/) conducted an audit on WOOFi's sPMM, oracle and router contracts to validate the fix that was implemented after the incident. Results are published [here](https://github.com/Zellic/publications), the audit report can also be found attached below.
 
 {% file src="../.gitbook/assets/WOOFi Swap - Zellic Audit Report.pdf" %}
 
