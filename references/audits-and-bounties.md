@@ -6,6 +6,12 @@
 
 ## Audits
 
+### WOOFi Swap Solana - October 2024 by Sherlock
+
+Sherlock was engaged to conduct a contest to audit WOOFi's solana deployment of sPMM swap. Results are published [here](https://audits.sherlock.xyz/dashboard/85617a9a7bf6d34c43b0be845160efa2/fix\_review\_hashes), the audit report can also be found attached below.
+
+{% file src="../.gitbook/assets/woofi-swap-on-solana-audit-report-1729681693.pdf" %}
+
 ### WOOFi earn and stake - August 2024 by Zellic
 
 [Zellic](https://www.zellic.io/) conducted an audit on WOOFi's supercharger and staking contracts, and this is the 2nd audit on these contracts. Results are published [here](https://github.com/Zellic/publications), the audit report can also be found attached below.
