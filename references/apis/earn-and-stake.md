@@ -7,20 +7,14 @@
 
 ### Staking
 
-`GET /staking`
+`GET /stakingv2`
 
-**Params**
+**Returns**
 
-| Name    |  Type  | Description                                                 |
-| ------- | :----: | ----------------------------------------------------------- |
-| network | String | option: `bsc` / `avax` / `fantom` / `polygon` /  `arbitrum` |
-
-**Each Token Returns**
-
-| Name          |   Type  | Description                                                |
-| ------------- | :-----: | ---------------------------------------------------------- |
-| apr           | Decimal | Vault APR                                                  |
-| total\_staked |  String | Total staked(value multiplied by`10^<decimals>`)(unit:WOO) |
+| Name      |  Type | Description                                  |
+| --------- | :---: | -------------------------------------------- |
+| avg\_apr  | float | Average APR of all stakers                   |
+| base\_apr | float | Base apr based on the user's staked WOO only |
 
 ### Earn
 
@@ -28,9 +22,9 @@
 
 **Params**
 
-| Name    |  Type  | Description                                                            |
-| ------- | :----: | ---------------------------------------------------------------------- |
-| network | String | option: `bsc` / `avax` / `fantom` / `polygon`/ `arbitrum` / `optimism` |
+| Name    |  Type  | Description                                                                                 |
+| ------- | :----: | ------------------------------------------------------------------------------------------- |
+| network | String | option: `bsc` / `avax`  / `polygon`/ `arbitrum` / `optimism` / `zksync` / `base` / `mantle` |
 
 **Returns**
 
