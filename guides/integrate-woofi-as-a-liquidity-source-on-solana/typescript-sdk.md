@@ -39,8 +39,8 @@ yarn test
 
 In the `sdk` folder, run `yarn run docs`
 
-You can also see the generated TypeDoc.
+You can also see the generated TypeDoc under docs folder.
 
 ### Sample Codes
 
-You can find sample code covering basic operations here.
+You can find sample code covering basic operations under sdk/test folder [here](https://github.com/woonetwork/WOOFi_Solana/tree/main/sdk/tests).
