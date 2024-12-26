@@ -155,9 +155,8 @@ The straightforward way is interacting with `WooRouterV2.sol` contract which pro
 
 #### Contract addresses:
 
-* Same address across Arbitrum, Avalanche, BSC, Optimism, Polygon PoS, Linea, Base, Mantle: `0x4c4AF8DBc524681930a27b2F1Af5bcC8062E6fB7`
+* Same address across Arbitrum, Avalanche, BSC, Optimism, Polygon PoS, Linea, Base, Mantle, Sonic: `0x4c4AF8DBc524681930a27b2F1Af5bcC8062E6fB7`&#x20;
 * zkSync: `0x09873bfECA34F1Acd0a7e55cDA591f05d8a75369`
-* Sonic: `0x17ccEf8785cC6D95B3Afa5Bc1b8D85A4Af6c7f9F`
 
 **Interface**
 
