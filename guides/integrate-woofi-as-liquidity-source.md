@@ -1,4 +1,4 @@
-# Integrate WOOFi as a liquidity source
+# Integrate WOOFi as a liquidity source on EVM
 
 ## Contracts
 
@@ -40,6 +40,8 @@ Base - [0xC4E9B633685461E7B7A807D12a246C81f96F31B8](https://basescan.org/address
 
 Mantle - [0x86b223E83D2FA43456b433687c8F47A35a9bE24C](https://explorer.mantle.xyz/address/0x86b223E83D2FA43456b433687c8F47A35a9bE24C)
 
+Sonic - [0xc8521e41DE46036A61c562062862681f0060CD7E](https://sonicscan.org/address/0xc8521e41DE46036A61c562062862681f0060CD7E)
+
 ## Integrate WOOFi as a liquidity source
 
 When integrating WOOFi as a liquidity source, you can either interact with `WooRouterV2.sol` or `WooPPV2_1.sol`.
@@ -50,7 +52,7 @@ Another way is to integrate directly with `WooPPV2_1.sol`. This approach is slig
 
 #### Contract addresses:
 
-* Same address across Arbitrum, Avalanche, BSC, Optimism, Polygon PoS, Linea, Base, Mantle: `0xEd9e3f98bBed560e66B89AaC922E29D4596A9642`
+* Same address across Arbitrum, Avalanche, BSC, Optimism, Polygon PoS, Linea, Base, Mantle, Sonic: `0xEd9e3f98bBed560e66B89AaC922E29D4596A9642`
 * zkSync Era: `0xE656d70bc3550e3EEE9dE7dC79367A44Fd13d975`
 
 #### Interface
@@ -155,6 +157,7 @@ The straightforward way is interacting with `WooRouterV2.sol` contract which pro
 
 * Same address across Arbitrum, Avalanche, BSC, Optimism, Polygon PoS, Linea, Base, Mantle: `0x4c4AF8DBc524681930a27b2F1Af5bcC8062E6fB7`
 * zkSync: `0x09873bfECA34F1Acd0a7e55cDA591f05d8a75369`
+* Sonic: `0x17ccEf8785cC6D95B3Afa5Bc1b8D85A4Af6c7f9F`
 
 **Interface**
 
