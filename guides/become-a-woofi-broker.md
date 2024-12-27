@@ -10,7 +10,7 @@ WOOFi has the lowest swap fee in the market with only 2.5bps on each transaction
 
 Any application such as DEX aggregators, wallets, web3 apps or websites that integrate WOOFi's sPMM liquidity can enroll as a broker to receive rebates. Fill out the enrollment form below and we will get in touch with you shortly.
 
-:point\_right: [**Enrollment Form**](https://docs.google.com/forms/d/e/1FAIpQLSdTTfytZmcKLwGTl6MUxGiaou1gAXhd83roAGgNCiIkBeYtFQ/viewform?usp=sf\_link)
+:point\_right: [**Enrollment Form**](https://docs.google.com/forms/d/e/1FAIpQLSdTTfytZmcKLwGTl6MUxGiaou1gAXhd83roAGgNCiIkBeYtFQ/viewform?usp=sf_link)
 
 Once the enrollment information is reviewed, our team will get in contact with you and the provided broker rebate address will be added to the whitelist in `WooRebateManager.sol` on corresponding blockchains.
 
@@ -20,7 +20,7 @@ In order to receive rebates, the broker needs to integrate WOOFi as a liquidity 
 
 The rebate is processed on a daily basis via smart contracts, the broker can check the eligible rebates and claim anytime you want on the chain that WOOFi liquidity is integrated.
 
-* Same address across Arbitrum, Avalanche, BSC, Optimism, Polygon PoS, Ethereum, Linea, Base, Mantle: `0x7616614084e040028D6a61c0f3A9699c121A6500`
+* Same address across Arbitrum, Avalanche, BSC, Optimism, Polygon PoS, Ethereum, Linea, Base, Mantle, Sonic: `0x7616614084e040028D6a61c0f3A9699c121A6500`
 * zkSync Era: `0x66C9467eC052Fb258e24DcCe87E93A0002966014`
 
 If you have unclaimed rebates in the deprecated `WooRebateManager` smart contracts pls check the following contract and claim asap.
