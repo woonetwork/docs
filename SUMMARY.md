@@ -21,6 +21,7 @@
 ## References
 
 * [Contract Addresses](references/readme/README.md)
+  * [Solana](references/readme/solana.md)
   * [Arbitrum one](references/readme/arbitrum-one.md)
   * [Avalanche c-chain](references/readme/avalanche-c-chain.md)
   * [Base](references/readme/base.md)
