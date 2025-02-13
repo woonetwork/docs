@@ -2,7 +2,7 @@
 
 ## Swap
 
-<table><thead><tr><th width="462">Address</th><th>Contract</th></tr></thead><tbody><tr><td>0x4c4AF8DBc524681930a27b2F1Af5bcC8062E6fB7</td><td>WooRouterV2</td></tr><tr><td>0xCa10E8825FA9F1dB0651Cd48A9097997DBf7615d</td><td>CrossswapRouterV3.1</td></tr><tr><td>0xEd9e3f98bBed560e66B89AaC922E29D4596A9642</td><td>WooPPV2</td></tr><tr><td>0x2A375567f5E13F6bd74fDa7627Df3b1Af6BfA5a6</td><td>WooracleV2.1</td></tr><tr><td>0x020630613E296c3E9b06186f630D1bF97A2B6Ad1</td><td>IntegrationHelper (token info)</td></tr></tbody></table>
+<table><thead><tr><th width="462">Address</th><th>Contract</th></tr></thead><tbody><tr><td>0x4c4AF8DBc524681930a27b2F1Af5bcC8062E6fB7</td><td>WooRouterV2</td></tr><tr><td>0xB84aEfEF2DDDE628d5c7F1fba320dE63e3f4757c</td><td>CrossswapRouterV5</td></tr><tr><td>0xEd9e3f98bBed560e66B89AaC922E29D4596A9642</td><td>WooPPV2</td></tr><tr><td>0x2A375567f5E13F6bd74fDa7627Df3b1Af6BfA5a6</td><td>WooracleV2.1</td></tr><tr><td>0x020630613E296c3E9b06186f630D1bF97A2B6Ad1</td><td>IntegrationHelper (token info)</td></tr></tbody></table>
 
 ## Stake
 
