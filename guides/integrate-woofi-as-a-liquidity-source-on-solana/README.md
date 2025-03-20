@@ -4,7 +4,7 @@ WOOFi's sPMM is Synthetic Proactive Market Making (sPMM) contract on the Solana 
 
 #### Contract addresses:
 
-Mainnet: [WooFiGFK9x5FBYdvMg3pJBpAkPA8EEYiLcopwrxJvDG](https://solscan.io/account/WooFiGFK9x5FBYdvMg3pJBpAkPA8EEYiLcopwrxJvDG)
+Mainnet: [woofiCKJyDKxswhzu98HRW2v52AfjBKHkKtHEzV4ncV](https://solscan.io/account/woofiCKJyDKxswhzu98HRW2v52AfjBKHkKtHEzV4ncV)
 
 #### WOOFi Solana Program's github repository is available [here](https://github.com/woonetwork/WOOFi_Solana).
 
