@@ -2,7 +2,7 @@
 
 ## Swap
 
-<table><thead><tr><th width="463">Address</th><th>Contract</th></tr></thead><tbody><tr><td>WooFiGFK9x5FBYdvMg3pJBpAkPA8EEYiLcopwrxJvDG</td><td>WOOFi Program</td></tr><tr><td>FnLTF5dbSrCNqrAd9VBTHavLQUvEZbrFU8QWc5Lc8ECV</td><td>WSOL account</td></tr><tr><td>5RAJHFCGWrkNxt8AV7tDT2t5LcLNrzK72XXnVkeucPiZ</td><td>USDC account</td></tr></tbody></table>
+<table><thead><tr><th width="463">Address</th><th>Contract</th></tr></thead><tbody><tr><td>WooFif76YGRNjk1pA8wCsN67aQsD9f9iLsz4NcJ1AVb</td><td>WOOFi Program</td></tr><tr><td>mjkf7dn23RrwPphKvqze2dJcTUAXnXRBSS51qGGLB4Y</td><td>SOL Wooracle</td></tr><tr><td>Dk1BiYeDuM4PPQDiNNnqaiiKHPEZ65DJSVjdcSwKt4aU</td><td>USDC wooracle</td></tr></tbody></table>
 
 ## Peripheries
 

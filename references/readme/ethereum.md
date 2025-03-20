@@ -2,7 +2,7 @@
 
 ## Swap
 
-<table><thead><tr><th width="463">Address</th><th>Contract</th></tr></thead><tbody><tr><td>0x4c4AF8DBc524681930a27b2F1Af5bcC8062E6fB7</td><td>WooRouter</td></tr><tr><td>0xB84aEfEF2DDDE628d5c7F1fba320dE63e3f4757c</td><td>CrossswapRouterV5</td></tr></tbody></table>
+<table><thead><tr><th width="463">Address</th><th>Contract</th></tr></thead><tbody><tr><td>0x4c4AF8DBc524681930a27b2F1Af5bcC8062E6fB7</td><td>WooRouter</td></tr><tr><td>0xB84aEfEF2DDDE628d5c7F1fba320dE63e3f4757c</td><td>CrossswapRouterV5</td></tr><tr><td>0xAd6cA80Fe4D3c54f6433fF725d744772AaE87711</td><td>WooOFTAdapter</td></tr></tbody></table>
 
 ## Stake
 

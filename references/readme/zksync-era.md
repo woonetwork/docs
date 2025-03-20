@@ -2,7 +2,7 @@
 
 ## Swap
 
-<table><thead><tr><th width="463">Address</th><th>Contract</th></tr></thead><tbody><tr><td>0x09873bfECA34F1Acd0a7e55cDA591f05d8a75369</td><td>WooRouterV2</td></tr><tr><td>0xE656d70bc3550e3EEE9dE7dC79367A44Fd13d975</td><td>WooPPV2</td></tr><tr><td>0xAe45cBE2d1E90358CbD216bC16f2C9267a4EA80a</td><td>WooracleV2.1</td></tr><tr><td>0x636DfeB023463F176f87D61E3B604231986bd935</td><td>IntegrationHelper (token info)</td></tr></tbody></table>
+<table><thead><tr><th width="463">Address</th><th>Contract</th></tr></thead><tbody><tr><td>0x09873bfECA34F1Acd0a7e55cDA591f05d8a75369</td><td>WooRouterV2</td></tr><tr><td>0xE656d70bc3550e3EEE9dE7dC79367A44Fd13d975</td><td>WooPPV2</td></tr><tr><td>0xAe45cBE2d1E90358CbD216bC16f2C9267a4EA80a</td><td>WooracleV2.1</td></tr><tr><td>0x636DfeB023463F176f87D61E3B604231986bd935</td><td>IntegrationHelper (token info)</td></tr><tr><td>0xF38583e662d3DC8bBE9ce791f06E1Dd46800AaaF</td><td>WooOFT</td></tr></tbody></table>
 
 ## Earn
 
