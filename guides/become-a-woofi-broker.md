@@ -2,7 +2,7 @@
 
 ### What are WOOFi brokers?
 
-WOOFi's bespoken sPMM algorithm provides deep liquidity and MEV proof trade execution on assets such as BTC, ETH, BNB, AVAX, FTM and predominant stablecoins on each blockchain. We aim to be the liquidity layer across DeFi, Web3 and GameFi spaces.
+WOOFi's bespoke sPMM algorithm provides deep liquidity and MEV proof trade execution on assets such as BTC, ETH, BNB, AVAX, FTM and predominant stablecoins on each blockchain. We aim to be the liquidity layer across DeFi, Web3 and GameFi spaces.
 
 WOOFi has the lowest swap fee in the market with only 2.5bps on each transaction, in which 0.02% is used to buy back WOO tokens and reward WOO onchain stakers. WOOFi brokers are the applications or sites that route trades to WOOFi smart contracts. A whitelisted broker is eligible to receive 0.5bps of each trade that is sent to WOOFi via the broker's application as rebates in the form of quote tokens i.e. stablecoins.
 
