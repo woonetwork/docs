@@ -2,23 +2,23 @@
 
 ### What are WOOFi brokers?
 
-WOOFi's bespoken sPMM algorithm provides deep liquidity and MEV-proof trade execution on assets such as BTC, ETH, BNB, AVAX, SOL, and predominant stablecoins on each blockchain. We aim to be the liquidity layer across DeFi and other Web3 verticals.&#x20;
+WOOFi's bespoke sPMM algorithm provides deep liquidity and MEV-proof trade execution on assets such as BTC, ETH, BNB, AVAX, SOL, and predominant stablecoins on each blockchain. We aim to be the liquidity layer across DeFi and other Web3 verticals.&#x20;
 
-WOOFi has low swap fees with only 2.5bps on each transaction, in which 0.02% is used to buy back WOO tokens and reward WOO onchain stakers. WOOFi brokers are the applications or sites that route trades to WOOFi smart contracts. A whitelisted broker is eligible to receive 0.5bps of each trade that is sent to WOOFi via the broker's application as rebates in the form of quote tokens i.e. stablecoins.
+WOOFi has low swap fees with only 2.5bps on each transaction, in which 0.02% is shared to WOO stakers. WOOFi brokers are the applications or wallets that route trades to WOOFi smart contracts. A whitelisted broker is eligible to receive 0.5bps of each trade that is sent to WOOFi via the broker's application as rebates in the form of stablecoins.
 
 ### How to enroll as a broker to receive rebates?
 
-Any application such as DEX aggregators, wallets, web3 apps or websites that integrate WOOFi's sPMM liquidity can enroll as a broker to receive rebates. Fill out the enrollment form below and we will get in touch with you shortly.
+Any application such as DEX aggregators, wallets, web3 apps or websites that integrate WOOFi's sPMM liquidity can enroll as a broker to receive rebates. Fill out the enrollment form below and we will get in touch.
 
 :point\_right: [**Enrollment Form**](https://docs.google.com/forms/d/e/1FAIpQLSdTTfytZmcKLwGTl6MUxGiaou1gAXhd83roAGgNCiIkBeYtFQ/viewform?usp=sf_link)
 
-Once the enrollment information is reviewed, our team will get in contact with you and the provided broker rebate address will be added to the whitelist in `WooRebateManager.sol` on corresponding blockchains.
+Once the enrollment information is reviewed, our team will get in contact with you and the provided broker rebate address will be added to the whitelist in`WooRebateManager.sol` on corresponding blockchains.
 
 In order to receive rebates, the broker needs to integrate WOOFi as a liquidity source following [integration docs](integrate-woofi-as-liquidity-source.md). For a trade to be eligible for rebates, the whitelisted rebate address must be included in the field `address rebateTo` in the transaction that is sent to WOOFi smart contracts.
 
 ### How to check and claim the rebates?
 
-The rebate is processed on a daily basis via smart contracts, the broker can check the eligible rebates and claim anytime you want on the chain that WOOFi liquidity is integrated.
+The rebate is processed on a daily basis via smart contracts, the broker can check the eligible rebates and claim anytime on the chain that WOOFi liquidity is integrated.
 
 * Same address across Arbitrum, Avalanche, BSC, Optimism, Polygon PoS, Ethereum, Linea, Base, Mantle, Sonic: `0x7616614084e040028D6a61c0f3A9699c121A6500`
 * zkSync Era: `0x66C9467eC052Fb258e24DcCe87E93A0002966014`
@@ -52,4 +52,4 @@ If you have unclaimed rebates in the deprecated `WooRebateManager` smart contrac
 
 <figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
-**Note:** With respect to the rebates provided to WOOFi brokers, WOO Network reserves the right to modify, suspend or discontinue any and all of the rules in the program at any time without the consensus of WOOFi brokers.
+**Note:** With respect to the rebates provided to WOOFi brokers, WOO  reserves the right to modify, suspend or discontinue any and all of the rules in the program at any time without the consensus of WOOFi brokers.
