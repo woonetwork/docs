@@ -6,7 +6,7 @@
 
 ### Account Structure
 
-WOOFi's sPMM is Synthetic Proactive Market Making (sPMM) contract on the Solana blockchain. This repository contains the Rust smart contract as well as the Typescript SDK (`@woonetwork/WOOFi_Solana`) to interact with a deployed program.
+Here is the structure for WOOFi's Synthetic Proactive Market Making (sPMM) contract on Solana. This repository contains the Rust smart contract as well as the Typescript SDK (`@woonetwork/WOOFi_Solana`) to interact with a deployed program.
 
 ### WooConfig
 
@@ -18,13 +18,13 @@ A WooConfig is a config struct to record:
 * Wooracle's admin\_authority
 * Collect fee authority
 * Guardian set authority
-* Puase program authority
+* Pause program authority
 
 ### WooPool
 
 A WooPool is a concentrated liquidity pool for a token.
 
-Each WooPool account hosts the necessary information to deal with the accounting of the pool. It also hosts the PDAs to the vaults. Only the Woo sPMM program has the authority to withdraw from the vault.
+Each WooPool account hosts the necessary information to deal with the accounting of the pool. It also hosts the PDAs to the vaults. Only the WOO sPMM program has the authority to withdraw from the vault.
 
 A WooPool account is hashed by the WooConfig, token mint address and quote token mint address.
 
@@ -34,17 +34,15 @@ A WooOracle is an on-chain price feed in order to simulate the order book from c
 
 WooFi in Solana uses [Pyth oracle](https://www.pyth.network/developers/price-feed-ids#solana-stable) to check whether Woo oracle's price is valid.
 
-Detail explanation can check on [WooFi Developer Portal](https://learn.woo.org/v/woofi-dev-docs/resources/on-chain-price-feeds)
+Detailed explanations can be found on the [WooFi Developer Portal](https://learn.woo.org/v/woofi-dev-docs/resources/on-chain-price-feeds)
 
 ### Fee rate
 
-Fee rate setting stored in WooPool's fee\_rate param, can be updated by set\_pool\_fee\_rate function by admin.
-
-
+Fee rate settings stored in WooPool's fee\_rate param can be updated by set\_pool\_fee\_rate function by the admin.
 
 ## WOOFi's sPMM Rust Environment Setup
 
-WOOFi's sPMM is Synthetic Proactive Market Making (sPMM) contract on the Solana blockchain. This repository contains the Rust smart contract as well as the Typescript SDK (`@woonetwork/WOOFi_Solana`) to interact with a deployed program.
+This repository contains the Rust smart contract as well as the Typescript SDK (`@woonetwork/WOOFi_Solana`) to interact with a deployed program.
 
 ### Requirements
 

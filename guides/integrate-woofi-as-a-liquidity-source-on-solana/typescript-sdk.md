@@ -1,20 +1,22 @@
-# TypeScript SDK
+---
+description: Use the SDK to interact with a deployed WOOFi sPMM program via Typescript
+---
 
-Use the SDK to interact with a deployed WOOFi sPMM program via Typescript.
+# TypeScript SDK
 
 ### Typescript SDK Features
 
 With the Typescript SDK, you can easily do the following:
 
 * Use the WoofiClient or construct your own transactions with the raw instructions to:
-  * Swap tokens on WOOFi sPMM contract.
+  * Swap tokens on WOOFi sPMM contract
 * Quotes - helper functions to help developers perform quote estimations on tasks such as:
-  * Get a quote on a swap and swap fee off-chain.
-  * Get a quote on a swap and swap fee on-chain.
+  * Get a quote on a swap and swap fee off-chain
+  * Get a quote on a swap and swap fee on-chain
 * Utility classes
   * Get contract supported tokens.
   * Get pyth oracle for supported tokens (in USD).
-  * Other helper functions to help interact with Woo sPMM components
+  * Other helper functions to help interact with WOO sPMM components
 
 ### Installation & Test
 

@@ -2,7 +2,7 @@
 
 ## Contracts
 
-Two main contracts of WOOFi's swap function are as follows:
+There are two main contracts of WOOFi's Swap:
 
 * `WooPPV2_1.sol`: the main swap contract that handles the logic operation, including setting the token info, calculating slippage, calculating the exchange amount and executing trades. it stores all tokens that are supported for trading. In this contract, it defines quote token and base token. Quote token is the reference token (i.e. stablecoins) in the contract and there is only one quote token. The contract can have multiple base tokens and they can be added by the strategist.&#x20;
 * `WooRouterV2.sol`: the router contract that frontend users interact with. It interacts with the lower layer `WooPPV2.sol` to execute the sell logic and send back users the desired amount of tokens. This contract also implements the logic to route user orders to 3rd party aggregator (e.g. 1inch) when `WooPPV2.sol` does not have sufficient liquidity.
@@ -144,14 +144,14 @@ Another way is to integrate directly with `WooPPV2_1.sol`. This approach is slig
 
 #### Price check with Wooracle
 
-WOOFi's oracle has a few price check implemented, find the addresses of the wooracle contract in [on-chain-price-feeds.md](../resources/on-chain-price-feeds.md "mention").
+WOOFi's oracle has a few price checks implemented. You can find the addresses of the wooracle contract in [on-chain-price-feeds.md](../resources/on-chain-price-feeds.md "mention").
 
 * checking against the 3rd party oracle price e.g. ChainLink and Pyth
 * set the price range a swap can be executed against the current price
 
 ### Integrating `WooRouterV2.sol`
 
-The straightforward way is interacting with `WooRouterV2.sol` contract which provides the query and swap for any two specified tokens. It streamlined the logic of swapping native blockchain coin and swapping between any of the two supported assets, which simplifies the integration for apps that do not have an existing aggregation logic.&#x20;
+The straightforward way is interacting with `WooRouterV2.sol` contract which provides the query and swap for any two specified tokens. It streamlined the logic of swapping native blockchain assets and swapping between any of the two supported assets, which simplifies the integration for apps that do not have an existing aggregation logic.&#x20;
 
 #### Contract addresses:
 
