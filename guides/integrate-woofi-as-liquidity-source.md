@@ -42,6 +42,8 @@ Mantle - [0x86b223E83D2FA43456b433687c8F47A35a9bE24C](https://explorer.mantle.xy
 
 Sonic - [0xc8521e41DE46036A61c562062862681f0060CD7E](https://sonicscan.org/address/0xc8521e41DE46036A61c562062862681f0060CD7E)
 
+Berachain - [0x14B435b68e031226ACc4d328a69e294686C3176e](https://berascan.com/address/0x14b435b68e031226acc4d328a69e294686c3176e)
+
 ## Integrate WOOFi as a liquidity source
 
 When integrating WOOFi as a liquidity source, you can either interact with `WooRouterV2.sol` or `WooPPV2_1.sol`.
