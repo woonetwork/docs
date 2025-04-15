@@ -10,11 +10,14 @@ Mainnet: [WooFif76YGRNjk1pA8wCsN67aQsD9f9iLsz4NcJ1AVb](https://solscan.io/accoun
 
 Arichitecture Overview: [Architecture](architecture.md)
 
-#### Rust SDK: [https://github.com/woonetwork/woofi\_integration/tree/main/solana/woofi-rust-sdk](https://github.com/woonetwork/woofi_integration/tree/main/solana/woofi-rust-sdk)
+#### Rust SDK:&#x20;
+
+[https://github.com/woonetwork/woofi\_integration/tree/main/solana/woofi-rust-sdk](https://github.com/woonetwork/woofi_integration/tree/main/solana/woofi-rust-sdk)
 
 Rust SDK Docs:[ Rust SDK Readme](rust-sdk.md)
 
-#### TypeScript SDK: [https://github.com/woonetwork/woofi\_integration/tree/main/solana/woofi\_ts\_sdk](https://github.com/woonetwork/woofi_integration/tree/main/solana/woofi_ts_sdk)
+**TypeScript SDK:** \
+[https://github.com/woonetwork/woofi\_integration/tree/main/solana/woofi\_ts\_sdk](https://github.com/woonetwork/woofi_integration/tree/main/solana/woofi_ts_sdk)
 
 TypeScript SDK Docs: [TypeScript SDK Readme](typescript-sdk.md)
 
