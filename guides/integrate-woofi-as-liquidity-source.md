@@ -4,14 +4,14 @@
 
 There are two main contracts of WOOFi's Swap:
 
-* `WooPPV2_1.sol`: the main swap contract that handles the logic operation, including setting the token info, calculating slippage, calculating the exchange amount and executing trades. it stores all tokens that are supported for trading. In this contract, it defines quote token and base token. Quote token is the reference token (i.e. stablecoins) in the contract and there is only one quote token. The contract can have multiple base tokens and they can be added by the strategist.&#x20;
 * `WooRouterV2.sol`: the router contract that frontend users interact with. It interacts with the lower layer `WooPPV2.sol` to execute the sell logic and send back users the desired amount of tokens. This contract also implements the logic to route user orders to 3rd party aggregator (e.g. 1inch) when `WooPPV2.sol` does not have sufficient liquidity.
+* `WooPPV2.sol`: the main swap contract that handles the logic operation, including setting the token info, calculating slippage, calculating the exchange amount and executing trades. it stores all tokens that are supported for trading. In this contract, it defines quote token and base token. Quote token is the reference token (i.e. stablecoins) in the contract and there is only one quote token. The contract can have multiple base tokens and they can be added by the strategist.&#x20;
 
 ## Supported assets
 
 **Adding `IntegrationHelper.sol`**
 
-`WooPPV2_1.sol` has one quote token which is typically the dominant stablecoin of each chain and multiple base tokens. A `IntegrationHelper.sol` contract is deployed on each supported chain which contains the address of the quote token and the list of tradable base token addresses in `WooPPV2_1.sol.`
+`WooPPV2.sol` has one quote token which is typically the dominant stablecoin of each chain and multiple base tokens. A `IntegrationHelper.sol` contract is deployed on each supported chain which contains the address of the quote token and the list of tradable base token addresses in `WooPPV2.sol.`
 
 The latest list of supported tokens can be retrieved via the `getSupportTokens()` function which will return two values:
 
@@ -46,15 +46,104 @@ Berachain - [0x14B435b68e031226ACc4d328a69e294686C3176e](https://berascan.com/ad
 
 ## Integrate WOOFi as a liquidity source
 
-When integrating WOOFi as a liquidity source, you can either interact with `WooRouterV2.sol` or `WooPPV2_1.sol`.
+When integrating WOOFi as a liquidity source, you can either interact with `WooRouterV2.sol` or `WooPPV2.sol`.
 
-### Integrating `WooPPV2_1.sol` &#x20;
+### Integrating `WooRouterV2.sol`
 
-Another way is to integrate directly with `WooPPV2_1.sol`. This approach is slightly more gas efficient, but it requires writing the smart contract code and manually send the `fromToken` to `WooPPV2_1.sol`, which a better choice for apps that already have an aggregation logic.&#x20;
+The straightforward way is interacting with `WooRouterV2.sol` contract which provides the query and swap for any two specified tokens. It streamlined the logic of swapping native blockchain assets and swapping between any of the two supported assets, which simplifies the integration for apps that do not have an existing aggregation logic.&#x20;
 
 #### Contract addresses:
 
-* Same address across Arbitrum, Avalanche, BSC, Optimism, Polygon PoS, Linea, Base, Mantle, Sonic: `0xEd9e3f98bBed560e66B89AaC922E29D4596A9642`
+* Same address across Arbitrum, Avalanche, BSC, Optimism, Polygon PoS, Linea, Base, Mantle, Sonic: `0x4c4AF8DBc524681930a27b2F1Af5bcC8062E6fB7`&#x20;
+* zkSync: `0x09873bfECA34F1Acd0a7e55cDA591f05d8a75369`
+
+**Interface**
+
+```solidity
+    /// @dev query the amount to swap fromToken -> toToken
+    /// @param fromToken the from token
+    /// @param toToken the to token
+    /// @param fromAmount the amount of fromToken to swap
+    /// @return toAmount the predicted amount to receive
+    function querySwap(
+        address fromToken,
+        address toToken,
+        uint256 fromAmount
+    ) external view returns (uint256 toAmount);
+    
+    /// @dev query the amount to swap fromToken -> toToken,
+    ///      WITHOUT checking the reserve balance; so it
+    ///      always returns the quoted amount (for reference).
+    /// @param fromToken the from token
+    /// @param toToken the to token
+    /// @param fromAmount the amount of fromToken to swap
+    /// @return toAmount the predicted amount to receive
+    function tryQuerySwap(
+        address fromToken,
+        address toToken,
+        uint256 fromAmount
+    ) external view returns (uint256 toAmount);
+    
+    /// @notice Swap `fromToken` to `toToken`.
+    /// @param fromToken the from token
+    /// @param toToken the to token
+    /// @param fromAmount the amount of `fromToken` to swap
+    /// @param minToAmount the minimum amount of `toToken` to receive
+    /// @param to the destination address
+    /// @param rebateTo the rebate address (optional, can be 0)
+    /// @return realToAmount the amount of toToken to receive
+    function swap(
+        address fromToken,
+        address toToken,
+        uint256 fromAmount,
+        uint256 minToAmount,
+        address payable to,
+        address rebateTo
+    ) external payable returns (uint256 realToAmount);
+```
+
+**Sample code**
+
+<pre class="language-solidity"><code class="lang-solidity">// Query Part
+address fromToken = 0x2f2a2543B76A4166549F7aaB2e75Bef0aefC5B0f;  // wbtc
+address toToken = 0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8;    // usdc
+uint256 amount1 = wooRouter.querySwap(
+  fromToken, 
+  toToken,
+  100000000  // 1 wbtc amount in decimal 8
+)
+
+<strong>uint256 amount2 = wooRouter.tryQuerySwap(
+</strong>  fromToken,
+  toToken,
+  100000000); // 1 wbtc amount in decimal 8
+
+// NOTE: when the balance reserve is enough for swap, amount1 = amount2;
+// otherwise, amount2 is still calculated based on wooracle price and woo market-making
+// formula, but the amount1 qeury simply failed with insufficient balance error.
+
+
+// Swap Part
+uint256 amountIn = 100000000;
+IERC20(fromToken).safeApprove(address(wooRouter), amountIn);
+uint256 realToAmount = wooRouter.swap(
+  fromToken,      // wbtc token address
+  toToken,        // usdc token address
+  amountIn,       // wbtc amount to swap in decimal 8
+  19000000000,    // min amount = 19000 usdc (price: 19500)
+  address(this),  // the address to receive the swap fund
+  address(0)      // the rebateTo address
+); 
+</code></pre>
+
+
+### Integrating `WooPPV2.sol` &#x20;
+
+Another way is to integrate directly with `WooPPV2.sol`. This approach is slightly more gas efficient, but it requires writing the smart contract code and manually send the `fromToken` to `WooPPV2.sol`, which a better choice for apps that already have an aggregation logic.&#x20;
+
+#### Contract addresses:
+
+* Same address across Arbitrum, Avalanche, BSC, Optimism, Polygon PoS, Linea, Base, Mantle, Sonic: `0x5520385bFcf07Ec87C4c53A7d8d65595Dff69FA4`
 * zkSync Era: `0xE656d70bc3550e3EEE9dE7dC79367A44Fd13d975`
 
 #### Interface
@@ -150,91 +239,3 @@ WOOFi's oracle has a few price checks implemented. You can find the addresses of
 
 * checking against the 3rd party oracle price e.g. ChainLink and Pyth
 * set the price range a swap can be executed against the current price
-
-### Integrating `WooRouterV2.sol`
-
-The straightforward way is interacting with `WooRouterV2.sol` contract which provides the query and swap for any two specified tokens. It streamlined the logic of swapping native blockchain assets and swapping between any of the two supported assets, which simplifies the integration for apps that do not have an existing aggregation logic.&#x20;
-
-#### Contract addresses:
-
-* Same address across Arbitrum, Avalanche, BSC, Optimism, Polygon PoS, Linea, Base, Mantle, Sonic: `0x4c4AF8DBc524681930a27b2F1Af5bcC8062E6fB7`&#x20;
-* zkSync: `0x09873bfECA34F1Acd0a7e55cDA591f05d8a75369`
-
-**Interface**
-
-```solidity
-    /// @dev query the amount to swap fromToken -> toToken
-    /// @param fromToken the from token
-    /// @param toToken the to token
-    /// @param fromAmount the amount of fromToken to swap
-    /// @return toAmount the predicted amount to receive
-    function querySwap(
-        address fromToken,
-        address toToken,
-        uint256 fromAmount
-    ) external view returns (uint256 toAmount);
-    
-    /// @dev query the amount to swap fromToken -> toToken,
-    ///      WITHOUT checking the reserve balance; so it
-    ///      always returns the quoted amount (for reference).
-    /// @param fromToken the from token
-    /// @param toToken the to token
-    /// @param fromAmount the amount of fromToken to swap
-    /// @return toAmount the predicted amount to receive
-    function tryQuerySwap(
-        address fromToken,
-        address toToken,
-        uint256 fromAmount
-    ) external view returns (uint256 toAmount);
-    
-    /// @notice Swap `fromToken` to `toToken`.
-    /// @param fromToken the from token
-    /// @param toToken the to token
-    /// @param fromAmount the amount of `fromToken` to swap
-    /// @param minToAmount the minimum amount of `toToken` to receive
-    /// @param to the destination address
-    /// @param rebateTo the rebate address (optional, can be 0)
-    /// @return realToAmount the amount of toToken to receive
-    function swap(
-        address fromToken,
-        address toToken,
-        uint256 fromAmount,
-        uint256 minToAmount,
-        address payable to,
-        address rebateTo
-    ) external payable returns (uint256 realToAmount);
-```
-
-**Sample code**
-
-<pre class="language-solidity"><code class="lang-solidity">// Query Part
-address fromToken = 0x2f2a2543B76A4166549F7aaB2e75Bef0aefC5B0f;  // wbtc
-address toToken = 0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8;    // usdc
-uint256 amount1 = wooRouter.querySwap(
-  fromToken, 
-  toToken,
-  100000000  // 1 wbtc amount in decimal 8
-)
-
-<strong>uint256 amount2 = wooRouter.tryQuerySwap(
-</strong>  fromToken,
-  toToken,
-  100000000); // 1 wbtc amount in decimal 8
-
-// NOTE: when the balance reserve is enough for swap, amount1 = amount2;
-// otherwise, amount2 is still calculated based on wooracle price and woo market-making
-// formula, but the amount1 qeury simply failed with insufficient balance error.
-
-
-// Swap Part
-uint256 amountIn = 100000000;
-IERC20(fromToken).safeApprove(address(wooRouter), amountIn);
-uint256 realToAmount = wooRouter.swap(
-  fromToken,      // wbtc token address
-  toToken,        // usdc token address
-  amountIn,       // wbtc amount to swap in decimal 8
-  19000000000,    // min amount = 19000 usdc (price: 19500)
-  address(this),  // the address to receive the swap fund
-  address(0)      // the rebateTo address
-); 
-</code></pre>
