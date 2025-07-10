@@ -1,6 +1,6 @@
 # Rust SDK
 
-Solana integration SDK for WOOFi Swap. ProgramId on mainnet: **WooFiGFK9x5FBYdvMg3pJBpAkPA8EEYiLcopwrxJvDG**
+Solana integration SDK for WOOFi Swap. ProgramId on mainnet: **WooFif76YGRNjk1pA8wCsN67aQsD9f9iLsz4NcJ1AVb**
 
 SDK git repo: [https://github.com/woonetwork/woofi-lz-sdk](https://github.com/woonetwork/woofi-lz-sdk)
 
