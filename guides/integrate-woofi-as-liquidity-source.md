@@ -5,7 +5,7 @@
 There are two main contracts of WOOFi's Swap:
 
 * `WooRouterV2.sol`: the router contract that frontend users interact with. It interacts with the lower layer `WooPPV2.sol` to execute the sell logic and send back users the desired amount of tokens. This contract also implements the logic to route user orders to 3rd party aggregator (e.g. 1inch) when `WooPPV2.sol` does not have sufficient liquidity.
-* `WooPPV2.sol`: the main swap contract that handles the logic operation, including setting the token info, calculating slippage, calculating the exchange amount and executing trades. it stores all tokens that are supported for trading. In this contract, it defines quote token and base token. Quote token is the reference token (i.e. stablecoins) in the contract and there is only one quote token. The contract can have multiple base tokens and they can be added by the strategist.&#x20;
+* `WooPPV2.sol`: the main swap contract that handles the logic operation, including setting the token info, calculating slippage, calculating the exchange amount and executing trades. it stores all tokens that are supported for trading. In this contract, it defines quote token and base token. Quote token is the reference token (i.e. stablecoins) in the contract and there is only one quote token. The contract can have multiple base tokens and they can be added by the strategist.
 
 ## Supported assets
 
@@ -44,17 +44,19 @@ Sonic - [0xc8521e41DE46036A61c562062862681f0060CD7E](https://sonicscan.org/addre
 
 Berachain - [0x14B435b68e031226ACc4d328a69e294686C3176e](https://berascan.com/address/0x14b435b68e031226acc4d328a69e294686c3176e)
 
+HyperEVM - [0xee8318e9d597bf9df6148e86d4e35a8bc14eea88](https://app.gitbook.com/u/iJsYDDFNcOX5ZOZRQC74NhoAuKg1)
+
 ## Integrate WOOFi as a liquidity source
 
 When integrating WOOFi as a liquidity source, you can either interact with `WooRouterV2.sol` or `WooPPV2.sol`.
 
 ### Integrating `WooRouterV2.sol`
 
-The straightforward way is interacting with `WooRouterV2.sol` contract which provides the query and swap for any two specified tokens. It streamlined the logic of swapping native blockchain assets and swapping between any of the two supported assets, which simplifies the integration for apps that do not have an existing aggregation logic.&#x20;
+The straightforward way is interacting with `WooRouterV2.sol` contract which provides the query and swap for any two specified tokens. It streamlined the logic of swapping native blockchain assets and swapping between any of the two supported assets, which simplifies the integration for apps that do not have an existing aggregation logic.
 
 #### Contract addresses:
 
-* Same address across Arbitrum, Avalanche, BSC, Optimism, Polygon PoS, Linea, Base, Mantle, Sonic: `0x4c4AF8DBc524681930a27b2F1Af5bcC8062E6fB7`&#x20;
+* Same address across Arbitrum, Avalanche, BSC, Optimism, Polygon PoS, Linea, Base, Mantle, Sonic: `0x4c4AF8DBc524681930a27b2F1Af5bcC8062E6fB7`
 * zkSync: `0x09873bfECA34F1Acd0a7e55cDA591f05d8a75369`
 
 **Interface**
@@ -136,10 +138,9 @@ uint256 realToAmount = wooRouter.swap(
 ); 
 </code></pre>
 
+### Integrating `WooPPV2.sol`
 
-### Integrating `WooPPV2.sol` &#x20;
-
-Another way is to integrate directly with `WooPPV2.sol`. This approach is slightly more gas efficient, but it requires writing the smart contract code and manually send the `fromToken` to `WooPPV2.sol`, which a better choice for apps that already have an aggregation logic.&#x20;
+Another way is to integrate directly with `WooPPV2.sol`. This approach is slightly more gas efficient, but it requires writing the smart contract code and manually send the `fromToken` to `WooPPV2.sol`, which a better choice for apps that already have an aggregation logic.
 
 #### Contract addresses:
 
