@@ -34,6 +34,7 @@
   * [zkSync Era](references/readme/zksync-era.md)
   * [Sonic](references/readme/sonic.md)
   * [HyperEVM](references/readme/hyperevm.md)
+  * [Bera Chain](references/readme/bera-chain.md)
 * [Data APIs](references/apis/README.md)
   * [Swap](references/apis/swap.md)
   * [Earn & Stake](references/apis/earn-and-stake.md)
