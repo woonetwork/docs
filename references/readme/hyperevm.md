@@ -2,7 +2,7 @@
 
 ## Swap
 
-<table><thead><tr><th width="463">Address</th><th>Contract</th></tr></thead><tbody><tr><td>0x4c4AF8DBc524681930a27b2F1Af5bcC8062E6fB7</td><td>WooRouterV2</td></tr><tr><td>0x5520385bFcf07Ec87C4c53A7d8d65595Dff69FA4</td><td>WooPPV2</td></tr><tr><td>0xCf4EA1688bc23DD93D933edA535F8B72FC8934Ec</td><td>WooracleV2.1</td></tr><tr><td>0xEe8318E9d597Bf9DF6148E86D4e35a8Bc14EEA88</td><td>IntegrationHelper (token info)</td></tr></tbody></table>
+<table><thead><tr><th width="463">Address</th><th>Contract</th></tr></thead><tbody><tr><td>0x4c4AF8DBc524681930a27b2F1Af5bcC8062E6fB7</td><td>WooRouterV2</td></tr><tr><td>0x5520385bFcf07Ec87C4c53A7d8d65595Dff69FA4</td><td>WooPPV2</td></tr><tr><td>0x2A375567f5E13F6bd74fDa7627Df3b1Af6BfA5a6</td><td>WooracleV2.1</td></tr><tr><td>0xEe8318E9d597Bf9DF6148E86D4e35a8Bc14EEA88</td><td>IntegrationHelper (token info)</td></tr></tbody></table>
 
 ## Peripheries
 
