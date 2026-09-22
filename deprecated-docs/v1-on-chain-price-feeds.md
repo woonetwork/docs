@@ -2,7 +2,7 @@
 
 ### Intro
 
-In order to simulate the order book from centralized exchanges without sacrificing capital efficiency, WOOFi created a custom on-chain price fee which works along side with [the sPMM algorithm](broken-reference). This price feed considers multiple parameters including mid-price $$p$$, spread $$s$$, and liquidity coefficient $$k$$.
+In order to simulate the order book from centralized exchanges without sacrificing capital efficiency, WOOFi created a custom on-chain price fee which works along side with [the sPMM algorithm](/broken/pages/ki9mDTLTCs8qRZOeelnT#synthetic-proactive-market-making-spmm). This price feed considers multiple parameters including mid-price $$p$$, spread $$s$$, and liquidity coefficient $$k$$.
 
 WOOFi's on-chain price feeds are deployed on multiple blockchains. Users can call `price` to get `priceNow` and `feasible` of token. If `feasible` is `false`, do not use `priceNow` value. All prices are USDT/USDC-based, and the decimal of `priceNow` is `18 - base_decimal + quote_decimal`.
 

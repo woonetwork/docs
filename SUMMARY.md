@@ -9,7 +9,6 @@
   * [Rust SDK](guides/integrate-woofi-as-a-liquidity-source-on-solana/rust-sdk.md)
   * [TypeScript SDK](guides/integrate-woofi-as-a-liquidity-source-on-solana/typescript-sdk.md)
   * [Architecture](guides/integrate-woofi-as-a-liquidity-source-on-solana/architecture.md)
-* [Become a WOOFi broker](guides/become-a-woofi-broker.md)
 
 ## Resources
 

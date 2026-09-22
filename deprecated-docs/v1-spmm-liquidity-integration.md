@@ -8,7 +8,7 @@ Two main contracts of WOOFi's swap function are as follows:
 * `WooRouter.sol`: the router contract that frontend users interact with. It interacts with the lower layer `WooPP.sol` to execute the sell logic and send back users the desired amount of tokens. This contract also implements the logic to route user orders to 3rd party aggregator (e.g. 1inch) when `WooPP.sol` does not have sufficient liquidity.
 
 {% hint style="info" %}
-More details about WOOFi smart contract architecture, implementation info, and addresses can be found in [Broken link](broken-reference "mention").
+More details about WOOFi smart contract architecture, implementation info, and addresses can be found in [Broken link](/broken/pages/-MjghsEMp8oReAbgwEx-#smart-contract-addresses "mention").
 {% endhint %}
 
 ## Supported assets
@@ -252,4 +252,4 @@ wooRouter.swap(
 
 ## sPMM offchain simulation
 
-For aggregators running offchain routing simulation, you can find the typescript implementation of WOOFi's sPMM algorithm in the [github](https://github.com/woonetwork/woofi\_swap\_smart\_contracts/tree/main/integration).&#x20;
+For aggregators running offchain routing simulation, you can find the typescript implementation of WOOFi's sPMM algorithm in the [github](https://github.com/woonetwork/woofi_swap_smart_contracts/tree/main/integration).&#x20;
