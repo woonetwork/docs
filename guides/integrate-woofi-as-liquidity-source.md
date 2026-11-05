@@ -38,6 +38,8 @@ HyperEVM - [0xee8318e9d597bf9df6148e86d4e35a8bc14eea88](https://app.gitbook.com/
 
 Monad - [0xAeE024fAA57C4DB20ac0666a1D5297d5F1c95AfE](https://monadvision.com/address/0xAeE024fAA57C4DB20ac0666a1D5297d5F1c95AfE?tab=Contract)
 
+Robinhood - [0xAeE024fAA57C4DB20ac0666a1D5297d5F1c95AfE](https://monadvision.com/address/0xAeE024fAA57C4DB20ac0666a1D5297d5F1c95AfE?tab=Contract)
+
 ## Integrate WOOFi as a liquidity source
 
 When integrating WOOFi as a liquidity source, you can either interact with `WooRouterV2.sol` or `WooPPV2.sol`.
