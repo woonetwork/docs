@@ -8,13 +8,13 @@
 
 ### WOOFi Swap Solana - October 2024 by Sherlock
 
-Sherlock was engaged to conduct a contest to audit WOOFi's solana deployment of sPMM swap. Results are published [here](https://audits.sherlock.xyz/dashboard/85617a9a7bf6d34c43b0be845160efa2/fix\_review\_hashes), the audit report can also be found attached below.
+Sherlock was engaged to conduct a contest to audit WOOFi's solana deployment of sPMM swap. Results are published [here](https://audits.sherlock.xyz/dashboard/85617a9a7bf6d34c43b0be845160efa2/fix_review_hashes), the audit report can also be found attached below.
 
 {% file src="../.gitbook/assets/woofi-swap-on-solana-audit-report-1729681693.pdf" %}
 
 ### WOOFi earn and stake - August 2024 by Zellic
 
-[Zellic](https://www.zellic.io/) conducted an audit on WOOFi's supercharger and staking contracts, and this is the 2nd audit on these contracts. Results are published [here](https://github.com/Zellic/publications), the audit report can also be found attached below.
+[Zellic](https://www.zellic.io/) conducted an audit on WOOFi's Earn vault and staking contracts, and this is the 2nd audit on these contracts. Results are published [here](https://github.com/Zellic/publications), the audit report can also be found attached below.
 
 {% file src="../.gitbook/assets/WOOFI Stake - Zellic Audit Report.pdf" %}
 
@@ -42,13 +42,13 @@ Certik conducted an audit on the WOOFi's swap and oracle smart contracts, the fu
 
 {% file src="../.gitbook/assets/REP-WOOFi--__final-20221012T162347Z (1) (1).pdf" %}
 
-### WOOFi Earn Supercharger Vault - July & August 2022
+### WOOFi Earn Vault - July & August 2022
 
-Certik conducted an audit on the WOOFi Earn's Supercharger vault smart contracts, the full audit report is published [here](https://www.certik.com/projects/woofiswap) by the auditor, attachment can be found below.
+Certik conducted an audit on the WOOFi Earn vault smart contracts, the full audit report is published [here](https://www.certik.com/projects/woofiswap) by the auditor, attachment can be found below.
 
 {% file src="../.gitbook/assets/REP-WOOFi__final-20220705T091805Z (1).pdf" %}
 
-Peckshield was engaged as the second firm to conduct an audit on the WOOFi Earn's Supercharger vault smart contracts, the full audit report is published [here](https://github.com/peckshield/publications/tree/master/audit\_reports/PeckShield-Audit-Report-WooFiEarn-v1.0.pdf) by the auditor, attachment can be found below.
+Peckshield was engaged as the second firm to conduct an audit on the WOOFi Earn vault smart contracts, the full audit report is published [here](https://github.com/peckshield/publications/tree/master/audit_reports/PeckShield-Audit-Report-WooFiEarn-v1.0.pdf) by the auditor, attachment can be found below.
 
 {% file src="../.gitbook/assets/PeckShield-Audit-Report-WooFiEarn-v1.0 (1).pdf" %}
 

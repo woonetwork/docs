@@ -2,7 +2,7 @@
 
 ## Architecture Overview
 
-<figure><img src="../../.gitbook/assets/woofi.png" alt=""><figcaption><p>WooFi's Overview</p></figcaption></figure>
+<figure><img src="https://2563590922-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FqxL8pa5qcyp6gpHL7o0j%2Fuploads%2FkdUSa5QeMeuHuws1ASeH%2Fwoofi.png?alt=media&#x26;token=2e0684aa-de0c-485f-b2ee-07f62ae76a90" alt=""><figcaption><p>WooFi's Overview</p></figcaption></figure>
 
 ### Account Structure
 
@@ -34,7 +34,7 @@ A WooOracle is an on-chain price feed in order to simulate the order book from c
 
 WooFi in Solana uses [Pyth oracle](https://www.pyth.network/developers/price-feed-ids#solana-stable) to check whether Woo oracle's price is valid.
 
-Detailed explanations can be found on the [WooFi Developer Portal](https://learn.woo.org/v/woofi-dev-docs/resources/on-chain-price-feeds)
+Detailed explanations can be found on the [WooFi Developer Portal](https://learn.woo.org/dev-docs/resources/on-chain-price-feeds)
 
 ### Fee rate
 
