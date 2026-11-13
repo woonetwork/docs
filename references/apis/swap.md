@@ -2,7 +2,7 @@
 
 ### General Info
 
-* The base endpoint is: [**https://fi-api.woo.org**](https://fi-api.woo.org/)
+* The base endpoint is: [**https://api.woofi.com**](https://api.woofi.com/). The previous host `fi-api.woo.org` still works.
 * All endpoints return JSON object.
 
 ### Stat
@@ -11,10 +11,10 @@
 
 **Parameters**
 
-| Name    | Type   |                               Description                              |
-| ------- | ------ | :--------------------------------------------------------------------: |
-| network | String | option `bsc` / `avax` / `fantom` / `polygon` / `arbitrum` / `optimism` |
-| period  | String |    optional: `1d` / `1w` / `1m` / `3m` / `1y` / `all` default: `1m`    |
+| Name    | Type   |                                                                                  Description                                                                                  |
+| ------- | ------ | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+| network | String | option: `bsc` / `avax` / `fantom` / `polygon` / `arbitrum` / `optimism` / `zksync` / `base` / `mantle` / `linea` / `sonic` / `berachain` / `hyperevm` / `monad` / `robinhood` |
+| period  | String |                                                        optional: `1d` / `1w` / `1m` / `3m` / `1y` / `all` default: `1m`                                                       |
 
 **period: 1d, Returns**
 
@@ -43,10 +43,10 @@
 
 **Params**
 
-| Name    |  Type  | Description                                                      |
-| ------- | :----: | ---------------------------------------------------------------- |
-| network | String | default `''` option `bsc` / `avax` / `fantom` / `polygon`        |
-| period  | String | optional: `1d` / `1w` / `1m` / `3m` / `1y` / `all` default: `1m` |
+| Name    |  Type  | Description                                                                                                                                                                                |
+| ------- | :----: | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| network | String | default `''` option: `bsc` / `avax` / `fantom` / `polygon` / `arbitrum` / `optimism` / `zksync` / `base` / `mantle` / `linea` / `sonic` / `berachain` / `hyperevm` / `monad` / `robinhood` |
+| period  | String | optional: `1d` / `1w` / `1m` / `3m` / `1y` / `all` default: `1m`                                                                                                                           |
 
 **Returns**
 

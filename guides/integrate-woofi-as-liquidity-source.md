@@ -34,11 +34,11 @@ Polygon POS - [0x7Ba560eB735AbDCf9a3a5692272652A0cc81850d](https://polygonscan.c
 
 Base - [0xC4E9B633685461E7B7A807D12a246C81f96F31B8](https://basescan.org/address/0xC4E9B633685461E7B7A807D12a246C81f96F31B8)
 
-HyperEVM - [0xee8318e9d597bf9df6148e86d4e35a8bc14eea88](https://app.gitbook.com/u/iJsYDDFNcOX5ZOZRQC74NhoAuKg1)
+HyperEVM - [0xEe8318E9d597Bf9DF6148E86D4e35a8Bc14EEA88](https://hyperevmscan.io/address/0xEe8318E9d597Bf9DF6148E86D4e35a8Bc14EEA88)
 
 Monad - [0xAeE024fAA57C4DB20ac0666a1D5297d5F1c95AfE](https://monadvision.com/address/0xAeE024fAA57C4DB20ac0666a1D5297d5F1c95AfE?tab=Contract)
 
-Robinhood - [0xAeE024fAA57C4DB20ac0666a1D5297d5F1c95AfE](https://monadvision.com/address/0xAeE024fAA57C4DB20ac0666a1D5297d5F1c95AfE?tab=Contract)
+Robinhood - [0xAeE024fAA57C4DB20ac0666a1D5297d5F1c95AfE](https://robinhoodchain.blockscout.com/address/0xAeE024fAA57C4DB20ac0666a1D5297d5F1c95AfE)
 
 ## Integrate WOOFi as a liquidity source
 
@@ -50,11 +50,12 @@ The straightforward way is interacting with `WooRouterV2.sol` contract which pro
 
 #### Contract addresses:
 
-* Same address across Arbitrum, Avalanche, BSC, Optimism, Polygon PoS, Linea, Base, Mantle, Sonic: `0x4c4AF8DBc524681930a27b2F1Af5bcC8062E6fB7`
+* Same address across Arbitrum, Avalanche, BSC, Optimism, Polygon PoS, Linea, Base, Mantle, Sonic, HyperEVM, Monad, Robinhood: `0x4c4AF8DBc524681930a27b2F1Af5bcC8062E6fB7`
 * zkSync: `0x09873bfECA34F1Acd0a7e55cDA591f05d8a75369`
 
 **Interface**
 
+{% code collapsedlinecount="10" %}
 ```solidity
     /// @dev query the amount to swap fromToken -> toToken
     /// @param fromToken the from token
@@ -97,10 +98,11 @@ The straightforward way is interacting with `WooRouterV2.sol` contract which pro
         address rebateTo
     ) external payable returns (uint256 realToAmount);
 ```
+{% endcode %}
 
 **Sample code**
 
-<pre class="language-solidity"><code class="lang-solidity">// Query Part
+<pre class="language-solidity" data-collapsed-line-count="10"><code class="lang-solidity">// Query Part
 address fromToken = 0x2f2a2543B76A4166549F7aaB2e75Bef0aefC5B0f;  // wbtc
 address toToken = 0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8;    // usdc
 uint256 amount1 = wooRouter.querySwap(
@@ -138,11 +140,12 @@ Another way is to integrate directly with `WooPPV2.sol`. This approach is slight
 
 #### Contract addresses:
 
-* Same address across Arbitrum, Avalanche, BSC, Optimism, Polygon PoS, Linea, Base, Mantle, Sonic: `0x5520385bFcf07Ec87C4c53A7d8d65595Dff69FA4`
+* Same address across Arbitrum, Avalanche, BSC, Optimism, Polygon PoS, Linea, Base, Mantle, Sonic, HyperEVM, Monad, Robinhood: `0x5520385bFcf07Ec87C4c53A7d8d65595Dff69FA4`
 * zkSync Era: `0xE656d70bc3550e3EEE9dE7dC79367A44Fd13d975`
 
 #### Interface
 
+{% code collapsedlinecount="10" %}
 ```solidity
 
     /// @notice The quote token address (immutable).
@@ -195,9 +198,11 @@ Another way is to integrate directly with `WooPPV2.sol`. This approach is slight
     ) external returns (uint256 realToAmount);
 
 ```
+{% endcode %}
 
 #### Sample code
 
+{% code collapsedlinecount="10" %}
 ```solidity
     IWooPPV2 public wooPool; // IWooPPV2 smart contrac
     
@@ -227,6 +232,7 @@ Another way is to integrate directly with `WooPPV2.sol`. This approach is slight
     }
     
 ```
+{% endcode %}
 
 #### Price check with Wooracle
 

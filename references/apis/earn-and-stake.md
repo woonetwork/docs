@@ -22,9 +22,9 @@
 
 **Params**
 
-| Name    |  Type  | Description                                                                                                                                |
-| ------- | :----: | ------------------------------------------------------------------------------------------------------------------------------------------ |
-| network | String | option: `bsc` / `avax` / `polygon` / `arbitrum` / `optimism` / `zksync` / `base` / `mantle` / `linea` / `sonic` / `berachain` / `hyperevm` |
+| Name    |  Type  | Description                                                                                                                                          |
+| ------- | :----: | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
+| network | String | option: `bsc` / `avax` / `polygon` / `arbitrum` / `optimism` / `zksync` / `base` / `mantle` / `linea` / `sonic` / `berachain` / `hyperevm` / `monad` |
 
 **Returns**
 
